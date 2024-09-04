@@ -85,6 +85,7 @@ const CustomTimeGutter = () => null;
                 const dbEvents = data;
                 const calendarEvents = [];
                 for (let i = 0; i < dbEvents.length; ++i) {
+                    console.log(dbEvents[i]);
                     let [month, day, year] = dbEvents[i].date.split('/');
                     month = parseInt(month);
                     day = parseInt(day);
