@@ -416,7 +416,6 @@ export default function DesktopCalendar() {
           background-color: #2a2727;
           padding: 20px;
           display: flex;
-          overflow: hidden;
             box-sizing: border-box;
         }
 	.events-calendar .left-column {
@@ -446,8 +445,8 @@ export default function DesktopCalendar() {
           flex: 1;
           display: flex;
           flex-direction: column;
-          overflow: hidden;
           background-color: #2a2727;
+		width: 90vw;
         }
 	.events-calendar .custom-toolbar {
           display: flex;
@@ -613,7 +612,7 @@ border: 1px solid #faff00;
         background-color: transparent !important;
         }
 	.events-calendar .weekly {
-            overflow: hidden;
+           overflow: hidden;
             text-overflow: ellipsis;
         }
 	.events-calendar .rbc-show-more-hover {
