@@ -11,198 +11,199 @@ import { data } from '../util/utils';
 const localizer = momentLocalizer(moment);
 
 const CustomCalendar = () => {
-const customStyles = `
-  .rbc-time-view {
+	const customStyles = `
+		.events-calendar .rbc-time-view {
     border: none;
   }
-  .rbc-time-header {
+		.events-calendar .rbc-time-header {
     display: none;
   }
-  .rbc-time-content {
+		.events-calendar .rbc-time-content {
     border: none;
   }
-  .rbc-day-slot {
+		.events-calendar .rbc-day-slot {
     border: none !important;
   }
 `;
 
-// Custom TimeGutterHeader component that renders nothing
-const CustomTimeGutterHeader = () => null;
+	// Custom TimeGutterHeader component that renders nothing
+	const CustomTimeGutterHeader = () => null;
 
-// Custom TimeGutter component that renders nothing
-const CustomTimeGutter = () => null;
-    const [showingMonthly, setShowingMonthly] = useState(true);
-    const [showingWeekly, setShowingWeekly] = useState(false);
-    const [view, setView] = useState('month');
-    const [currentDate, setCurrentDate] = useState(new Date());
-    const [filterValue, setFilterValue] = useState('');
-    const [events, setEvents] = useState(data);
-    const [filteredEvents, setFilteredEvents] = useState(data);
-    const handleFilter = useCallback((e) => {
-        const val = e.target.value;
-        console.log('Val: ' + val);
+	// Custom TimeGutter component that renders nothing
+	const CustomTimeGutter = () => null;
+	const [showingMonthly, setShowingMonthly] = useState(true);
+	const [showingWeekly, setShowingWeekly] = useState(false);
+	const [view, setView] = useState('month');
+	const [currentDate, setCurrentDate] = useState(new Date());
+	const [filterValue, setFilterValue] = useState('');
+	const [events, setEvents] = useState(data);
+	const [filteredEvents, setFilteredEvents] = useState(data);
+	const handleFilter = useCallback((e) => {
+		const val = e.target.value;
+		console.log('Val: ' + val);
 
-        setFilterValue(val);
+		setFilterValue(val);
 
-        setFilteredEvents(prevEvents =>
-            events.filter(event => event.title.toLowerCase().includes(val.toLowerCase()))
-        );
-    }, [events, setFilteredEvents]);
+		setFilteredEvents(prevEvents =>
+			events.filter(event => event.title.toLowerCase().includes(val.toLowerCase()))
+		);
+	}, [events, setFilteredEvents]);
 
 
-    const handlePrevMonth = () => {
-        setCurrentDate(prevDate => moment(prevDate).subtract(1, 'month').toDate());
-    };
+	const handlePrevMonth = () => {
+		setCurrentDate(prevDate => moment(prevDate).subtract(1, 'month').toDate());
+	};
 
-    const handlePrevWeek = () => {
-        setCurrentDate(prevDate => moment(prevDate).subtract(1, 'week').toDate());
-    };
+	const handlePrevWeek = () => {
+		setCurrentDate(prevDate => moment(prevDate).subtract(1, 'week').toDate());
+	};
 
-    const handleNextMonth = () => {
-        setCurrentDate(prevDate => moment(prevDate).add(1, 'month').toDate());
-    };
+	const handleNextMonth = () => {
+		setCurrentDate(prevDate => moment(prevDate).add(1, 'month').toDate());
+	};
 
-    const handleNextWeek = () => {
-        setCurrentDate(prevDate => moment(prevDate).add(1, 'week').toDate());
-    };
+	const handleNextWeek = () => {
+		setCurrentDate(prevDate => moment(prevDate).add(1, 'week').toDate());
+	};
 
-    const handleNavigate = (newDate) => {
-        setCurrentDate(newDate);
-    };
-    const history = useHistory();
+	const handleNavigate = (newDate) => {
+		setCurrentDate(newDate);
+	};
+	const history = useHistory();
 
-    const inputRef = useRef(null);
+	const inputRef = useRef(null);
 
-    useEffect(() => {
-        if (inputRef.current) {
-            inputRef.current.focus();
-        }
-    });
+	useEffect(() => {
+		if (inputRef.current) {
+			inputRef.current.focus();
+		}
+	});
 
-    useEffect(() => {
-        // axios.get('http://localhost:5140/api/events')
-        //     .then(res => {
-                const dbEvents = data;
-                const calendarEvents = [];
-                for (let i = 0; i < dbEvents.length; ++i) {
-                    console.log(dbEvents[i]);
-                    let [month, day, year] = dbEvents[i].date.split('/');
-                    month = parseInt(month);
-                    day = parseInt(day);
-                    year = parseInt('20' + year);
-                    const [time, timeOfDay] = dbEvents[i].time.split(' ');
-                    let [hours, minutes] = time.split(':');
+	useEffect(() => {
+		// axios.get('http://localhost:5140/api/events')
+		//     .then(res => {
+		const dbEvents = data;
+		const calendarEvents = [];
+		for (let i = 0; i < dbEvents.length; ++i) {
+			console.log(dbEvents[i]);
+			let [month, day, year] = dbEvents[i].date.split('/');
+			month = parseInt(month);
+			day = parseInt(day);
+			year = parseInt('20' + year);
+			const [time, timeOfDay] = dbEvents[i].time.split(' ');
+			let [hours, minutes] = time.split(':');
 
-                    calendarEvents.push({
-                        ...dbEvents[i],
-                        id: i,
-                        title: dbEvents[i].artist,
-                        start: new Date(year, month - 1, day),
-                        end: new Date(year, month - 1, day),
-                        link: dbEvents[i].link,
-                        venue: dbEvents[i].venue
-                    })
-                }
-                setEvents(calendarEvents);
-                setFilteredEvents(calendarEvents);
-                // console.log(JSON.stringify(res.data));
-            // })
-            // .catch(err => console.log(err));
-    }, []);
+			calendarEvents.push({
+				...dbEvents[i],
+				id: i,
+				title: dbEvents[i].artist,
+				start: new Date(year, month - 1, day),
+				end: new Date(year, month - 1, day),
+				link: dbEvents[i].link,
+				venue: dbEvents[i].venue
+			})
+		}
+		setEvents(calendarEvents);
+		setFilteredEvents(calendarEvents);
+		// console.log(JSON.stringify(res.data));
+		// })
+		// .catch(err => console.log(err));
+	}, []);
 
-    const CustomToolbar = ({ date, onNavigate }) => (
-        <div className="custom-toolbar">
-            <div className="input-container">
-                <Search className="search-icon" />
-                <input type="text" ref={inputRef} className="search-input" value={filterValue} onChange={handleFilter} key={1} />
-            </div>
-        {window.screen.width > 780 && <div className="calendar-type">
-                <button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingMonthly(true); setShowingWeekly(false); setView('month'); }} className={`view-button ${view === 'month' ? 'active' : ''}`}>monthly</button>
-                <span style={{ color: '#faff00' }}>|</span>
-        <button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingWeekly(true); setShowingMonthly(false); setCurrentDate(new Date()); setView('week')}} className={`view-button ${view === 'week' ? 'active' : ''}`}>weekly</button>
-            </div>}
-        </div>
-    );
+	const CustomToolbar = ({ date, onNavigate }) => (
+		<div className="custom-toolbar">
+			<div className="input-container">
+				<Search className="search-icon" />
+				<input type="text" ref={inputRef} className="search-input" value={filterValue} onChange={handleFilter} key={1} />
+			</div>
+			{window.screen.width > 780 && <div className="calendar-type">
+				<button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingMonthly(true); setShowingWeekly(false); setView('month'); }} className={`view-button ${view === 'month' ? 'active' : ''}`}>monthly</button>
+				<span style={{ color: '#faff00' }}>|</span>
+				<button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingWeekly(true); setShowingMonthly(false); setCurrentDate(new Date()); setView('week') }} className={`view-button ${view === 'week' ? 'active' : ''}`}>weekly</button>
+			</div>}
+		</div>
+	);
 
-    const customDayPropGetter = (date) => ({
-        className: 'custom-day-bg',
-    });
+	const customDayPropGetter = (date) => ({
+		className: 'custom-day-bg',
+	});
 
-    const CustomMonthDateHeader = ({ date }) => (
-        <div style={{ fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', textAlign: 'right' }} className="custom-date-header">
-            <span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}`)} className="month-name">{date.getDate()}</span>
-        </div>
-    );
+	const CustomMonthDateHeader = ({ date }) => (
+		<div style={{ fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', textAlign: 'right' }} className="custom-date-header">
+			<span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}`)} className="month-name">{date.getDate()}</span>
+		</div>
+	);
 
-    const CustomMonthHeader = ({ date, label }) => (
-        <div className="custom-month-header">
-            {label}
-        </div>
-    );
+	const CustomMonthHeader = ({ date, label }) => (
+		<div className="custom-month-header">
+			{label}
+		</div>
+	);
 
-    const CustomEvent = ({ event }) => (
-        <div onClick={() => window.open(event.link, '_blank')} style={{ fontWeight: 'bold', color: 'lightgray' }} className="custom-event">
-            {showingMonthly ? <p className="weekly" style={window.screen.width < 780 ? {display: 'none'} : {}}>{`${event.title.toLowerCase()} @ ${event.venue.toLowerCase()}`}</p> : <><p className="weekly weekly-artist">{event.artist.toLowerCase()}</p><p className="weekly">{event.time.toLowerCase()}</p><p className="weekly">{event.venue.toLowerCase()}</p><p className="weekly">{event.town.toLowerCase()}</p></>}
-        </div>
-    );
+	const CustomEvent = ({ event }) => (
+		<div onClick={() => window.open(event.link, '_blank')} style={{ fontWeight: 'bold', color: 'lightgray' }} className="custom-event">
+			{showingMonthly ? <p className="weekly" style={window.screen.width < 780 ? { display: 'none' } : {}}>{`${event.title.toLowerCase()} @ ${event.venue.toLowerCase()}`}</p> : <><p className="weekly weekly-artist">{event.artist.toLowerCase()}</p><p className="weekly">{event.time.toLowerCase()}</p><p className="weekly">{event.venue.toLowerCase()}</p><p className="weekly">{event.town.toLowerCase()}</p></>}
+		</div>
+	);
 
-    return (
-        <div className="calendar-container">
-            <div className="left-column">
-                <button
-                    // onClick={onPrevMonth}
-                    className="arrow-button"
-                    aria-label="Previous month"
-                    onClick={showingMonthly ? handleNextMonth : handleNextWeek}
-                >
-                    <ChevronUp />
-                </button>
-                <div className="month-container">
-                    <div className="top-left-month">
-                        {moment(currentDate).format('MMMM').toLowerCase()}
-                    </div>
-                </div>
-                <button
-                    // onClick={onNextMonth}
-                    className="arrow-button"
-                    aria-label="Next month"
-                    onClick={showingMonthly ? handlePrevMonth : handlePrevWeek}
-                >
-                    <ChevronDown />
-                </button>
-            </div>
-            {filteredEvents && <div className="main-calendar">
-                <CustomToolbar />
-                <Calendar
-                    localizer={localizer}
-                    events={filteredEvents}
-                    startAccessor="start"
-                    endAccessor="end"
-                    style={{ flex: 1 }}
-                    views={['month', 'week']}
-                    view={view}
-                    onView={setView}
-                    date={currentDate}
-                    onNavigate={handleNavigate}
-                    onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}`);}}
-                    components={{
-                        toolbar: () => null,
-                        timeGutterHeader: CustomTimeGutterHeader,
-                        timeGutter: CustomTimeGutter,
-                        month: {
-                            dateHeader: CustomMonthDateHeader,
-                            header: CustomMonthHeader,
-                        },
-                        event: CustomEvent,
-                    }}
-                    dayPropGetter={customDayPropGetter}
-                    formats={{
-                        monthHeaderFormat: 'MMMM',
-                    }}
-                />
-            </div>}
-            <style jsx global>{`
-.month-container {
+	return (
+		<div className="events-calendar">
+			<div className="calendar-container">
+				<div className="left-column">
+					<button
+						// onClick={onPrevMonth}
+						className="arrow-button"
+						aria-label="Previous month"
+						onClick={showingMonthly ? handleNextMonth : handleNextWeek}
+					>
+						<ChevronUp />
+					</button>
+					<div className="month-container">
+						<div className="top-left-month">
+							{moment(currentDate).format('MMMM').toLowerCase()}
+						</div>
+					</div>
+					<button
+						// onClick={onNextMonth}
+						className="arrow-button"
+						aria-label="Next month"
+						onClick={showingMonthly ? handlePrevMonth : handlePrevWeek}
+					>
+						<ChevronDown />
+					</button>
+				</div>
+				{filteredEvents && <div className="main-calendar">
+					<CustomToolbar />
+					<Calendar
+						localizer={localizer}
+						events={filteredEvents}
+						startAccessor="start"
+						endAccessor="end"
+						style={{ flex: 1 }}
+						views={['month', 'week']}
+						view={view}
+						onView={setView}
+						date={currentDate}
+						onNavigate={handleNavigate}
+						onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}`); }}
+						components={{
+							toolbar: () => null,
+							timeGutterHeader: CustomTimeGutterHeader,
+							timeGutter: CustomTimeGutter,
+							month: {
+								dateHeader: CustomMonthDateHeader,
+								header: CustomMonthHeader,
+							},
+							event: CustomEvent,
+						}}
+						dayPropGetter={customDayPropGetter}
+						formats={{
+							monthHeaderFormat: 'MMMM',
+						}}
+					/>
+				</div>}
+				<style jsx global>{`
+					.events-calendar .month-container {
   flex: 1;
   display: flex;
   align-items: center;
@@ -210,7 +211,7 @@ const CustomTimeGutter = () => null;
   width: 100%;
   height: 100%;
 }
-.arrow-button {
+	.events-calendar .arrow-button {
   background: none;
   border: none;
   cursor: pointer;
@@ -239,7 +240,7 @@ const CustomTimeGutter = () => null;
 //   box-shadow: 0 0 0 2px rgba(250, 255, 0, 0.5);
 // }
 
-.arrow-button svg {
+	.events-calendar .arrow-button svg {
   width: 28px;
   height: 28px;
 }
@@ -259,11 +260,11 @@ const CustomTimeGutter = () => null;
 //   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
 // }
 
-.arrow-button svg {
+	.events-calendar .arrow-button svg {
   width: 24px;
   height: 24px;
 }
-        .calendar-container {
+	.events-calendar .calendar-container {
           height: 100vh;
           background-color: #2a2727;
           padding: 20px;
@@ -271,7 +272,7 @@ const CustomTimeGutter = () => null;
           overflow: hidden;
             box-sizing: border-box;
         }
-.left-column {
+	.events-calendar .left-column {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -283,7 +284,7 @@ const CustomTimeGutter = () => null;
   width: 60px; /* Set a fixed width */
   margin: auto;
 }
-.top-left-month {
+	.events-calendar .top-left-month {
   color: #faff00;
   font-size: 36px;
   font-weight: bold;
@@ -294,14 +295,14 @@ const CustomTimeGutter = () => null;
   margin: 15px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-        .main-calendar {
+	.events-calendar .main-calendar {
           flex: 1;
           display: flex;
           flex-direction: column;
           overflow: hidden;
           background-color: #2a2727;
         }
-        .custom-toolbar {
+	.events-calendar .custom-toolbar {
           display: flex;
           justify-content: right;
           align-items: center;
@@ -315,121 +316,121 @@ const CustomTimeGutter = () => null;
         //   margin-right: 10vw;
         //   border-radius: 20px;
         // }
-        .view-button {
+	.events-calendar .view-button {
           color: #888;
           background: none;
           border: none;
           cursor: pointer;
           margin: 0 5px;
         }
-        .view-button.active {
+	.events-calendar .view-button.active {
           color: #faff00;
         font-weight: bolder;
         }
-        .custom-day-bg {
+	.events-calendar .custom-day-bg {
           background-color: #2a2727;
           color: #faff00;
           border: 1px solid #faff00;
         }
-        .custom-date-header {
+	.events-calendar .custom-date-header {
           text-align: left;
           padding: 5px;
           color: #faff00;
           font-size: 14px;
         }
-          .custom-date-header:hover {
+	.events-calendar .custom-date-header:hover {
           opacity: .5;
           }
-        .custom-month-header {
+	.events-calendar .custom-month-header {
           color: #faff00;
           text-transform: uppercase;
           font-weight: bold;
           padding: 5px;
         }
-        .custom-event {
+	.events-calendar .custom-event {
           font-size: 12px;
           color: #fff;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
         }
-        .custom-event:hover {
+	.events-calendar .custom-event:hover {
             opacity: .5;
         }
-        .rbc-event {
+	.events-calendar .rbc-event {
           border: none !important;
           background-color: transparent;
         //   padding: 0 !important;
           margin: 0 auto !important;
           width: 90%;
         }
-        .rbc-event-content {
+	.events-calendar .rbc-event-content {
             color: black;
             text-align: center;
         }
-        .rbc-button-link {
+	.events-calendar .rbc-button-link {
             margin: auto;
         }
-        .rbc-button-link:hover {
+	.events-calendar .rbc-button-link:hover {
             opacity: .5;
         }
-        .rbc-day-bg {
+	.events-calendar .rbc-day-bg {
           display: flex !important;
           flex-direction: column !important;
         }
-        .rbc-events-container {
+	.events-calendar .rbc-events-container {
           flex: 1 !important;
           display: flex !important;
           flex-direction: column !important;
           justify-content: flex-start !important;
           overflow: hidden !important;
         }
-        .rbc-row-content {
+	.events-calendar .rbc-row-content {
           flex: 1 !important;
           display: flex !important;
           flex-direction: column !important;
         }
-        .rbc-time-content {
+	.events-calendar .rbc-time-content {
             display: none;
         }
-        .rbc-allday-cell {
+	.events-calendar .rbc-allday-cell {
             // height: 90vh
         }
-        .rbc-time-header {
+	.events-calendar .rbc-time-header {
             height: auto;
             width: 100%;
         }
-        .rbc-calendar.* {
+	.events-calendar .rbc-calendar.* {
             box-sizing: border-box;
         }
-            .rbc-time-header-content {
+	.events-calendar .rbc-time-header-content {
             width: auto;
                 min-height: 50vh;
             }
-            .rbc-time-view {
+	.events-calendar .rbc-time-view {
             overflow-y: auto;
                 overflow-x: auto
             padding: 5vw;
             border: none;
             }
-        .rbc-label {
+	.events-calendar .rbc-label {
             display: none;
         }
-        .weekly {
+	.events-calendar .weekly {
            margin: 0;
         }
-        .weekly-artist {
+	.events-calendar .weekly-artist {
         color: #faff00;
         }
-        .rbc-row-content-scroll-container {
+	.events-calendar .rbc-row-content-scroll-container {
           flex: 1 !important;
           display: flex !important;
           flex-direction: column !important;
         }
-        .rbc-row-segment {
+	.events-calendar .rbc-row-segment {
           flex: 0 0 auto !important;
         }
-          .input-container {
+	.events-calendar .input-container {
             position: relative;
             display: flex;
             align-items: center;
@@ -437,7 +438,7 @@ const CustomTimeGutter = () => null;
             margin-right: 10vw;
            }
 
-.search-input {
+	.events-calendar .search-input {
   border: 1px solid lightgray;
   border-radius: 20px;
   font-size: 16px;
@@ -446,89 +447,90 @@ const CustomTimeGutter = () => null;
           color: lightgray;
 }
 
-.search-icon {
+	.events-calendar .search-icon {
   position: absolute;
   left: 10px;
   color: lightgray;
   pointer-events: none; /* Prevent the icon from blocking input interaction */
 }
 
-.rbc-header {
+	.events-calendar .rbc-header {
 border: 1px solid #faff00;
 }
-        .rbc-show-more {
+	.events-calendar .rbc-show-more {
           font-size: 12px !important;
           background-color: transparent !important;
           color: lightgray !important;
         }
-        .rbc-selected {
+	.events-calendar .rbc-selected {
         background-color: transparent !important;
         }
-        .weekly {
+	.events-calendar .weekly {
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        .rbc-show-more-hover {
+	.events-calendar .rbc-show-more-hover {
         color: lightgray;
         }
-        .rbc-month-view, .rbc-time-view {
+	.events-calendar .rbc-month-view, .rbc-time-view {
           background-color: #2a2727;
         }
 
-        .rbc-row-segment {
+	.events-calendar .rbc-row-segment {
             width: 90%;
         }
         @media (max-width: 768px) {
-          .rbc-event {
+			.events-calendar .rbc-event {
             // display: none;
           }
-          .rbc-button-link {
+				.events-calendar .rbc-button-link {
             display: none;
           }
-          .calendar-container {
+				.events-calendar .calendar-container {
             flex-direction: column;
             padding: 10px;
           }
-          .left-column {
+				.events-calendar .left-column {
             width: 100%;
             margin-right: 0;
             margin-bottom: 10px;
           }
-          .top-left-month {
+				.events-calendar .top-left-month {
             writing-mode: horizontal-tb;
             transform: none;
             height: auto;
             text-align: center;
           }
-          .custom-toolbar {
+				.events-calendar .custom-toolbar {
             flex-direction: column;
             align-items: stretch;
           }
-          .custom-toolbar > div {
+				.events-calendar .custom-toolbar > div {
             margin-bottom: 10px;
           }
-          .rbc-calendar {
+				.events-calendar .rbc-calendar {
             font-size: 12px;
           }
-          .rbc-btn-group {
+				.events-calendar .rbc-btn-group {
             display: none;
           }
-          .input-container {
+				.events-calendar .input-container {
           display: none;
             }
-          .calendar-type {
+				.events-calendar .calendar-type {
           margin: auto;
           }
-          .month-name {
+				.events-calendar .month-name {
           text-align: center;
           }
-          .left-column {
+				.events-calendar .left-column {
           height: 30%;
           }
         }
       `}</style>
-        </div>
-    );
+			</div>
+		</div>
+	);
 };
 
 export default CustomCalendar;

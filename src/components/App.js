@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import EventCalendar from '../pages/Calendar';
 import TheaterCalendar from '../pages/TheaterCalendar';
+import ArtCalendar from '../pages/ArtCalendar';
 import EventList from '../pages/EventList';
 
 const Router = () => {
@@ -12,6 +13,9 @@ const Router = () => {
                 </Route>
                 <Route exact path="/theater-calendar">
                     <TheaterCalendar />
+                </Route>
+                <Route exact path="/art-calendar">
+                    <ArtCalendar />
                 </Route>
                 <Route exact path="/events/:id">
                     <EventList />

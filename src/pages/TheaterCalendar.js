@@ -5,7 +5,7 @@ import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 const css = `
-.theater > .month-container {
+.theater .month-container {
     flex: 1;
     display: flex;
     align-items: center;
@@ -14,11 +14,11 @@ const css = `
     height: 100%;
 }
 
-.theater > .rbc-calendar {
+.theater .rbc-calendar {
 	height: 100%;
 }
 
-.theater > .calendar-container {
+.theater .calendar-container {
     height: 100vh;
     background-color: #2a2727;
     padding: 20px;
@@ -29,14 +29,14 @@ const css = `
 }
 
 
-.theater > .custom-toolbar {
+.theater .custom-toolbar {
     display: flex;
     justify-content: right;
     align-items: center;
     padding: 10px 0;
 }
 
-.theater > .input-container {
+.theater .input-container {
     position: relative;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ const css = `
     margin-right: 10vw;
 }
 
-.theater > .search-icon {
+.theater .search-icon {
     position: absolute;
     left: 10px;
     color: lightgray;
@@ -52,7 +52,7 @@ const css = `
     /* Prevent the icon from blocking input interaction */
 }
 
-.theater > .search-input {
+.theater .search-input {
     border: 1px solid lightgray;
     border-radius: 20px;
     font-size: 16px;
@@ -62,35 +62,36 @@ const css = `
 	outline: none;
 }
 
-.theater > .rbc-button-link {
+.theater .rbc-button-link {
 	color: #faff00 !important;
 	font-weight: bold !important;
 	cursor: default !important;
+	height: auto !important;
 }
 
-.theater > .rbc-off-range-bg {
+.theater .rbc-off-range-bg {
 	background-color: inherit !important;
 }
 
-.theater > .rbc-today {
+.theater .rbc-today {
 	background-color: inherit !important;
 }
 
-.theater > .rbc-header {
+.theater .rbc-header {
 	border: 1px solid #faff00;
 }
 
-.theater > .rbc-header > span[role="columnheader"] {
+.theater .rbc-header > span[role="columnheader"] {
 	color: #faff00 !important;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.theater > .rbc-day-bg {
+.theater .rbc-day-bg {
 	border: 1px solid #faff00;
 }
 
-.theater > .left-column {
+.theater .left-column {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -105,7 +106,7 @@ const css = `
 	margin: auto;
 }
 
-.theater > .arrow-button {
+.theater .arrow-button {
     background: none;
     border: none;
     cursor: pointer;
@@ -119,7 +120,7 @@ const css = `
     background-color: #333;
 }
 
-.theater > .top-left-month {
+.theater .top-left-month {
     color: #faff00;
     font-size: 36px;
     font-weight: bold;
@@ -131,15 +132,30 @@ const css = `
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.theater > .rbc-event {
+.theater .rbc-event {
+	padding: 0 !important;
 	background-color: #faff00 !important;
 	cursor: default !important;
 }
 
-.theater > .rbc-show-more {
+.theater .rbc-show-more {
 	background: none !important;
 	cursor: default !important;
 }
+
+	.theater .homes {
+		font-style: italic;
+	}
+
+	.theater .weekly {
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.theater .rbc-event-content {
+		overflow: inherit;
+	}
 `;
 
 const localizer = momentLocalizer(moment);
@@ -147,7 +163,7 @@ const localizer = momentLocalizer(moment);
 
 const CustomEvent = ({ event }) => (
 	<div onClick={() => window.open(event.link, '_blank')} style={{ width: '100%', color: 'black' }} className="custom-event">
-		{<p className="weekly w-full overflow-hidden text-ellipsis" style={window.screen.width < 780 ? { display: 'none' } : {}}><span className="italic">{event.title.split("@")[0].toLowerCase()}</span> @ {event.title.split("@")[1].substring(1)}</p>}
+		{<p className="weekly" style={window.screen.width < 780 ? { display: 'none' } : {}}><span className="homes">{event.title.split("@")[0].toLowerCase()}</span> @ {event.title.split("@")[1].substring(1)}</p>}
 	</div>
 );
 
@@ -505,33 +521,33 @@ export default function TheaterCalendar() {
 
 	return (
 		<div className="theater">
-		<style>{css}</style>
-		<div className="calendar-container">
-			<div className="left-column">
-				<button
-					className="arrow-button"
-					aria-label="Previous month"
-					onClick={handleNextMonth}
-				>
-					<ChevronUp />
-				</button>
-				<div className="month-container">
-					<div className="top-left-month">
-						{moment(currentDate).format('MMMM').toLowerCase()}
+			<style>{css}</style>
+			<div className="calendar-container">
+				<div className="left-column">
+					<button
+						className="arrow-button"
+						aria-label="Previous month"
+						onClick={handleNextMonth}
+					>
+						<ChevronUp />
+					</button>
+					<div className="month-container">
+						<div className="top-left-month">
+							{moment(currentDate).format('MMMM').toLowerCase()}
+						</div>
 					</div>
+					<button
+						className="arrow-button"
+						aria-label="Next month"
+						onClick={handlePrevMonth}
+					>
+						<ChevronDown />
+					</button>
 				</div>
-				<button
-					className="arrow-button"
-					aria-label="Next month"
-					onClick={handlePrevMonth}
-				>
-					<ChevronDown />
-				</button>
+				<div style={{ width: '100%' }}>
+					<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
+				</div>
 			</div>
-			<div className="w-full">
-				<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
-			</div>
-		</div>
 		</div>
 	)
 }
