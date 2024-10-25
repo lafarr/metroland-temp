@@ -817,7 +817,7 @@ export default function TheaterCalendar() {
 
 	return (
 		<>
-			{window.screen.width > 780 && <div className="theater">
+			<div className="hidden md:block theater">
 				<div className="calendar-container">
 					<div className="left-column">
 						<button
@@ -853,8 +853,8 @@ export default function TheaterCalendar() {
 						/>
 					</div>
 				</div>
-			</div>}
-			{window.screen.width <= 780 && <MobileCalendar />}
+			</div>
+			<MobileCalendar className="md:hidden" />
 		</>
 	)
 }

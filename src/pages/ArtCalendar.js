@@ -102,7 +102,6 @@ const MobileCalendar = () => {
 		// 		}
 		setEvents(events);
 		// console.log(stateEvents);
-		console.log(formatDate(selectedDate))
 		const fEvents = events.filter((event) => event.start <= selectedDate && event.end >= selectedDate);
 		setFilteredEvents(fEvents);
 		setDisplayedEvents(showAllEvents ? fEvents : fEvents.slice(0, 4));
@@ -283,7 +282,7 @@ export default function ArtCalendar() {
 
 	return (
 		<>
-		{window.screen.width > 780 && <div className="art">
+		<div className="hidden md:block art">
 			<div className="calendar-container">
 				<div className="left-column">
 					<button
@@ -310,8 +309,8 @@ export default function ArtCalendar() {
 					<Calendar date={currentDate} components={{ month: { dateHeader: CustomMonthDateHeader }, event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
 				</div>
 			</div>
-		</div>}
-		{window.screen.width <= 780 && <MobileCalendar />}
+		</div>
+		<MobileCalendar className="md:hidden"/>
 		</>
 	)
 }

@@ -1,16 +1,164 @@
 import React, { useCallback, useRef, useEffect, useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
-import { ChevronUp, ChevronDown, Search } from 'lucide-react';
+import { ChevronRight, ChevronLeft, ChevronUp, ChevronDown, Search } from 'lucide-react';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import { musicData } from '../util/utils';
 
+const MobileCalendar = (props) => {
+	const tmpDate = new Date();
+	const [selectedDate, setSelectedDate] = useState(new Date(tmpDate.getFullYear(), tmpDate.getMonth(), tmpDate.getDate()));
+	const [weekDates, setWeekDates] = useState([]);
+	const [showAllEvents, setShowAllEvents] = useState(false);
+	const [bevents, setEvents] = useState(null);
+	const [filteredEvents, setFilteredEvents] = useState(null);
+	const [displayedEvents, setDisplayedEvents] = useState(null);
+
+	console.log("Mobile calendar events:", props.events);
+
+	const events = props.events;
+
+	useEffect(() => {
+		// const stateEvents = [];
+		// let i = 0;
+		// axios.get(`${process.env.NEXT_PUBLIC_API_BASE}/api/events`)
+		// 	.then(res => {
+		// 		const data = res.data.events;
+		// 		for (const event of data) {
+		// 			const eventCopy = { ...event };
+		// 			let [month, day, year] = eventCopy.Date.split('/');
+		// 			day = day.length === 1 ? '0' + day : day;
+		// 			month = month.length === 1 ? '0' + month : month;
+		// 			eventCopy.date = `20${year}-${month}-${day}`
+		// 			stateEvents.push({ id: i++, ...eventCopy });
+		// 		}
+		setEvents(events);
+		// console.log(stateEvents);
+		console.log("Selected: " + selectedDate);
+		let fEvents = events.filter((event) => {
+			const [month, day, year] = event.date.split("/");
+			// console.log(new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day)));
+			const tmp = new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day));
+			return tmp.getMonth() === selectedDate.getMonth() && tmp.getDate() === selectedDate.getDate() && tmp.getFullYear() === selectedDate.getFullYear();
+		});
+		console.log("fEvents = ", fEvents);
+		sortEvents(fEvents);
+		setFilteredEvents(fEvents);
+		setDisplayedEvents(showAllEvents ? fEvents : fEvents.slice(0, 4));
+		// })
+		// .catch(err => console.log(err));
+	}, [selectedDate, showAllEvents]);
+
+	useEffect(() => {
+		const dates = getWeekDates(selectedDate);
+		setWeekDates(dates);
+		setShowAllEvents(false);
+	}, [selectedDate]);
+
+	const getWeekDates = (date) => {
+		const week = [];
+		for (let i = 0; i < 7; i++) {
+			const day = new Date(date);
+			day.setDate(date.getDate() - date.getDay() + i);
+			week.push(day);
+		}
+		return week;
+	};
+
+	const handlePrevWeek = () => {
+		const newDate = new Date(selectedDate);
+		newDate.setDate(selectedDate.getDate() - 7);
+		setSelectedDate(newDate);
+	};
+
+	const handleNextWeek = () => {
+		const newDate = new Date(selectedDate);
+		newDate.setDate(selectedDate.getDate() + 7);
+		setSelectedDate(newDate);
+	};
+
+	const formatDate = (date) => {
+		return date.toISOString().split('T')[0];
+	};
+
+	function sortEvents(events) {
+		events.sort((a, b) => {
+			let aMilitaryTime = a.time;
+			let [aHours, aMins] = aMilitaryTime.split(" ")[0].split(":");
+			let aTimeOfDay = aMilitaryTime.split(" ")[1].toLowerCase();
+			if (aTimeOfDay === 'pm' && aHours === '12') {
+				aHours = 12;
+			} else {
+				aHours = aTimeOfDay === "am" ? parseInt(aHours) : parseInt(aHours) + 12;
+			}
+			aMilitaryTime = (aHours * 100) + aMins;
+
+			let bMilitaryTime = b.time;
+			let [bHours, bMins] = bMilitaryTime.split(" ")[0].split(":");
+			let bTimeOfDay = bMilitaryTime.split(" ")[1].toLowerCase();
+			if (bTimeOfDay === 'pm' && bHours === '12') {
+				bHours = 12;
+			} else {
+				bHours = bTimeOfDay === "am" ? parseInt(bHours) : parseInt(bHours) + 12;
+			}
+			bMilitaryTime = (bHours * 100) + bMins;
+
+			return aMilitaryTime > bMilitaryTime ? 1 : (aMilitaryTime < bMilitaryTime ? -1 : 0);
+		})
+	}
+
+	return (
+		<div className="min-h-screen max-w-2xl mx-auto p-4 bg-[#2a2727]">
+			<h3 className="text-center text-[#faff00] block font-semibold mb-2">{selectedDate.toLocaleString('default', { month: 'long' })}</h3>
+			<div className="flex items-center justify-between mb-4">
+				<button onClick={handlePrevWeek} className="p-2 text-[#faff00] hover:bg-[#faff00] hover:bg-opacity-20 rounded-full transition-colors duration-200">
+					<ChevronLeft className="w-6 h-6" />
+				</button>
+				<div className="flex space-x-1 sm:space-x-2 overflow-x-auto">
+					{weekDates.map((date) => (
+						<button
+							key={date.toISOString()}
+							onClick={() => setSelectedDate(date)}
+							className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-center text-xs sm:text-sm font-medium transition-colors duration-200 ${selectedDate.toDateString() === date.toDateString()
+								? 'bg-[#faff00] text-black'
+								: 'bg-transparent text-gray-200 border-2 border-[#faff00] hover:bg-[#faff00] hover:bg-opacity-20'
+								}`}
+						>
+							<span>{date.getDate()}</span>
+						</button>
+					))}
+				</div>
+				<button onClick={handleNextWeek} className="p-2 text-[#faff00] hover:bg-[#faff00] hover:bg-opacity-20 rounded-full transition-colors duration-200">
+					<ChevronRight className="w-6 h-6" />
+				</button>
+			</div>
+			<div className="p-4 text-center">
+				{displayedEvents?.map((event) => (
+					<div key={event.id} className="mb-2 p-2">
+						<p className="font-semibold text-[#faff00] cursor-pointer hover:opacity-80" onClick={() => window.open(event.link, '_blank')}>{event.artist.toLowerCase()}</p>
+						<p className="text-sm text-gray-200" onClick={() => window.open(event.link, '_blank')}>{event.venue.toLowerCase()}</p>
+						<p className="text-sm text-gray-200" onClick={() => window.open(event.link, '_blank')}>{event.time.toLowerCase()}</p>
+					</div>
+				))}
+				{filteredEvents && filteredEvents.length > 4 && !showAllEvents && (
+					<button
+						onClick={() => setShowAllEvents(true)}
+						className="mt-2 w-3/4 py-2 bg-[#faff00] text-black rounded-md hover:bg-opacity-80 transition-colors duration-200"
+					>
+						Show More
+					</button>
+				)}
+			</div>
+		</div>
+	);
+};
+
 
 const localizer = momentLocalizer(moment);
 
-const CustomCalendar = () => {
+export default function DesktopCalendar() {
 	const customStyles = `
 		.events-calendar .rbc-time-view {
     border: none;
@@ -40,7 +188,6 @@ const CustomCalendar = () => {
 	const [filteredEvents, setFilteredEvents] = useState(musicData);
 	const handleFilter = useCallback((e) => {
 		const val = e.target.value;
-		console.log('Val: ' + val);
 
 		setFilterValue(val);
 
@@ -85,7 +232,6 @@ const CustomCalendar = () => {
 		const dbEvents = musicData;
 		const calendarEvents = [];
 		for (let i = 0; i < dbEvents.length; ++i) {
-			console.log(dbEvents[i]);
 			let [month, day, year] = dbEvents[i].date.split('/');
 			month = parseInt(month);
 			day = parseInt(day);
@@ -112,11 +258,11 @@ const CustomCalendar = () => {
 
 	const CustomToolbar = ({ date, onNavigate }) => (
 		<div className="custom-toolbar">
-		<div className="input-container">
+			<div className="input-container">
 				<Search className="search-icon" />
-		<input type="text" ref={inputRef} className="search-input focus:outline-none" value={filterValue} onChange={handleFilter} key={1} />
+				<input type="text" ref={inputRef} className="search-input focus:outline-none" value={filterValue} onChange={handleFilter} key={1} />
 			</div>
-			{window.screen.width > 780 && <div className="calendar-type">
+			{<div className="calendar-type">
 				<button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingMonthly(true); setShowingWeekly(false); setView('month'); }} className={`view-button ${view === 'month' ? 'active' : ''}`}>monthly</button>
 				<span style={{ color: '#faff00' }}>|</span>
 				<button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingWeekly(true); setShowingMonthly(false); setCurrentDate(new Date()); setView('week') }} className={`view-button ${view === 'week' ? 'active' : ''}`}>weekly</button>
@@ -142,67 +288,68 @@ const CustomCalendar = () => {
 
 	const CustomEvent = ({ event }) => (
 		<div onClick={() => window.open(event.link, '_blank')} style={{ fontWeight: 'bold', color: 'lightgray' }} className="custom-event">
-			{showingMonthly ? <p className="weekly" style={window.screen.width < 780 ? { display: 'none' } : {}}>{`${event.title.toLowerCase()} @ ${event.venue.toLowerCase()}`}</p> : <><p className="weekly weekly-artist">{event.artist.toLowerCase()}</p><p className="weekly">{event.time.toLowerCase()}</p><p className="weekly">{event.venue.toLowerCase()}</p><p className="weekly">{event.town.toLowerCase()}</p></>}
+			{showingMonthly ? <p className="weekly">{`${event.title.toLowerCase()} @ ${event.venue.toLowerCase()}`}</p> : <><p className="weekly weekly-artist">{event.artist.toLowerCase()}</p><p className="weekly">{event.time.toLowerCase()}</p><p className="weekly">{event.venue.toLowerCase()}</p><p className="weekly">{event.town.toLowerCase()}</p></>}
 		</div>
 	);
 
 	return (
-		<div className="events-calendar">
-			<div className="calendar-container">
-				<div className="left-column">
-					<button
-						// onClick={onPrevMonth}
-						className="arrow-button"
-						aria-label="Previous month"
-						onClick={showingMonthly ? handleNextMonth : handleNextWeek}
-					>
-						<ChevronUp />
-					</button>
-					<div className="month-container">
-						<div className="top-left-month">
-							{moment(currentDate).format('MMMM').toLowerCase()}
+		<>
+			<div className="hidden md:block events-calendar">
+				<div className="calendar-container">
+					<div className="left-column">
+						<button
+							// onClick={onPrevMonth}
+							className="arrow-button"
+							aria-label="Previous month"
+							onClick={showingMonthly ? handleNextMonth : handleNextWeek}
+						>
+							<ChevronUp />
+						</button>
+						<div className="month-container">
+							<div className="top-left-month">
+								{moment(currentDate).format('MMMM').toLowerCase()}
+							</div>
 						</div>
+						<button
+							// onClick={onNextMonth}
+							className="arrow-button"
+							aria-label="Next month"
+							onClick={showingMonthly ? handlePrevMonth : handlePrevWeek}
+						>
+							<ChevronDown />
+						</button>
 					</div>
-					<button
-						// onClick={onNextMonth}
-						className="arrow-button"
-						aria-label="Next month"
-						onClick={showingMonthly ? handlePrevMonth : handlePrevWeek}
-					>
-						<ChevronDown />
-					</button>
-				</div>
-				{filteredEvents && <div className="main-calendar">
-					<CustomToolbar />
-					<Calendar
-						localizer={localizer}
-						events={filteredEvents}
-						startAccessor="start"
-						endAccessor="end"
-						style={{ flex: 1 }}
-						views={['month', 'week']}
-						view={view}
-						onView={setView}
-						date={currentDate}
-						onNavigate={handleNavigate}
-						onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}?eventType=music`); }}
-						components={{
-							toolbar: () => null,
-							timeGutterHeader: CustomTimeGutterHeader,
-							timeGutter: CustomTimeGutter,
-							month: {
-								dateHeader: CustomMonthDateHeader,
-								header: CustomMonthHeader,
-							},
-							event: CustomEvent,
-						}}
-						dayPropGetter={customDayPropGetter}
-						formats={{
-							monthHeaderFormat: 'MMMM',
-						}}
-					/>
-				</div>}
-				<style jsx global>{`
+					{filteredEvents && <div className="main-calendar">
+						<CustomToolbar />
+						<Calendar
+							localizer={localizer}
+							events={filteredEvents}
+							startAccessor="start"
+							endAccessor="end"
+							style={{ flex: 1 }}
+							views={['month', 'week']}
+							view={view}
+							onView={setView}
+							date={currentDate}
+							onNavigate={handleNavigate}
+							onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}?eventType=music`); }}
+							components={{
+								toolbar: () => null,
+								timeGutterHeader: CustomTimeGutterHeader,
+								timeGutter: CustomTimeGutter,
+								month: {
+									dateHeader: CustomMonthDateHeader,
+									header: CustomMonthHeader,
+								},
+								event: CustomEvent,
+							}}
+							dayPropGetter={customDayPropGetter}
+							formats={{
+								monthHeaderFormat: 'MMMM',
+							}}
+						/>
+					</div>}
+					<style jsx global>{`
 					.events-calendar .month-container {
   flex: 1;
   display: flex;
@@ -528,9 +675,9 @@ border: 1px solid #faff00;
           }
         }
       `}</style>
+				</div>
 			</div>
-		</div>
+			{filteredEvents && <div className="md:hidden"><MobileCalendar events={filteredEvents} /></div>}
+		</>
 	);
 };
-
-export default CustomCalendar;
