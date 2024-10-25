@@ -10,6 +10,9 @@ const EventList = () => {
     const { id } = useParams();
     const [events, setEvents] = useState(null);
     const history = useHistory();
+    const [month, day, year] = id.split('-');
+    const tempDate = new Date(year, month - 1, day);
+    const properDate = `${tempDate.toLocaleString('default', { weekday: 'long' })}, ${tempDate.toLocaleString('default', { month: 'long' })} ${tempDate.getDate()}, ${tempDate.getFullYear()}`;
 
     const generateSortedEvents = (events) => {
         events = events.sort((a, b) => {
@@ -52,90 +55,6 @@ const EventList = () => {
         )
     };
 
-    // Mon Aug 05 2024
-    const cleanDate = (date) => {
-        console.log('Dirty date: ' + date);
-        const [dirtyDayOfWeek, dirtyMonth, dirtyDay, dirtyYear] = date.split(' ');
-        let cleanedDateString = '';
-        switch (dirtyDayOfWeek) {
-            case 'Sun':
-                cleanedDateString += 'Sunday, ';
-                break;
-            case 'Mon':
-                cleanedDateString += 'Monday, ';
-                break;
-            case 'Tue':
-                cleanedDateString += 'Tuesday, ';
-                break;
-            case 'Wed':
-                cleanedDateString += 'Wednesday, ';
-                break;
-            case 'Thu':
-                cleanedDateString += 'Thursday, ';
-                break;
-            case 'Fri':
-                cleanedDateString += 'Friday, ';
-                break;
-            case 'Sat':
-                cleanedDateString += 'Saturday, ';
-                break;
-            default:
-                throw new Error('There is something going on with day of week in cleanDate()...' + dirtyDayOfWeek);
-        }
-
-        switch (dirtyMonth) {
-            case 'Jan':
-                cleanedDateString += 'January';
-                break;
-            case 'Feb':
-                cleanedDateString += 'February';
-                break;
-            case 'Mar':
-                cleanedDateString += 'March';
-                break;
-            case 'Apr':
-                cleanedDateString += 'April';
-                break;
-            case 'May':
-                cleanedDateString += 'May';
-                break;
-            case 'Jun':
-                cleanedDateString += 'June';
-                break;
-            case 'Jul':
-                cleanedDateString += 'July';
-                break;
-            case 'Aug':
-                cleanedDateString += 'August';
-                break;
-            case 'Sep':
-                cleanedDateString += 'September';
-                break;
-            case 'Oct':
-                cleanedDateString += 'October';
-                break;
-            case 'Nov':
-                cleanedDateString += 'November';
-                break;
-            case 'Dec':
-                cleanedDateString += 'December';
-                break;
-            default:
-                throw new Error('Something has gone horribly wrong with dirtyMonth in cleanDate()...');
-        }
-
-        if (dirtyDay.length === 2 && dirtyDay.charAt(0) === '0') {
-            cleanedDateString += ' ' + dirtyDay.charAt(1) + ', ' + dirtyYear;
-            console.log('Cleaned day: ' + dirtyDay.charAt(1))
-        } else {
-            cleanedDateString += ' ' + dirtyDay + ', ' + dirtyYear;
-            console.log('Cleaned day: ' + dirtyDay);
-        }
-        console.log('Dirty day: ' + dirtyDay);
-
-        return cleanedDateString
-    };
-
     useEffect(() => {
         const [month, day, year] = id.replaceAll('-', '/').split('/');
         const date = `${month}/${day}/${year.substring(2)}`;
@@ -151,7 +70,7 @@ const EventList = () => {
             <div className={styles.container}>
                 <header>
                     <h1><span className={styles.musicNote}>🎵</span>Events</h1>
-                    <div className={styles.date} id="currentDate">{cleanDate(new Date(id).toDateString())}</div>
+                    <div className={styles.date} id="currentDate">{properDate}</div>
                 </header>
                 <div className={styles.eventsContainer} id="eventsContainer">
                     {events && generateSortedEvents(events)}

@@ -103,6 +103,7 @@ h1 {
     border: none;
     margin-top: 2vh;
     cursor: pointer;
+    color: black;
 }
 
 @media (max-width: 600px) {
