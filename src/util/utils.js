@@ -11,708 +11,12 @@ export const convertdateToHuman = (shittydate) => {
 export const musicData =
 	[
 		{
-			"artist": "Fire Pit Friday feat. Weird Phishes",
-			"venue": "Brewery Ommegang",
-			"date": "10/4/24",
-			"time": "6:00 PM",
-			"town": "Cooperstown",
-			"link": "https://www.ommegang.com/events/fire-pit-friday-featuring-weird-phishes/"
-		},
-		{
-			"artist": "The Garcia Project with Acoustically Speaking",
-			"venue": "Cohoes Music Hall",
-			"date": "10/4/24",
-			"time": "7:00 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Dueling Pianos",
-			"venue": "NaNola",
-			"date": "10/4/24",
-			"time": "7:00 PM",
-			"town": "Malta",
-			"link": "https://www.nanolarestaurant.com/calender"
-		},
-		{
-			"artist": "Pile / Oceanator / Bruiser & Bicycle",
-			"venue": "No Fun",
-			"date": "10/4/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/pile-oceanator-bruiser-bicycle-tickets-914957451367?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Nickopotamus",
-			"venue": "The Eleven at Lark Hall",
-			"date": "10/4/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/first-friday-happy-hour-at-the-eleven-with-nickopotamus-free-show-tickets-999836165887?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Live & Local at The Linda – Buggy Jive + Lennox",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/4/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/live-local-at-the-linda-buggy-jive-with-lennox-tickets-989009472957"
-		},
-		{
-			"artist": "Blippi | Join the Band Tour",
-			"venue": "The Palace Theater",
-			"date": "10/4/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/000060ABD57A667B"
-		},
-		{
-			"artist": "Rigometrics",
-			"venue": "Unihog",
-			"date": "10/4/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Drag Night",
-			"venue": "Ophelia's on Broadway",
-			"date": "10/4/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ophelias.rocks/events/drag-night"
-		},
-		{
-			"artist": "Folk Heritage Series: The Brothers Four",
-			"venue": "Caffè Lena",
-			"date": "10/4/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Robert Kelly",
-			"venue": "Cohoes Music Hall",
-			"date": "10/5/24",
-			"time": "8:00 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Lou Gramm| One Last Look Tours",
-			"venue": "The Palace Theater",
-			"date": "10/5/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/00006099E7018066"
-		},
-		{
-			"artist": "Kennedy",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/5/24",
-			"time": "8:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116933&qty=0"
-		},
-		{
-			"artist": "Gratefully Yours",
-			"venue": "Unihog",
-			"date": "10/5/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Troupe Sings Taylor Swift (Kids Show)",
-			"venue": "Ophelia's on Broadway",
-			"date": "10/5/24",
-			"time": "1:00 PM",
-			"town": "Albany",
-			"link": "https://www.ophelias.rocks/events/troupe-sings-taylor-swift"
-		},
-		{
-			"artist": "Troupe Sings Taylor Swift (Adult Show)",
-			"venue": "Ophelia's on Broadway",
-			"date": "10/5/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ophelias.rocks/events/troupe-sings-taylor-swift"
-		},
-		{
-			"artist": "Tops of Trees",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "10/5/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/tops-of-trees-1"
-		},
-		{
-			"artist": "Caffé Lena @ SPAC",
-			"venue": "SPAC",
-			"date": "10/5/24",
-			"time": "12:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/spac/"
-		},
-		{
-			"artist": "Violent By Design",
-			"venue": "Empire Underground",
-			"date": "10/5/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006115CE9738D2"
-		},
-		{
-			"artist": "The Lawn Sausages: The Last Schmaltz",
-			"venue": "Cohoes Music Hall",
-			"date": "10/6/24",
-			"time": "2:00 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Graham Nash – More Evenings of Songs and Stories",
-			"venue": "The Egg",
-			"date": "10/6/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116633"
-		},
-		{
-			"artist": "Rick Wakeman ñ Final Solo Tour",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/6/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117048&qty=0"
-		},
-		{
-			"artist": "Richard Shindell",
-			"venue": "Caffè Lena",
-			"date": "10/6/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Graham Nash - More Evenings of Songs and Stories",
-			"venue": "The Egg",
-			"date": "10/6/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116633"
-		},
-		{
-			"artist": "The Egg Presents: Bilal",
-			"venue": "The Egg",
-			"date": "10/7/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116691"
-		},
-		{
-			"artist": "Victor Wooten and The Wooten Brothers",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/7/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116797&qty=0"
-		},
-		{
-			"artist": "The Egg Presents: Bilal",
-			"venue": "The Egg",
-			"date": "10/7/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117747"
-		},
-		{
-			"artist": "Taco Tuesday with Mike McMann",
-			"venue": "Unihog",
-			"date": "10/8/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Jazz at Caffé Lena: Chuck Lamb Trio Featuring Russell Haight",
-			"venue": "Caffè Lena",
-			"date": "10/8/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Public Serpents",
-			"venue": "Empire Underground",
-			"date": "10/9/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000611C0A3835C3"
-		},
-		{
-			"artist": "Dirty Honey: Can't Find The Breaks Tour",
-			"venue": "Empire Live",
-			"date": "10/9/24",
-			"time": "7:45 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060E1BC791E00"
-		},
-		{
-			"artist": "The Egg Presents: Encanto Sing-Along Film Concert (for school groups only)",
-			"venue": "The Egg",
-			"date": "10/9/24",
-			"time": "10:00 AM",
-			"town": "Albany",
-			"link": "https://www.theegg.org/events/"
-		},
-		{
-			"artist": "The Egg Presents: Encanto Sing-Along Film Concert",
-			"venue": "The Egg",
-			"date": "10/9/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117637"
-		},
-		{
-			"artist": "Shred Flintstone / Zookraught / Cheesy Snacks / Canella",
-			"venue": "No Fun",
-			"date": "10/10/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/shred-flinstone-zookraught-cheesy-snacks-canella-tickets-998497552057?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Three Dog Night",
-			"venue": "The Egg",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116421"
-		},
-		{
-			"artist": "Victor Wainwright & The Train",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/victor-wainwright-the-train-tickets-923099454317"
-		},
-		{
-			"artist": "Momentum Series: Vanessa Collier - Album Release",
-			"venue": "Caffè Lena",
-			"date": "10/10/24",
-			"time": "5:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Momentum Series: Vanessa Collier - Album Release",
-			"venue": "Caffè Lena",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Chase Matthew",
-			"venue": "Empire Live",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060B49DD11D97"
-		},
-		{
-			"artist": "Mac Saturn",
-			"venue": "Empire Underground",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000612D19706FCE"
-		},
-		{
-			"artist": "Three Dog Night",
-			"venue": "The Egg",
-			"date": "10/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116421"
-		},
-		{
-			"artist": "Fire Pit Friday feat. Hop City Hellcats",
-			"venue": "Brewery Ommegang",
-			"date": "10/11/24",
-			"time": "6:00 PM",
-			"town": "Cooperstown",
-			"link": "https://www.ommegang.com/events/fire-pit-friday-featuring-hop-city-hellcats/"
-		},
-		{
-			"artist": "Live and Let Die: The Music of Paul McCartney",
-			"venue": "Cohoes Music Hall",
-			"date": "10/11/24",
-			"time": "7:30 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "The Figgs",
-			"venue": "No Fun",
-			"date": "10/11/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.nofuntroy.com/events"
-		},
-		{
-			"artist": "Blush",
-			"venue": "The Eleven at Lark Hall",
-			"date": "10/11/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/blush-at-the-eleven-at-lark-hall-free-show-tickets-999766176547?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Stephane Wrembel Sextet",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/stephane-wrembel-sextet-tickets-923113556497"
-		},
-		{
-			"artist": "Kathleen Madigan",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/11/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116322&qty=0"
-		},
-		{
-			"artist": "Faith Kelly",
-			"venue": "Unihog",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Glass Pony with Ernie & The Band",
-			"venue": "Ophelia's on Broadway",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ophelias.rocks/events/glass-pony-with-ernie-the-band"
-		},
-		{
-			"artist": "The Brooklyn Holdouts 'n Autumn Highlights",
-			"venue": "The Cock 'n Bull",
-			"date": "10/11/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/the-brooklyn-holdouts-n-autumn-highlights/"
-		},
-		{
-			"artist": "The Schmooze",
-			"venue": "Centre Street Pub",
-			"date": "10/11/24",
-			"time": "9:00 PM",
-			"town": "Schenectady",
-			"link": ""
-		},
-		{
-			"artist": "Melissa Ferrick with opener Sweet Petunia",
-			"venue": "Caffè Lena",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Skeletal Remains & Bewitcher",
-			"venue": "Empire Underground",
-			"date": "10/11/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060D402E232C1"
-		},
-		{
-			"artist": "Sleepy Hallow & Sheff G",
-			"venue": "Empire Live",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060FA09E33A75"
-		},
-		{
-			"artist": "The Mountain Goats",
-			"venue": "The Egg",
-			"date": "10/11/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117627"
-		},
-		{
-			"artist": "Who's Next: The Ultimate Trivute to The Who",
-			"venue": "Cohoes Music Hall",
-			"date": "10/12/24",
-			"time": "7:30 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Elton Undressed: Todd Alsup Sings Elton John",
-			"venue": "Lark Hall",
-			"date": "10/12/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/elton-undressed-todd-alsup-sings-elton-john-tickets-925507396537?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Home Body",
-			"venue": "No Fun",
-			"date": "10/12/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/home-body-tickets-999558615727?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Richard Thompson Electric Trio",
-			"venue": "The Egg",
-			"date": "10/12/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116925"
-		},
-		{
-			"artist": "Little Saints",
-			"venue": "The Park Theatre",
-			"date": "10/12/24",
-			"time": "4:00 PM",
-			"town": "Glens Falls",
-			"link": "https://www.parktheatergf.com/upcoming-events/#/events/112948"
-		},
-		{
-			"artist": "Little Lies: A Fleetwood Mac Tribute",
-			"venue": "Ophelia's on Broadway",
-			"date": "10/12/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ophelias.rocks/events/little-lies-a-fleetwood-mac-tribute"
-		},
-		{
-			"artist": "Big Radio",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "10/12/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/big-radio-1-y6mya"
-		},
-		{
-			"artist": "Ill Funk Ensemble",
-			"venue": "Centre Street Pub",
-			"date": "10/12/24",
-			"time": "9:00 PM",
-			"town": "Schenectady",
-			"link": ""
-		},
-		{
-			"artist": "Jeffrey Gaines",
-			"venue": "Caffè Lena",
-			"date": "10/12/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Kakos",
-			"venue": "Empire Underground",
-			"date": "10/12/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060C3EAE62595"
-		},
-		{
-			"artist": "Bop To The Top",
-			"venue": "Empire Live",
-			"date": "10/12/24",
-			"time": "9:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F1913215E4"
-		},
-		{
-			"artist": "Richard Thompson: Ship To Shore",
-			"venue": "The Egg",
-			"date": "10/12/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116925"
-		},
-		{
-			"artist": "The Troupe Sings Taylor",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "10/13/24",
-			"time": "2:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/the-troupe-sings-taylor"
-		},
-		{
-			"artist": "Millstone Rounders",
-			"venue": "The Cock 'n Bull",
-			"date": "10/13/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/millstone-rounders/"
-		},
-		{
-			"artist": "Emilie-Claire Barlow",
-			"venue": "Caffè Lena",
-			"date": "10/13/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Ricky Montgomery - The Rick Tour: One Rick to Rule Them All",
-			"venue": "Empire Live",
-			"date": "10/13/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006088B7D817A5"
-		},
-		{
-			"artist": "The California Honeydrops",
-			"venue": "Lark Hall",
-			"date": "10/14/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/the-california-honeydrops-fall-in-love-again-tour-2024-tickets-895576392097?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Fozzy",
-			"venue": "Empire Live",
-			"date": "10/14/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006075DDD4213C"
-		},
-		{
-			"artist": "Taco Tuesday with Pocket Vinyl",
-			"venue": "Unihog",
-			"date": "10/15/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Rochmon Record Club Listening Party - The Beatles \"Let it Be",
-			"venue": "Caffè Lena",
-			"date": "10/15/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Jon Langston",
-			"venue": "Frog Alley Brewing",
-			"date": "10/17/24",
-			"time": "7:00 PM",
-			"town": "Schenectady",
-			"link": "https://frogalleybrewing.com/events/jon-langston-live-at-frog-alley"
-		},
-		{
-			"artist": "The Egg Presents: The Robert Cray Band",
-			"venue": "The Egg",
-			"date": "10/17/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116944"
-		},
-		{
-			"artist": "Rochmon Record Club Listening Party: The Beatles' \"White Album",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/17/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/rochmon-record-club-listening-party-the-beatles-white-album-sides-34-tickets-983906239047"
-		},
-		{
-			"artist": "Comedy Bang Bang",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/17/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117631&qty=0"
-		},
-		{
 			"artist": "Robert Ellis",
 			"venue": "Caffè Lena",
 			"date": "10/17/24",
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Dale Hollow",
-			"venue": "Empire Underground",
-			"date": "10/17/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060DB08F334C3"
-		},
-		{
-			"artist": "The Egg Presents: The Robert Cray Band",
-			"venue": "The Egg",
-			"date": "10/17/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116944"
-		},
-		{
-			"artist": "Noah Gundersen w/ Abby Gundersen: Ledges 10 Year Anniversary",
-			"venue": "Lark Hall",
-			"date": "10/18/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/noah-gundersen-wabby-gundersen-ledges-10-year-anniversary-tickets-912706057387?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Bee Side Fest - Everybody That Loves You, Senior Living, Retail Drugs, Service Industry",
-			"venue": "No Fun",
-			"date": "10/18/24",
-			"time": "6:00 PM",
-			"town": "Troy",
-			"link": "https://www.nofuntroy.com/events"
-		},
-		{
-			"artist": "Renaissance - In Gratitude Farewell Tour",
-			"venue": "The Egg",
-			"date": "10/18/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116585"
-		},
-		{
-			"artist": "Matty Stecks",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/18/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/matty-stecks-old-friends-beckoned-new-sounds-reckoned-tickets-923116836307"
-		},
-		{
-			"artist": "Zakir Hussain and Rahul Sharma",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/18/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117237&qty=0"
-		},
-		{
-			"artist": "Late Night Philosophers",
-			"venue": "Centre Street Pub",
-			"date": "10/18/24",
-			"time": "9:00 PM",
-			"town": "Schenectady",
-			"link": ""
 		},
 		{
 			"artist": "Tom Paxton & the Don Juans",
@@ -723,148 +27,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Czarface",
-			"venue": "Empire Underground",
-			"date": "10/18/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F3C4FC2D70"
-		},
-		{
-			"artist": "James Kennedy",
-			"venue": "Empire Live",
-			"date": "10/18/24",
-			"time": "9:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000611B9E263173"
-		},
-		{
-			"artist": "The Egg and Union College Present: Eisenhower Dance Detroit",
-			"venue": "The Egg",
-			"date": "10/18/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117385"
-		},
-		{
-			"artist": "Renaissance - In Gratitude Farewell Tour",
-			"venue": "The Egg",
-			"date": "10/18/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116585"
-		},
-		{
-			"artist": "Back in Black- The true AC/DC experience",
-			"venue": "Cohoes Music Hall",
-			"date": "10/19/24",
-			"time": "7:30 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Bee Side Fest - TAGABOW, Her New Knife, Mall Goth, CPS, Glimmer, Cigarettes After Breakfast, The Great Depression, Dumpcake, Deep Slut, Galene",
-			"venue": "No Fun",
-			"date": "10/19/24",
-			"time": "6:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/they-are-gutting-a-body-of-water-tickets-999595616397?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "ZOSO: The Ultimate Led Zeppelin Experience",
-			"venue": "The Egg",
-			"date": "10/19/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116869"
-		},
-		{
-			"artist": "San Miguel Frasier",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/19/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/san-miguel-frasier-tickets-923122884397"
-		},
-		{
-			"artist": "Big Eyed Fish",
-			"venue": "Unihog",
-			"date": "10/19/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Flood Road",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "10/19/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/flood-road"
-		},
-		{
-			"artist": "Wide Awake",
-			"venue": "Centre Street Pub",
-			"date": "10/19/24",
-			"time": "9:00 PM",
-			"town": "Schenectady",
-			"link": ""
-		},
-		{
 			"artist": "Ari Hest with opener Jacob Shipley",
 			"venue": "Caffè Lena",
 			"date": "10/19/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "BabyJake",
-			"venue": "Empire Underground",
-			"date": "10/19/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F18B9E14A8"
-		},
-		{
-			"artist": "Daisy Dukes & Cowboy Boots\" Tour with TVBOO",
-			"venue": "Empire Live",
-			"date": "10/19/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F51FE728FE"
-		},
-		{
-			"artist": "Albany Symphony Opening Night: Michael Daughtery + Tchaikovsky's First Concerto",
-			"venue": "The Palace",
-			"date": "10/19/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.albanysymphony.com/TheatreManager/102/online?bestavail=115412&qty=0"
-		},
-		{
-			"artist": "Pam Tilis- Kevin Richards' Up Close Country Series",
-			"venue": "Cohoes Music Hall",
-			"date": "10/20/24",
-			"time": "7:00 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "The Fab Four: USA Meets The Beatles!",
-			"venue": "The Egg",
-			"date": "10/20/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116491"
-		},
-		{
-			"artist": "Masters of Nostalgia",
-			"venue": "The Cock 'n Bull",
-			"date": "10/20/24",
-			"time": "5:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/masters-of-nostalgia/"
 		},
 		{
 			"artist": "Sara Milonovich & Daisycutter",
@@ -875,132 +43,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Rockin' Pink For Breast Cancer with Vintri Hill",
-			"venue": "Empire Underground",
-			"date": "10/20/24",
-			"time": "5:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000610DA7CC243B"
-		},
-		{
-			"artist": "The Egg Presents: Family Circle #2 with Veena and Devesh Chandra",
-			"venue": "The Egg",
-			"date": "10/20/24",
-			"time": "2:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117736"
-		},
-		{
-			"artist": "Murray's Law",
-			"venue": "The Egg",
-			"date": "10/20/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118169"
-		},
-		{
-			"artist": "The Fab Four: USA Meets The Beatles!",
-			"venue": "The Egg",
-			"date": "10/20/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116491"
-		},
-		{
-			"artist": "BEAT - Belew/Vai/Levin/Carey play 80s King Crimson",
-			"venue": "The Egg",
-			"date": "10/21/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116420"
-		},
-		{
-			"artist": "BEAT Belew/Vai/Levin/Carey play 80s King Crimson",
-			"venue": "The Egg",
-			"date": "10/21/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116420"
-		},
-		{
-			"artist": "The Rocky Horror Picture Show",
-			"venue": "The Palace",
-			"date": "10/21/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/00006108AACD3CF6"
-		},
-		{
-			"artist": "The Egg Presents: The Lone Bellow - BY REQUEST ONLY TOUR",
-			"venue": "The Egg",
-			"date": "10/22/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116948"
-		},
-		{
-			"artist": "Australian Chamber Orchestra",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/22/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116454&qty=0"
-		},
-		{
-			"artist": "Taco Tuesday with Peter Pashoukas",
-			"venue": "Unihog",
-			"date": "10/22/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "The Egg Presents: The Lone Bellow - BY REQUEST ONLY Tour",
-			"venue": "The Egg",
-			"date": "10/22/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116948"
-		},
-		{
 			"artist": "Howl Story Slam",
 			"venue": "Caffè Lena",
 			"date": "10/23/24",
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "JD Simo and Luther Dickinson",
-			"venue": "Cohoes Music Hall",
-			"date": "10/24/24",
-			"time": "7:30 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Magic Beans",
-			"venue": "Lark Hall",
-			"date": "10/24/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/magic-beans-with-special-guest-squeaky-feet-tickets-999310975027?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Christian McBride (with Ursa Major)",
-			"venue": "Saratoga Performing Arts Center",
-			"date": "10/24/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/christian-mcbride-and-ursa-major/"
-		},
-		{
-			"artist": "Christian McBride and Ursa Major",
-			"venue": "Spa Little Theater",
-			"date": "10/24/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/christian-mcbride-and-ursa-major/book/55001/"
 		},
 		{
 			"artist": "Bright Series: John Smith",
@@ -1011,124 +59,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Cavetown",
-			"venue": "The Egg",
-			"date": "10/24/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117559"
-		},
-		{
-			"artist": "Kitchen Dwellers with Sicard Hollow",
-			"venue": "Cohoes Music Hall",
-			"date": "10/25/24",
-			"time": "8:00 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Byrdhouse 6th Anniversary: Mint Green / Apple Pie / Senior Living / AILA",
-			"venue": "No Fun",
-			"date": "10/25/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/byrdhouse-6th-anniversary-mint-green-apple-pie-senior-living-aila-tickets-999563570547?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Paula Poundstone",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "10/25/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116497&qty=0"
-		},
-		{
-			"artist": "TV Doctors",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "10/25/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/tv-doctors-1"
-		},
-		{
-			"artist": "Keith Pray Trio",
-			"venue": "The Cock 'n Bull",
-			"date": "10/25/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/keith-pray-trio-2024-10-25/"
-		},
-		{
 			"artist": "Reese Fulmer & The Carriage House Band Album Relese",
 			"venue": "Caffè Lena",
 			"date": "10/25/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Eighteen Visions",
-			"venue": "Empire Underground",
-			"date": "10/25/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060C499450E95"
-		},
-		{
-			"artist": "The Hot Mess Show with Diary of a Wimpy Kid Author Jeff Kinney",
-			"venue": "The Egg",
-			"date": "10/25/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118167"
-		},
-		{
-			"artist": "The Weight Band",
-			"venue": "The Egg",
-			"date": "10/25/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117628"
-		},
-		{
-			"artist": "An Evening with Jon Stewart",
-			"venue": "The Palace",
-			"date": "10/25/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/00006134BE1C5D37"
-		},
-		{
-			"artist": "Halloween's Metal Maddness",
-			"venue": "Cohoes Music Hall",
-			"date": "10/26/24",
-			"time": "7:30 PM",
-			"town": "Cohoes",
-			"link": "https://www.thecohoesmusichall.org/events"
-		},
-		{
-			"artist": "Beethoven with the Calidore Quartet",
-			"venue": "Saratoga Performing Arts Center",
-			"date": "10/26/24",
-			"time": "3:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/cms-10-26/"
-		},
-		{
-			"artist": "The Big Takeover",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "10/26/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/the-big-takeover-tickets-923885675927"
-		},
-		{
-			"artist": "Spacetrash and Tumblestop",
-			"venue": "Unihog",
-			"date": "10/26/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
 		},
 		{
 			"artist": "Professor Louie & The Crowmatix",
@@ -1139,68 +75,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Carnifex w/ Cryptopsy, Mental Cruelty, Organectomy, Heavy//Hitter",
-			"venue": "Empire Live",
-			"date": "10/26/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060B0EACE213A"
-		},
-		{
-			"artist": "Warren Miller's 75: A New Chapter",
-			"venue": "The Egg",
-			"date": "10/26/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/albany-ny-warren-millers-75-730-pm-tickets-995501891957"
-		},
-		{
-			"artist": "PhanArt At the Palace Theatre",
-			"venue": "The Palace",
-			"date": "10/26/24",
-			"time": "12:00 PM",
-			"town": "Albany",
-			"link": "https://www.palacealbany.org/events/detail/phanart-at-the-palace-theatre"
-		},
-		{
-			"artist": "The Egg Presents: Craig Ferguson: Pants on Fire",
-			"venue": "The Egg",
-			"date": "10/27/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117049"
-		},
-		{
 			"artist": "The Lovestruck Balladeers",
 			"venue": "Caffè Lena",
 			"date": "10/27/24",
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Punk Rock Flea Market",
-			"venue": "Empire Live",
-			"date": "10/27/24",
-			"time": "11:00 AM",
-			"town": "Albany",
-			"link": "https://empirelivealbany.com/"
-		},
-		{
-			"artist": "The Egg Presents: Craig Ferguson Pants on Fire",
-			"venue": "The Egg",
-			"date": "10/27/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117049"
-		},
-		{
-			"artist": "Taco Tuesday with Shannon Roy",
-			"venue": "Unihog",
-			"date": "10/29/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
 		},
 		{
 			"artist": "Anatomy of Exile",
@@ -1211,36 +91,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Set It Off: The Deathless Tour Part 2",
-			"venue": "Empire Live",
-			"date": "10/29/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060BD9D591C87"
-		},
-		{
-			"artist": "The Last Ten Seconds Of Life & Cell",
-			"venue": "Empire Underground",
-			"date": "10/29/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060DEFDEC3312"
-		},
-		{
 			"artist": "Lena Go Round- Songwriter Showcase with Erin Harkes",
 			"venue": "Caffè Lena",
 			"date": "10/30/24",
 			"time": "7:30 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Halloween with Fungkshui & the TV Doctors",
-			"venue": "Lark Hall",
-			"date": "10/31/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/lark-hall-presents-halloween-with-fungkshui-the-tv-doctors-tickets-991245531067?aff=ebdsoporgprofile"
 		},
 		{
 			"artist": "Deadgrass",
@@ -1251,84 +107,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Trick-or-Treat At The Palace!",
-			"venue": "The Palace",
-			"date": "10/31/24",
-			"time": "4:00 PM",
-			"town": "Albany",
-			"link": "https://www.palacealbany.org/events/detail/trick-or-treat-at-the-palace"
-		},
-		{
-			"artist": "Day of the Deadbeats: Celebrating 30 years of Playing Dead in Albany, NY",
-			"venue": "Lark Hall",
-			"date": "11/1/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/day-of-the-deadbeats-celebrating-30-years-of-playing-dead-in-albany-ny-tickets-991259883997?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Guerilla Toss / Abyssmals / 100 Psychic Dreams",
-			"venue": "No Fun",
-			"date": "11/1/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://www.eventbrite.com/e/guerilla-toss-abyssmals-100-psychic-dreams-tickets-984432643537?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Monkey & the Crowbar",
-			"venue": "The Eleven at Lark Hall",
-			"date": "11/1/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/happy-hour-with-monkey-the-crowbar-at-the-eleven-free-show-tickets-999835273217?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Live & Local at The Linda - Angelina Valente + Ryan Leddick",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/1/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/live-local-at-the-linda-presents-angelina-valente-and-ryan-leddick-tickets-989028148817"
-		},
-		{
-			"artist": "The Lox | 30th Anniversary Tour",
-			"venue": "The Palace Theater",
-			"date": "11/1/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/000060B5F0FC9232"
-		},
-		{
 			"artist": "Bright Series: Maya de Vitry",
 			"venue": "Caffè Lena",
 			"date": "11/1/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Overkill",
-			"venue": "Empire Live",
-			"date": "11/1/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000611ECF303FCD"
-		},
-		{
-			"artist": "The Charlie Parti",
-			"venue": "Empire Underground",
-			"date": "11/1/24",
-			"time": "9:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006129EA80463C"
-		},
-		{
-			"artist": "The Lox",
-			"venue": "The Palace",
-			"date": "11/1/24",
-			"time": "8;00pm",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/000060B5F0FC9232"
 		},
 		{
 			"artist": "Misty Blues: I'm Too Old For Games - Album Release & Live Tribute to Odetta",
@@ -1339,156 +123,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "An Evening With Justin Furstenfeld of Blue October – “Open Book”",
-			"venue": "The Egg",
-			"date": "11/2/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117051"
-		},
-		{
-			"artist": "Eddie B",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/2/24",
-			"time": "8:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117433&qty=0"
-		},
-		{
-			"artist": "Narrow North",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "11/2/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/narrow-north-1"
-		},
-		{
-			"artist": "The Phoenix and The Raven",
-			"venue": "Empire Underground",
-			"date": "11/2/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060C4A43911F0"
-		},
-		{
-			"artist": "GWAR",
-			"venue": "Empire Live",
-			"date": "11/2/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060CD8C6D0E7A"
-		},
-		{
-			"artist": "Curvention Presents: The Election",
-			"venue": "The Egg",
-			"date": "11/2/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/online?performance=118244"
-		},
-		{
-			"artist": "An Evening with Justin Furstenfeld of Blue October - \"Open Book'",
-			"venue": "The Egg",
-			"date": "11/2/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117051"
-		},
-		{
-			"artist": "Sawyer Fredericks & Cassandra Kubinski",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/3/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/sawyer-fredericks-cassandra-kubinski-tickets-995296036237"
-		},
-		{
-			"artist": "Orpheus Chamber Orchestra with Maxim Vengerov",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/3/24",
-			"time": "3:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116455&qty=0"
-		},
-		{
-			"artist": "Jacob Jolliff Band",
-			"venue": "The Cock 'n Bull",
-			"date": "11/3/24",
-			"time": "6:30 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/jacob-jolliff-band/"
-		},
-		{
 			"artist": "Christopher Paul Stelling",
 			"venue": "Caffè Lena",
 			"date": "11/3/24",
-			"time": "19:00",
+			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Metal & Music Mixer",
-			"venue": "Empire Live",
-			"date": "11/3/24",
-			"time": "1:00 PM",
-			"town": "Albany",
-			"link": "https://empirelivealbany.com/"
-		},
-		{
-			"artist": "Drew Lynch",
-			"venue": "The Egg",
-			"date": "11/3/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117386"
-		},
-		{
-			"artist": "The HU with Special Guest The Funeral Portrait",
-			"venue": "Empire Live",
-			"date": "11/4/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006109DCE9339C"
-		},
-		{
-			"artist": "Taco Tuesday with Will Pedicone",
-			"venue": "Unihog",
-			"date": "11/5/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "The Egg Presents: Cold Case Live",
-			"venue": "The Egg",
-			"date": "11/6/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116918"
-		},
-		{
-			"artist": "Nick Carter",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/6/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116265&qty=0"
-		},
-		{
-			"artist": "The Egg Presents: Cold Case Live",
-			"venue": "The Egg",
-			"date": "11/6/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116918"
-		},
-		{
-			"artist": "The Crossword Show with Zach Sherwin",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/7/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/the-crossword-show-with-zach-sherwin-tickets-993575169077"
 		},
 		{
 			"artist": "Michael McDermott",
@@ -1499,108 +139,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
-			"venue": "MVP Arena",
-			"date": "11/8/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1154"
-		},
-		{
-			"artist": "Caleb Caudle & The Sweet Critters",
-			"venue": "The Park Theatre",
-			"date": "11/8/24",
-			"time": "8:00 PM",
-			"town": "Glens Falls",
-			"link": "https://www.parktheatergf.com/upcoming-events/#/events/106288"
-		},
-		{
-			"artist": "Magic of Motown",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/8/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116584&qty=0"
-		},
-		{
-			"artist": "Castro and the Fidelities",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "11/8/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/castro-and-the-fidelities-3"
-		},
-		{
-			"artist": "Drank the Gold",
-			"venue": "The Cock 'n Bull",
-			"date": "11/8/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/drank-the-gold-3/"
-		},
-		{
 			"artist": "Jim Gaudet and the Railroad Boys",
 			"venue": "Caffè Lena",
 			"date": "11/8/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Dexter and The Moonrocks",
-			"venue": "Empire Underground",
-			"date": "11/8/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F3BC5C29E0"
-		},
-		{
-			"artist": "Pigeons Playing Ping Pong",
-			"venue": "Empire Live",
-			"date": "11/8/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060EFF2EB1EF4"
-		},
-		{
-			"artist": "Cash For Coats - Palace Sessions Live With The NolaNauts",
-			"venue": "The Palace",
-			"date": "11/8/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.universe.com/events/cash-for-coats-palace-sessions-live-with-the-nolanauts-tickets-DSY0T2"
-		},
-		{
-			"artist": "LaMP ( Russ Lawton, Scott Metzger, Ray Paczkowski)",
-			"venue": "Lark Hall",
-			"date": "11/9/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/lamp-russ-lawton-scott-metzger-ray-paczkowski-tickets-945261812527?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
-			"venue": "MVP Arena",
-			"date": "11/9/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1155"
-		},
-		{
-			"artist": "A.I.M. by Kyle Abraham",
-			"venue": "Saratoga Performing Arts Center",
-			"date": "11/9/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/a-i-m-by-kyle-abraham/"
-		},
-		{
-			"artist": "Running on Jackson - The Premier Jackson Brown Tribute Concert",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/9/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/running-on-jackson-the-premier-jackson-brown-tribute-concert-tickets-923892044977"
 		},
 		{
 			"artist": "Still Rockin' in the Free World: A Tribute to Neil Young",
@@ -1611,76 +155,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Spread Eagle",
-			"venue": "Empire Underground",
-			"date": "11/9/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060A1D784210C"
-		},
-		{
-			"artist": "Pop Evil/Bad Wolves: The Animals Instinct Tour",
-			"venue": "Empire Live",
-			"date": "11/9/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006112A2552D2F"
-		},
-		{
-			"artist": "The Egg Presents: David Cross - The End of The Beginning of The End",
-			"venue": "The Egg",
-			"date": "11/9/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116605"
-		},
-		{
-			"artist": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
-			"venue": "MVP Arena",
-			"date": "11/10/24",
-			"time": "9:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1156"
-		},
-		{
-			"artist": "A.I.M. by Kyle Abraham",
-			"venue": "Saratoga Performing Arts Center",
-			"date": "11/10/24",
-			"time": "2:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/a-i-m-by-kyle-abraham/"
-		},
-		{
 			"artist": "Ryanhood",
 			"venue": "Caffè Lena",
 			"date": "11/10/24",
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Vertical Horizon: Everything You Want 25th Anniversary Tour",
-			"venue": "Empire Live",
-			"date": "11/10/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060FA0ECB3B8D"
-		},
-		{
-			"artist": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
-			"venue": "MVP Arena",
-			"date": "11/11/24",
-			"time": "10:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1157"
-		},
-		{
-			"artist": "Taco Tuesday with Peter Anello",
-			"venue": "Unihog",
-			"date": "11/12/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
 		},
 		{
 			"artist": "Jazz at Caffé Lena: Chuck Lamb Trio Featuring Stanley Jordan",
@@ -1691,36 +171,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Glenn Miller Orchestra",
-			"venue": "The Egg",
-			"date": "11/12/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117630"
-		},
-		{
-			"artist": "EMBARGOED Steve Solomon",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/13/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117633&qty=0"
-		},
-		{
 			"artist": "Skidmore Jazz Students",
 			"venue": "Caffè Lena",
 			"date": "11/13/24",
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Haley Heyenderickx w/ Kalia Vandever",
-			"venue": "The Egg",
-			"date": "11/13/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117431"
 		},
 		{
 			"artist": "Christine Lenée with opener Ryan David Green",
@@ -1731,84 +187,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Odie Leigh: Carrier Pigeon Tour",
-			"venue": "Lark Hall",
-			"date": "11/15/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/odie-leigh-carrier-pigeon-tour-tickets-912688625247?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "MercyMe / TobyMac Tour",
-			"venue": "MVP Arena",
-			"date": "11/15/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/00006074971A251D"
-		},
-		{
-			"artist": "The Chicago Experience: Featuring Chicago Transit",
-			"venue": "The Egg",
-			"date": "11/15/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=115919"
-		},
-		{
-			"artist": "Jo Koy | Just Being Koy Tour",
-			"venue": "The Palace Theater",
-			"date": "11/15/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/0000609ACAA47BB0"
-		},
-		{
 			"artist": "Dana Cooper - Album Release",
 			"venue": "Caffè Lena",
 			"date": "11/15/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "The Emo Night Tour, 18+ w/ ID ONLY. No Exceptions",
-			"venue": "Empire Live",
-			"date": "11/15/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000613BD3CD42E7"
-		},
-		{
-			"artist": "The Chicago Experience: Featuring Chicago Transit",
-			"venue": "The Egg",
-			"date": "11/15/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=115919"
-		},
-		{
-			"artist": "Jo Koy: Just Being Koy Tour",
-			"venue": "The Palace",
-			"date": "11/15/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/0000609ACAA47BB0"
-		},
-		{
-			"artist": "The National Reserve",
-			"venue": "Unihog",
-			"date": "11/16/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Sahara 4 (Head Sound)",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "11/16/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/sahara-4"
 		},
 		{
 			"artist": "TrueSongs 2024: Lyrics of Life at the Spa Little Theater",
@@ -1819,30 +203,6 @@ export const musicData =
 			"link": "https://www.caffelena.org/truesongs/"
 		},
 		{
-			"artist": "St. Catherine's Center for Children Presents: Elvis: Good Rockin' Tonight",
-			"venue": "The Egg",
-			"date": "11/16/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117389"
-		},
-		{
-			"artist": "The Egg Presents: Bill Frisell Trio featuring Luke Bergman & Rudy Royston",
-			"venue": "The Egg",
-			"date": "11/16/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118234"
-		},
-		{
-			"artist": "Nick Swardson: Toilet Head",
-			"venue": "The Egg",
-			"date": "11/17/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116671"
-		},
-		{
 			"artist": "The Beathes Caffé",
 			"venue": "Caffè Lena",
 			"date": "11/17/24",
@@ -1851,156 +211,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Exodus and Havok with special guest Candy and Dead Heat",
-			"venue": "Empire Live",
-			"date": "11/17/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006131F0C0429E"
-		},
-		{
-			"artist": "The Egg Presents: Family Circle #3 with Veena and Devesh Chandra",
-			"venue": "The Egg",
-			"date": "11/17/24",
-			"time": "2:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117737"
-		},
-		{
-			"artist": "Nick Swardson: Toilet Head",
-			"venue": "The Egg",
-			"date": "11/17/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116671"
-		},
-		{
-			"artist": "The Egg Presents: Abdullah Ibrahim Trio / Sandhi Trio",
-			"venue": "The Egg",
-			"date": "11/17/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117429"
-		},
-		{
-			"artist": "Taco Tuesday with Ian Losz",
-			"venue": "Unihog",
-			"date": "11/19/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Jim Gaudet & The Railroad Boys",
-			"venue": "The Cock 'n Bull",
-			"date": "11/20/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/jim-gaudet-the-railroad-boys/"
-		},
-		{
-			"artist": "Rochmon Record Club Listening Party: Bob Dylan's \"Blood on the Tracks",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/21/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/rochmon-record-club-listening-party-bob-dylan-blood-on-the-tracks-tickets-983913901967"
-		},
-		{
-			"artist": "An Acoustic Evening with MATISYAHU",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/21/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117434&qty=0"
-		},
-		{
-			"artist": "Dorado Schmitt and Sons: Django Festival All Stars",
-			"venue": "Saratoga Performing Arts Center",
-			"date": "11/22/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/dorado-schmitt-and-sons-django-festival-all-stars/"
-		},
-		{
-			"artist": "Two Planets Away",
-			"venue": "The Eleven at Lark Hall",
-			"date": "11/22/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/two-planets-away-at-the-eleven-at-lark-hall-free-show-tickets-1001592689697?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Caligula Blushed - A Visceral Live Experience for Smiths & Morrissey Fans",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/22/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/caligula-blushed-a-visceral-live-experience-for-smiths-morrissey-fans-tickets-923897892467"
-		},
-		{
-			"artist": "High Noon: A Tribute to Lynyrd Skynyrd and Southern Rock",
-			"venue": "The Park Theatre",
-			"date": "11/22/24",
-			"time": "8:00 PM",
-			"town": "Glens Falls",
-			"link": "https://www.parktheatergf.com/upcoming-events/#/events/100785"
-		},
-		{
-			"artist": "Tame the Rooster",
-			"venue": "Unihog",
-			"date": "11/22/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
 			"artist": "Lucy Kaplansky",
 			"venue": "Caffè Lena",
 			"date": "11/22/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Ekoh - Drag Me From Hell Tour",
-			"venue": "Empire Underground",
-			"date": "11/22/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000612912D14C6A"
-		},
-		{
-			"artist": "Brain Regan",
-			"venue": "The Egg",
-			"date": "11/23/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116582"
-		},
-		{
-			"artist": "The Slambovian Circus of Dreams",
-			"venue": "The Linda - WAMC Performing Arts Studio",
-			"date": "11/23/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/the-slambovian-circus-of-dreams-tickets-923900640687"
-		},
-		{
-			"artist": "Renaissance Quartet",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/23/24",
-			"time": "4:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116456&qty=0"
-		},
-		{
-			"artist": "Midnight Choir",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "11/23/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/midnight-choir"
 		},
 		{
 			"artist": "Darlingside",
@@ -2019,54 +235,6 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Thanksgiving Metal Throwdown Food Drive",
-			"venue": "Empire Underground",
-			"date": "11/23/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060E3C73E2495"
-		},
-		{
-			"artist": "Brian Regan (EARLY SHOW)",
-			"venue": "The Egg",
-			"date": "11/23/24",
-			"time": "5:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117604"
-		},
-		{
-			"artist": "Brian Regan",
-			"venue": "The Egg",
-			"date": "11/23/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=116582"
-		},
-		{
-			"artist": "Micro All-Star Mania: Midget Wrestling!",
-			"venue": "Frog Alley Brewing",
-			"date": "11/24/24",
-			"time": "8:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.universe.com/events/micro-all-stars-midget-wrestling-tickets-YL9ZPX"
-		},
-		{
-			"artist": "Dorado Schmitt and Sons: Django Festival All Stars with Special Guest Hot Club Saratoga",
-			"venue": "Spa Little Theater",
-			"date": "11/24/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/dorado-schmitt-and-the-django-festival-allstars/book/55201/"
-		},
-		{
-			"artist": "Rocky Mountain High Experience: A John Denver Christmas",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/24/24",
-			"time": "3:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116934&qty=0"
-		},
-		{
 			"artist": "Momentum Series: Jazzmeia Horn",
 			"venue": "Caffè Lena",
 			"date": "11/24/24",
@@ -2081,14 +249,6 @@ export const musicData =
 			"time": "7:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Taco Tuesday with Belle Skinner",
-			"venue": "Unihog",
-			"date": "11/26/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
 		},
 		{
 			"artist": "Jonathan Greene aand The Grand Boubousse",
@@ -2099,76 +259,12 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Gillian Welch & David Rawlings",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "11/27/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117390&qty=0"
-		},
-		{
-			"artist": "DeeJay Element presents An Underground Thanksgiving",
-			"venue": "Empire Underground",
-			"date": "11/27/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300061291A5B4EB5"
-		},
-		{
-			"artist": "Ladies Love R&B",
-			"venue": "MVP Arena",
-			"date": "11/29/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/0000606F99892E8B"
-		},
-		{
-			"artist": "Keith Pray Trio",
-			"venue": "The Cock 'n Bull",
-			"date": "11/29/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/keith-pray-trio-2024-11-29/"
-		},
-		{
 			"artist": "Frank Solivan and Jillian Lea",
 			"venue": "Caffè Lena",
 			"date": "11/29/24",
 			"time": "8:00 PM",
 			"town": "Saratoga Springs",
 			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "He$h: Anarchy Tour",
-			"venue": "Empire Underground",
-			"date": "11/29/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F7BC7A4316"
-		},
-		{
-			"artist": "The Egg & BenDeLaCreme Present: The Jinkx & DeLa Holiday Show",
-			"venue": "The Egg",
-			"date": "11/29/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117230"
-		},
-		{
-			"artist": "Bellas Bartok",
-			"venue": "Unihog",
-			"date": "11/30/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Steve Oill",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "11/30/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/8b4akglr8kent79gj5h9jfn47as5bm"
 		},
 		{
 			"artist": "Arlen Roth Band",
@@ -2179,22 +275,6 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Holiday Rhymes",
-			"venue": "Empire Underground",
-			"date": "11/30/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006133E73447F6"
-		},
-		{
-			"artist": "Alan Cumming Uncut",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "12/1/24",
-			"time": "7:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116828&qty=0"
-		},
-		{
 			"artist": "Fred Small",
 			"venue": "Caffè Lena",
 			"date": "12/1/24",
@@ -2203,28 +283,252 @@ export const musicData =
 			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
-			"artist": "Fearless: The Taylor Swift Experience",
-			"venue": "The Egg",
-			"date": "12/1/24",
+			"artist": "SIRSY",
+			"venue": "Caffè Lena",
+			"date": "12/6/24",
+			"time": "8:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "SIRSY",
+			"venue": "Caffè Lena",
+			"date": "12/7/24",
+			"time": "8:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "SIRSY",
+			"venue": "Caffè Lena",
+			"date": "12/8/24",
+			"time": "3:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Jazz at Caffé Lena: Chuck Lamb Trio Featured Artist TBA",
+			"venue": "Caffè Lena",
+			"date": "12/10/24",
+			"time": "7:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Cyrille Aimée",
+			"venue": "Caffè Lena",
+			"date": "12/12/24",
+			"time": "7:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "The Empty Pockets Mistletunes Holiday Tour",
+			"venue": "Caffè Lena",
+			"date": "12/13/24",
+			"time": "8:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Peter Yarrow, of Peter, Paul & Mary, and Mustard's Retreat",
+			"venue": "Caffè Lena",
+			"date": "12/14/24",
+			"time": "7:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Peter Yarrow, of Peter, Paul & Mary, and Mustard's Retreat",
+			"venue": "Caffè Lena",
+			"date": "12/15/24",
+			"time": "3:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Rees Shad & The Conversations",
+			"venue": "Caffè Lena",
+			"date": "12/20/24",
+			"time": "7:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "Nefesh Mountain: The Love & Light Tour",
+			"venue": "Caffè Lena",
+			"date": "12/21/24",
+			"time": "8:00 PM",
+			"town": "Saratoga Springs",
+			"link": "https://www.caffelena.org/live-events/"
+		},
+		{
+			"artist": "A Joyful Noise!\" Gospel Dinner led by soulist Garland Nelson\tCaffè Lena\t12/22/24\t5:00 PM\tSaratoga Springs\thttps://www.caffelena.org/live-events/\nStephen Kellogg\tCaffè Lena\t12/27/24\t5:00 PM\tSaratoga Springs\thttps://www.caffelena.org/live-events/\nStephen Kellogg\tCaffè Lena\t12/27/24\t8:00 PM\tSaratoga Springs\thttps://www.caffelena.org/live-events/\nNew American Cuisine\tCaffè Lena\t12/28/24\t4:00 PM\tSaratoga Springs\thttps://www.caffelena.org/live-events/\nNew American Cuisine\tCaffè Lena\t12/28/24\t7:00 PM\tSaratoga Springs\thttps://www.caffelena.org/live-events/\nThe Legend of Sleepy Hollow\tCapital Repertory Theatre\t10/19/24\t11:00 AM\tAlbany\thttps://attherep.org/event/the-legend-of-sleepy-hollow-2/\nWide Awake\tCentre Street Pub\t10/19/24\t9:00 PM\tSchenectady\t\nBack in Black- The true AC/DC experience\tCohoes Music Hall\t10/19/24\t7:30 PM\tCohoes\thttps://www.thecohoesmusichall.org/events\nPam Tilis- Kevin Richards' Up Close Country Series\tCohoes Music Hall\t10/20/24\t7:00 PM\tCohoes\thttps://www.thecohoesmusichall.org/events\nJD Simo and Luther Dickinson\tCohoes Music Hall\t10/24/24\t7:30 PM\tCohoes\thttps://www.thecohoesmusichall.org/events\nKitchen Dwellers with Sicard Hollow\tCohoes Music Hall\t10/25/24\t8:00 PM\tCohoes\thttps://www.thecohoesmusichall.org/events\nHalloween's Metal Maddness\tCohoes Music Hall\t10/26/24\t7:30 PM\tCohoes\thttps://www.thecohoesmusichall.org/events\nJames Kennedy\tEmpire Live\t10/18/24\t9:00 PM\tAlbany\thttps://www.ticketmaster.com/event/3000611B9E263173\nDaisy Dukes & Cowboy Boots\" Tour with TVBOO\tEmpire Live\t10/19/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F51FE728FE\nCarnifex w/ Cryptopsy, Mental Cruelty, Organectomy, Heavy//Hitter\tEmpire Live\t10/26/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060B0EACE213A\nPunk Rock Flea Market\tEmpire Live\t10/27/24\t11:00 AM\tAlbany\thttps://empirelivealbany.com/\nSet It Off: The Deathless Tour Part 2\tEmpire Live\t10/29/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060BD9D591C87\nOverkill\tEmpire Live\t11/1/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/3000611ECF303FCD\nGWAR\tEmpire Live\t11/2/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060CD8C6D0E7A\nMetal & Music Mixer\tEmpire Live\t11/3/24\t1:00 PM\tAlbany\thttps://empirelivealbany.com/\nThe HU with Special Guest The Funeral Portrait\tEmpire Live\t11/4/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/30006109DCE9339C\nPigeons Playing Ping Pong\tEmpire Live\t11/8/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060EFF2EB1EF4\nPop Evil/Bad Wolves: The Animals Instinct Tour\tEmpire Live\t11/9/24\t19:00\tAlbany\thttps://www.ticketmaster.com/event/30006112A2552D2F\nVertical Horizon: Everything You Want 25th Anniversary Tour\tEmpire Live\t11/10/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060FA0ECB3B8D\nThe Emo Night Tour, 18+ w/ ID ONLY. No Exceptions\tEmpire Live\t11/15/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/3000613BD3CD42E7\nExodus and Havok with special guest Candy and Dead Heat\tEmpire Live\t11/17/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/30006131F0C0429E\nThe Acacia Strain: Tune Low Die Slow Ho Ho!\tEmpire Live\t12/6/24\t12:45 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F825093523\nThe Acacia Strain: Tune Low Die Slow Ho Ho!\tEmpire Live\t12/7/24\t1:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F8256D352A\nAn Evening with Shakey Graves & Buffalo Hunt\tEmpire Live\t12/11/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/3000612A285F51A3\nZakk Sabbath: King of the Monstours\tEmpire Live\t12/30/24\t7:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300061290C474B03\nDale Hollow\tEmpire Underground\t10/17/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060DB08F334C3\nCzarface\tEmpire Underground\t10/18/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F3C4FC2D70\nBabyJake\tEmpire Underground\t10/19/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F18B9E14A8\nRockin' Pink For Breast Cancer with Vintri Hill\tEmpire Underground\t10/20/24\t5:30 PM\tAlbany\thttps://www.ticketmaster.com/event/3000610DA7CC243B\nEighteen Visions\tEmpire Underground\t10/25/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060C499450E95\nThe Last Ten Seconds Of Life & Cell\tEmpire Underground\t10/29/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060DEFDEC3312\nThe Charlie Parti\tEmpire Underground\t11/1/24\t9:00 PM\tAlbany\thttps://www.ticketmaster.com/event/30006129EA80463C\nThe Phoenix and The Raven\tEmpire Underground\t11/2/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060C4A43911F0\nDexter and The Moonrocks\tEmpire Underground\t11/8/24\t7:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F3BC5C29E0\nSpread Eagle\tEmpire Underground\t11/9/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/300060A1D784210C\nEkoh - Drag Me From Hell Tour\tEmpire Underground\t11/22/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/3000612912D14C6A\nThanksgiving Metal Throwdown Food Drive\tEmpire Underground\t11/23/24\t7:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060E3C73E2495\nDeeJay Element presents An Underground Thanksgiving\tEmpire Underground\t11/27/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300061291A5B4EB5\nHe$h: Anarchy Tour\tEmpire Underground\t11/29/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/300060F7BC7A4316\nHoliday Rhymes\tEmpire Underground\t11/30/24\t7:30 PM\tAlbany\thttps://www.ticketmaster.com/event/30006133E73447F6\nAnthony Green\tEmpire Underground\t12/5/24\t7:30 PM\tAlbany\thttps://www.ticketmaster.com/event/3000610DB1232D5C\nMr Good Vybz presents An Evening with The Refrigerators\tEmpire Underground\t12/12/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/30006132CB044018\nHoliday Vibes Toy Drive\tEmpire Underground\t12/14/24\t6:30 PM\tAlbany\thttps://www.ticketmaster.com/event/3000610DB43C2DDB\nJon Langston\tFrog Alley Brewing\t10/17/24\t7:00 PM\tSchenectady\thttps://frogalleybrewing.com/events/jon-langston-live-at-frog-alley\nMicro All-Star Mania: Midget Wrestling!\tFrog Alley Brewing\t11/24/24\t8:00 PM\tSchenectady\thttps://www.universe.com/events/micro-all-stars-midget-wrestling-tickets-YL9ZPX\nNoah Gundersen w/ Abby Gundersen: Ledges 10 Year Anniversary\tLark Hall\t10/18/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/noah-gundersen-wabby-gundersen-ledges-10-year-anniversary-tickets-912706057387?aff=ebdsoporgprofile\nMagic Beans\tLark Hall\t10/24/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/magic-beans-with-special-guest-squeaky-feet-tickets-999310975027?aff=ebdsoporgprofile\nHalloween with Fungkshui & the TV Doctors\tLark Hall\t10/31/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/lark-hall-presents-halloween-with-fungkshui-the-tv-doctors-tickets-991245531067?aff=ebdsoporgprofile\nDay of the Deadbeats: Celebrating 30 years of Playing Dead in Albany, NY\tLark Hall\t11/1/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/day-of-the-deadbeats-celebrating-30-years-of-playing-dead-in-albany-ny-tickets-991259883997?aff=ebdsoporgprofile\nLaMP ( Russ Lawton, Scott Metzger, Ray Paczkowski)\tLark Hall\t11/9/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/lamp-russ-lawton-scott-metzger-ray-paczkowski-tickets-945261812527?aff=ebdsoporgprofile\nOdie Leigh: Carrier Pigeon Tour\tLark Hall\t11/15/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/odie-leigh-carrier-pigeon-tour-tickets-912688625247?aff=ebdsoporgprofile\nLucid Street ‘Potential Redemption’ Single Release Party\tLost + Found\t11/2/24\t8:00 PM\tAlbany\thttps://facebook.com/events/s/lucid-streets-potential-redemp/515714637636393/?\nOmnium Circus \tMainStage at Proctors\t11/1/24\t6:30 PM\tSchenectady \thttps://www.atproctors.org/event/omnium/\nGNA Secret Star\tMainStage at Proctors\t11/6/24\t7:00 PM\tSchenectady \thttps://www.atproctors.org/event/107-7-gnas-secret-star-acoustic-jam-2/\nTheresa Caputo Live! The Experience\tMainStage at Proctors\t11/12/24\t7:30 PM\tSchenectady \thttps://www.atproctors.org/event/theresa-caputo-live-the-experience/\nLife is a Carnival: Last Waltz Tour 24\tMainStage at Proctors\t11/14/24\t7:30 PM\tSchenectady \thttps://www.atproctors.org/event/the-last-waltz-2/\nWorld Ballet Company: Swan Lake\tMainStage at Proctors\t11/20/24\t7:00 PM\tSchenectady \thttps://www.atproctors.org/event/world-ballet-series-swan-lake/\nRingling Bros. and Barnum & Bailey presents The Greatest Show On Earth\tMVP Arena\t11/8/24\t7:00 PM\tAlbany\thttps://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1154\nRingling Bros. and Barnum & Bailey presents The Greatest Show On Earth\tMVP Arena\t11/9/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1155\nRingling Bros. and Barnum & Bailey presents The Greatest Show On Earth\tMVP Arena\t11/10/24\t9:00 PM\tAlbany\thttps://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1156\nRingling Bros. and Barnum & Bailey presents The Greatest Show On Earth\tMVP Arena\t11/11/24\t10:00 PM\tAlbany\thttps://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-tickets/artist/2962779/?venueID=1157\nMercyMe / TobyMac Tour\tMVP Arena\t11/15/24\t7:00 PM\tAlbany\thttps://www.ticketmaster.com/event/00006074971A251D\nLadies Love R&B\tMVP Arena\t11/29/24\t8:00 PM\tAlbany\thttps://www.ticketmaster.com/event/0000606F99892E8B\nBee Side Fest - Everybody That Loves You, Senior Living, Retail Drugs, Service Industry\tNo Fun\t10/18/24\t6:00 PM\tTroy\thttps://www.nofuntroy.com/events\nBee Side Fest - TAGABOW, Her New Knife, Mall Goth, CPS, Glimmer, Cigarettes After Breakfast, The Great Depression, Dumpcake, Deep Slut, Galene\tNo Fun\t10/19/24\t6:00 PM\tTroy\thttps://www.eventbrite.com/e/they-are-gutting-a-body-of-water-tickets-999595616397?aff=ebdsoporgprofile\nByrdhouse 6th Anniversary: Mint Green / Apple Pie / Senior Living / AILA\tNo Fun\t10/25/24\t7:00 PM\tTroy\thttps://www.eventbrite.com/e/byrdhouse-6th-anniversary-mint-green-apple-pie-senior-living-aila-tickets-999563570547?aff=ebdsoporgprofile\nGuerilla Toss / Abyssmals / 100 Psychic Dreams\tNo Fun\t11/1/24\t7:00 PM\tTroy\thttps://www.eventbrite.com/e/guerilla-toss-abyssmals-100-psychic-dreams-tickets-984432643537?aff=ebdsoporgprofile\nHayley Jane Band\tOphelia's\t12/21/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/hayley-jane-band-tickets-1032910712747?aff=efbevent&fbclid=IwY2xjawFzvYJleHRuA2FlbQIxMAABHXfeAx0U64QGddV3hJiCiO4YbKuBZdCY_jwYUyYsUOEN0mXWD4zKc5E0Hw_aem_XYpWIbV0SNA__E1zXZBxZg\nDavid Nihill: Shelf Help Tour \tProctors\t10/18/24\t7:30 PM\tSchenectady \thttps://www.atproctors.org/event/david-nihill/\nStraight No Chaser\tProctors\t10/19/24\t8:00 PM\tSchenectady \thttps://www.atproctors.org/event/straight-no-chaser/\nMatt Mathews: Boujee On A Budget \tProctors\t10/25/24\t7:00 PM\tSchenectady \thttps://www.atproctors.org/event/matt-mathews/\nDisney Jr Live on Tour: Let's Play!\tProctors\t10/26/24\t12 PM & 4 PM\tSchenectady \thttps://www.atproctors.org/event/disney-jr-live/\nTwas a Girls Night Before Christmas\tProctors\t12/14/24\t7:00 PM\tSchenectedy\thttps://www.atproctors.org/event/twas-a-girls-night-before-christmas/\nThorgy Does Christmas\tProctors\t12/20/24\t7:30 PM\tSchenectedy\thttps://www.atproctors.org/event/thorgy-does-christmas/\nIt's a Jazzy Christmas\tProctors\t12/21/24\t7:30 PM\tSchenectedy\thttps://www.atproctors.org/event/its-a-jazzy-christmas-4/\nChristian McBride (with Ursa Major)\tSaratoga Performing Arts Center\t10/24/24\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/christian-mcbride-and-ursa-major/\nBeethoven with the Calidore Quartet\tSaratoga Performing Arts Center\t10/26/24\t3:00 PM\tSaratoga Springs\thttps://spac.org/events/cms-10-26/\nA.I.M. by Kyle Abraham\tSaratoga Performing Arts Center\t11/9/24\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/a-i-m-by-kyle-abraham/\nA.I.M. by Kyle Abraham\tSaratoga Performing Arts Center\t11/10/24\t2:00 PM\tSaratoga Springs\thttps://spac.org/events/a-i-m-by-kyle-abraham/\nDorado Schmitt and Sons: Django Festival All Stars\tSaratoga Performing Arts Center\t11/22/24\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/dorado-schmitt-and-sons-django-festival-all-stars/\nChristian McBride and Ursa Major\tSpa Little Theater\t10/24/24\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/christian-mcbride-and-ursa-major/book/55001/\nDorado Schmitt and Sons: Django Festival All Stars with Special Guest Hot Club Saratoga\tSpa Little Theater\t11/24/24\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/dorado-schmitt-and-the-django-festival-allstars/book/55201/\nAlfredo Rodriguez Trio | Part of McCormack Jazz Series\tSpa Little Theater\t4/5/25\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/alfredo-rodriguez-trio/book/54801/\nVeronica Swift\tSpa Little Theater\t5/1/25\t7:00 PM\tSaratoga Springs\thttps://spac.org/events/veronica-swift/book/54601/\nMasters of Nostalgia\tThe Cock 'n Bull\t10/20/24\t5:00 PM\tGalway\thttps://thecocknbull.com/events/masters-of-nostalgia/\nKeith Pray Trio\tThe Cock 'n Bull\t10/25/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/keith-pray-trio-2024-10-25/\nJacob Jolliff Band\tThe Cock 'n Bull\t11/3/24\t6:30 PM\tGalway\thttps://thecocknbull.com/events/jacob-jolliff-band/\nDrank the Gold\tThe Cock 'n Bull\t11/8/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/drank-the-gold-3/\nJim Gaudet & The Railroad Boys\tThe Cock 'n Bull\t11/20/24\t7:00 PM\tGalway\thttps://thecocknbull.com/events/jim-gaudet-the-railroad-boys/\nKeith Pray Trio\tThe Cock 'n Bull\t11/29/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/keith-pray-trio-2024-11-29/\nTony Trischka's Holiday Show\tThe Cock 'n Bull\t12/10/24\t7:00 PM\tGalway\thttps://thecocknbull.com/events/tony-trischkas-holiday-show-featuring-tim-eriksen-with-jared-engel-hannah-read-and-sean-trischka/\nThe Wynotte Sisters Christmas Show\tThe Cock 'n Bull\t12/12/24\t7:00 PM\tGalway\thttps://thecocknbull.com/events/the-wynotte-sisters-christmas-show/\nDrank the Gold\tThe Cock 'n Bull\t12/13/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/drank-the-gold-2/\nThe McKrells' Christmas Show\tThe Cock 'n Bull\t12/18/24\t7:00 PM\tGalway\thttps://thecocknbull.com/events/the-mckrells-christmas-show/\nThe McKrells' Christmas Show\tThe Cock 'n Bull\t12/19/24\t7:00 PM\tGalway\thttps://thecocknbull.com/events/the-mckrells-christmas-show-2/\n“Christmas Spectacular” featuring Tim Wechgelaer, Chris Carey ‘n Drank the Gold\tThe Cock 'n Bull\t12/22/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/christmas-spectacular-featuring-tim-wechgelaer-chris-carey-n-drank-the-gold/\nKeith Pray Trio\tThe Cock 'n Bull\t12/27/24\t6:00 PM\tGalway\thttps://thecocknbull.com/events/keith-pray-trio-2024-12-27/\nThe Egg Presents: The Robert Cray Band\tThe Egg\t10/17/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116944\nThe Egg Presents: The Robert Cray Band\tThe Egg\t10/17/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116944\nRenaissance - In Gratitude Farewell Tour\tThe Egg\t10/18/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116585\nThe Egg and Union College Present: Eisenhower Dance Detroit\tThe Egg\t10/18/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117385\nRenaissance - In Gratitude Farewell Tour\tThe Egg\t10/18/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116585\nZOSO: The Ultimate Led Zeppelin Experience\tThe Egg\t10/19/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116869\nThe Fab Four: USA Meets The Beatles!\tThe Egg\t10/20/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116491\nThe Egg Presents: Family Circle #2 with Veena and Devesh Chandra\tThe Egg\t10/20/24\t2:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117736\nMurray's Law\tThe Egg\t10/20/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118169\nThe Fab Four: USA Meets The Beatles!\tThe Egg\t10/20/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116491\nBEAT - Belew/Vai/Levin/Carey play 80s King Crimson\tThe Egg\t10/21/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116420\nBEAT Belew/Vai/Levin/Carey play 80s King Crimson\tThe Egg\t10/21/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116420\nThe Egg Presents: The Lone Bellow - BY REQUEST ONLY TOUR\tThe Egg\t10/22/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116948\nThe Egg Presents: The Lone Bellow - BY REQUEST ONLY Tour\tThe Egg\t10/22/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116948\nCavetown\tThe Egg\t10/24/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117559\nThe Hot Mess Show with Diary of a Wimpy Kid Author Jeff Kinney\tThe Egg\t10/25/24\t6:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118167\nThe Weight Band\tThe Egg\t10/25/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117628\nWarren Miller's 75: A New Chapter\tThe Egg\t10/26/24\t7:30 PM\tAlbany\thttps://www.eventbrite.com/e/albany-ny-warren-millers-75-730-pm-tickets-995501891957\nThe Egg Presents: Craig Ferguson: Pants on Fire\tThe Egg\t10/27/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117049\nThe Egg Presents: Craig Ferguson Pants on Fire\tThe Egg\t10/27/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117049\nAn Evening With Justin Furstenfeld of Blue October – “Open Book”\tThe Egg\t11/2/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117051\nCurvention Presents: The Election\tThe Egg\t11/2/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/online?performance=118244\nAn Evening with Justin Furstenfeld of Blue October - \"Open Book'\tThe Egg\t11/2/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117051\nDrew Lynch\tThe Egg\t11/3/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117386\nThe Egg Presents: Cold Case Live\tThe Egg\t11/6/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116918\nThe Egg Presents: Cold Case Live\tThe Egg\t11/6/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116918\nThe Egg Presents: David Cross - The End of The Beginning of The End\tThe Egg\t11/9/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116605\nGlenn Miller Orchestra\tThe Egg\t11/12/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117630\nHaley Heyenderickx w/ Kalia Vandever\tThe Egg\t11/13/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117431\nThe Chicago Experience: Featuring Chicago Transit\tThe Egg\t11/15/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=115919\nThe Chicago Experience: Featuring Chicago Transit\tThe Egg\t11/15/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=115919\nSt. Catherine's Center for Children Presents: Elvis: Good Rockin' Tonight\tThe Egg\t11/16/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117389\nThe Egg Presents: Bill Frisell Trio featuring Luke Bergman & Rudy Royston\tThe Egg\t11/16/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118234\nNick Swardson: Toilet Head\tThe Egg\t11/17/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116671\nThe Egg Presents: Family Circle #3 with Veena and Devesh Chandra\tThe Egg\t11/17/24\t2:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117737\nNick Swardson: Toilet Head\tThe Egg\t11/17/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116671\nThe Egg Presents: Abdullah Ibrahim Trio / Sandhi Trio\tThe Egg\t11/17/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117429\nBrain Regan\tThe Egg\t11/23/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116582\nBrian Regan (EARLY SHOW)\tThe Egg\t11/23/24\t5:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117604\nBrian Regan\tThe Egg\t11/23/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=116582\nThe Egg & BenDeLaCreme Present: The Jinkx & DeLa Holiday Show\tThe Egg\t11/29/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117230\nFearless: The Taylor Swift Experience\tThe Egg\t12/1/24\t4:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118224\nTrevor Wallace and Michael Blaustein Present: Stiff Socks Live\tThe Egg\t12/2/24\t8:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118164\nScreaming Orphans Christmas Show\tThe Egg\t12/7/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117263\nThe Egg Presents: Family Circle #4 with Veena and Devesh Chandra\tThe Egg\t12/8/24\t2:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117738\nBeatles VS. Stones: A Musical Showdown\tThe Egg\t12/11/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117238\nThe McKrells Christmas\tThe Egg\t12/14/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=118350\nThe Egg Presents: Samara Joy; A Joyful Holiday (feat. The McLendon Family)\tThe Egg\t12/16/24\t7:30 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117384\nThe Grand Kyiv Ballet Presents: The Nutcracker\tThe Egg\t12/19/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117905\nThe Grand Kyiv Ballet Presents: The Nutcracker\tThe Egg\t12/20/24\t7:00 PM\tAlbany\thttps://tickets.theegg.org/TheatreManager/98/login&performance=117906\nMonkey & the Crowbar\tThe Eleven at Lark Hall\t11/1/24\t6:00 PM\tAlbany\thttps://www.eventbrite.com/e/happy-hour-with-monkey-the-crowbar-at-the-eleven-free-show-tickets-999835273217?aff=ebdsoporgprofile\nTwo Planets Away\tThe Eleven at Lark Hall\t11/22/24\t7:30 PM\tAlbany\thttps://www.eventbrite.com/e/two-planets-away-at-the-eleven-at-lark-hall-free-show-tickets-1001592689697?aff=ebdsoporgprofile\nJenna Nicholls\tThe Eleven at Lark Hall\t12/6/24\t6:00 PM\tAlbany\thttps://www.eventbrite.com/e/jenna-nicholls-live-at-the-eleven-free-show-tickets-969605073877?aff=ebdsoporgprofile\nThe Jagaloons LP Release w/The Sound Minds, Sci-Flies, Shortwave Radioband\tThe Hangar on the Hudson\t11/9/24\t6:00 PM\tTroy\t\nSeth Rosenbloom Live @ The Linda\tThe Linda\t11/8/24\t8:00 PM\tAlbany\thttps://www.eventbrite.com/e/seth-rosenbloom-tickets-1010142041037\nRochmon Record Club Listening Party: The Beatles' \"White Album",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "10/17/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/rochmon-record-club-listening-party-the-beatles-white-album-sides-34-tickets-983906239047"
+		},
+		{
+			"artist": "Matty Stecks",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "10/18/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/matty-stecks-old-friends-beckoned-new-sounds-reckoned-tickets-923116836307"
+		},
+		{
+			"artist": "San Miguel Frasier",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "10/19/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/san-miguel-frasier-tickets-923122884397"
+		},
+		{
+			"artist": "The Big Takeover",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "10/26/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/the-big-takeover-tickets-923885675927"
+		},
+		{
+			"artist": "Live & Local at The Linda - Angelina Valente + Ryan Leddick",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/1/24",
+			"time": "7:30 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/live-local-at-the-linda-presents-angelina-valente-and-ryan-leddick-tickets-989028148817"
+		},
+		{
+			"artist": "Sawyer Fredericks & Cassandra Kubinski",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/3/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/sawyer-fredericks-cassandra-kubinski-tickets-995296036237"
+		},
+		{
+			"artist": "The Crossword Show with Zach Sherwin",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/7/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/the-crossword-show-with-zach-sherwin-tickets-993575169077"
+		},
+		{
+			"artist": "Running on Jackson - The Premier Jackson Brown Tribute Concert",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/9/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/running-on-jackson-the-premier-jackson-brown-tribute-concert-tickets-923892044977"
+		},
+		{
+			"artist": "Rochmon Record Club Listening Party: Bob Dylan's \"Blood on the Tracks\"",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/21/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/rochmon-record-club-listening-party-bob-dylan-blood-on-the-tracks-tickets-983913901967"
+		},
+		{
+			"artist": "Caligula Blushed - A Visceral Live Experience for Smiths & Morrissey Fans",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/22/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/caligula-blushed-a-visceral-live-experience-for-smiths-morrissey-fans-tickets-923897892467"
+		},
+		{
+			"artist": "The Slambovian Circus of Dreams",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/23/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/the-slambovian-circus-of-dreams-tickets-923900640687"
+		},
+		{
+			"artist": "Seth Rosenbloom",
+			"venue": "The Linda - WAMC Performing Arts Studio",
+			"date": "11/8/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.eventbrite.com/e/seth-rosenbloom-tickets-1010142041037"
+		},
+		{
+			"artist": "Sonny and Perley Swing band",
+			"venue": "The Linda at WAMC",
+			"date": "11/13/24",
+			"time": "7:30 PM",
+			"town": "Albany",
+			"link": ""
+		},
+		{
+			"artist": "Albany Symphony Opening Night: Michael Daughtery + Tchaikovsky's First Concerto",
+			"venue": "The Palace",
+			"date": "10/19/24",
+			"time": "7:30 PM",
+			"town": "Albany",
+			"link": "https://tickets.albanysymphony.com/TheatreManager/102/online?bestavail=115412&qty=0"
+		},
+		{
+			"artist": "The Rocky Horror Picture Show",
+			"venue": "The Palace",
+			"date": "10/21/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/00006108AACD3CF6"
+		},
+		{
+			"artist": "An Evening with Jon Stewart",
+			"venue": "The Palace",
+			"date": "10/25/24",
+			"time": "7:30 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/00006134BE1C5D37"
+		},
+		{
+			"artist": "PhanArt At the Palace Theatre",
+			"venue": "The Palace",
+			"date": "10/26/24",
+			"time": "12:00 PM",
+			"town": "Albany",
+			"link": "https://www.palacealbany.org/events/detail/phanart-at-the-palace-theatre"
+		},
+		{
+			"artist": "Trick-or-Treat At The Palace!",
+			"venue": "The Palace",
+			"date": "10/31/24",
 			"time": "4:00 PM",
 			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118224"
+			"link": "https://www.palacealbany.org/events/detail/trick-or-treat-at-the-palace"
 		},
 		{
-			"artist": "The Rock Orchestra by Candlelight | Mega Events Presents",
-			"venue": "The Palace Theater",
-			"date": "12/2/24",
-			"time": "8:00 PM",
+			"artist": "The Lox",
+			"venue": "The Palace",
+			"date": "11/1/24",
+			"time": "8;00pm",
 			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/000060CC8C1B312E"
+			"link": "https://www.ticketmaster.com/event/000060B5F0FC9232"
 		},
 		{
-			"artist": "Trevor Wallace and Michael Blaustein Present: Stiff Socks Live",
-			"venue": "The Egg",
-			"date": "12/2/24",
+			"artist": "Cash For Coats - Palace Sessions Live With The NolaNauts",
+			"venue": "The Palace",
+			"date": "11/8/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.universe.com/events/cash-for-coats-palace-sessions-live-with-the-nolanauts-tickets-DSY0T2"
+		},
+		{
+			"artist": "Jo Koy: Just Being Koy Tour",
+			"venue": "The Palace",
+			"date": "11/15/24",
 			"time": "8:00 PM",
 			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118164"
+			"link": "https://www.ticketmaster.com/event/0000609ACAA47BB0"
 		},
 		{
 			"artist": "The Rock Orchestra By Candlelight",
@@ -2236,27 +540,11 @@ export const musicData =
 		},
 		{
 			"artist": "Nutcracker! Magical Christmas Ballet!",
-			"venue": "The Palace Theater",
-			"date": "12/3/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/00006075978822A1"
-		},
-		{
-			"artist": "Nutcracker! Magical Christmas Ballet!",
 			"venue": "The Palace",
 			"date": "12/3/24",
 			"time": "7:00 PM",
 			"town": "Albany",
 			"link": "https://www.ticketmaster.com/event/00006075978822A1"
-		},
-		{
-			"artist": "Giggly Squad live: Club Giggly",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "12/4/24",
-			"time": "7:30 PM (sold out), 9:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116586&qty=0"
 		},
 		{
 			"artist": "Jason Bonham's Led Zeppelin Evening",
@@ -2267,60 +555,12 @@ export const musicData =
 			"link": "https://www.ticketmaster.com/event/00006114A2C22A4A"
 		},
 		{
-			"artist": "Anthony Green",
-			"venue": "Empire Underground",
-			"date": "12/5/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000610DB1232D5C"
-		},
-		{
 			"artist": "Circque Dreams Holidaze",
 			"venue": "The Palace",
 			"date": "12/5/24",
 			"time": "7:00 PM",
 			"town": "Albany",
 			"link": "https://www.ticketmaster.com/event/00006131D1F262B8"
-		},
-		{
-			"artist": "Jenna Nicholls",
-			"venue": "The Eleven at Lark Hall",
-			"date": "12/6/24",
-			"time": "6:00 PM",
-			"town": "Albany",
-			"link": "https://www.eventbrite.com/e/jenna-nicholls-live-at-the-eleven-free-show-tickets-969605073877?aff=ebdsoporgprofile"
-		},
-		{
-			"artist": "Eileen Ivers",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "12/6/24",
-			"time": "7:30 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117634&qty=0"
-		},
-		{
-			"artist": "Brother Junction",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "12/6/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/brother-junction"
-		},
-		{
-			"artist": "SIRSY",
-			"venue": "Caffè Lena",
-			"date": "12/6/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "The Acacia Strain: Tune Low Die Slow Ho Ho!",
-			"venue": "Empire Live",
-			"date": "12/6/24",
-			"time": "12:45 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F825093523"
 		},
 		{
 			"artist": "The Snow Queen",
@@ -2331,124 +571,12 @@ export const musicData =
 			"link": "https://www.ticketmaster.com/event/00006108DC497EC2"
 		},
 		{
-			"artist": "Boston Early Music Festival presents Telemann's Don Quichotte",
-			"venue": "Troy Savings Bank Music Hall",
-			"date": "12/7/24",
-			"time": "8:00 PM",
-			"town": "Troy",
-			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116903&qty=0"
-		},
-		{
-			"artist": "SIRSY",
-			"venue": "Caffè Lena",
-			"date": "12/7/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "The Acacia Strain: Tune Low Die Slow Ho Ho!",
-			"venue": "Empire Live",
-			"date": "12/7/24",
-			"time": "1:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300060F8256D352A"
-		},
-		{
-			"artist": "Screaming Orphans Christmas Show",
-			"venue": "The Egg",
-			"date": "12/7/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117263"
-		},
-		{
-			"artist": "SIRSY",
-			"venue": "Caffè Lena",
-			"date": "12/8/24",
-			"time": "3:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "The Egg Presents: Family Circle #4 with Veena and Devesh Chandra",
-			"venue": "The Egg",
-			"date": "12/8/24",
-			"time": "2:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117738"
-		},
-		{
 			"artist": "Albany Symphony: Magic Of Christmas",
 			"venue": "The Palace",
 			"date": "12/8/24",
 			"time": "3:00 PM",
 			"town": "Albany",
 			"link": "https://tickets.albanysymphony.com/TheatreManager/102/online?bestavail=115400&qty=0"
-		},
-		{
-			"artist": "Taco Tuesday with Live Bait",
-			"venue": "Unihog",
-			"date": "12/10/24",
-			"time": "7:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Tony Trischka's Holiday Show",
-			"venue": "The Cock 'n Bull",
-			"date": "12/10/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/tony-trischkas-holiday-show-featuring-tim-eriksen-with-jared-engel-hannah-read-and-sean-trischka/"
-		},
-		{
-			"artist": "Jazz at Caffé Lena: Chuck Lamb Trio Featured Artist TBA",
-			"venue": "Caffè Lena",
-			"date": "12/10/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "An Evening with Shakey Graves & Buffalo Hunt",
-			"venue": "Empire Live",
-			"date": "12/11/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000612A285F51A3"
-		},
-		{
-			"artist": "Beatles VS. Stones: A Musical Showdown",
-			"venue": "The Egg",
-			"date": "12/11/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117238"
-		},
-		{
-			"artist": "The Wynotte Sisters Christmas Show",
-			"venue": "The Cock 'n Bull",
-			"date": "12/12/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/the-wynotte-sisters-christmas-show/"
-		},
-		{
-			"artist": "Cyrille Aimée",
-			"venue": "Caffè Lena",
-			"date": "12/12/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Mr Good Vybz presents An Evening with The Refrigerators",
-			"venue": "Empire Underground",
-			"date": "12/12/24",
-			"time": "8:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/30006132CB044018"
 		},
 		{
 			"artist": "Sleeping Beauty",
@@ -2459,172 +587,12 @@ export const musicData =
 			"link": "https://www.ticketmaster.com/event/000060FBBA285EAE"
 		},
 		{
-			"artist": "Drank the Gold",
-			"venue": "The Cock 'n Bull",
-			"date": "12/13/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/drank-the-gold-2/"
-		},
-		{
-			"artist": "The Empty Pockets Mistletunes Holiday Tour",
-			"venue": "Caffè Lena",
-			"date": "12/13/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Joann Sifo",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "12/14/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/joann-sifo"
-		},
-		{
-			"artist": "Peter Yarrow, of Peter, Paul & Mary, and Mustard's Retreat",
-			"venue": "Caffè Lena",
-			"date": "12/14/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Holiday Vibes Toy Drive",
-			"venue": "Empire Underground",
-			"date": "12/14/24",
-			"time": "6:30 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/3000610DB43C2DDB"
-		},
-		{
-			"artist": "The McKrells Christmas",
-			"venue": "The Egg",
-			"date": "12/14/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=118350"
-		},
-		{
-			"artist": "Peter Yarrow, of Peter, Paul & Mary, and Mustard's Retreat",
-			"venue": "Caffè Lena",
-			"date": "12/15/24",
-			"time": "3:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
 			"artist": "Finding Christmas",
 			"venue": "The Palace",
 			"date": "12/15/24",
 			"time": "2:00 PM",
 			"town": "Albany",
 			"link": ""
-		},
-		{
-			"artist": "The Egg Presents: Samara Joy; A Joyful Holiday (feat. The McLendon Family)",
-			"venue": "The Egg",
-			"date": "12/16/24",
-			"time": "7:30 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117384"
-		},
-		{
-			"artist": "The McKrells' Christmas Show",
-			"venue": "The Cock 'n Bull",
-			"date": "12/18/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/the-mckrells-christmas-show/"
-		},
-		{
-			"artist": "The McKrells' Christmas Show",
-			"venue": "The Cock 'n Bull",
-			"date": "12/19/24",
-			"time": "7:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/the-mckrells-christmas-show-2/"
-		},
-		{
-			"artist": "The Grand Kyiv Ballet Presents: The Nutcracker",
-			"venue": "The Egg",
-			"date": "12/19/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117905"
-		},
-		{
-			"artist": "Rees Shad & The Conversations",
-			"venue": "Caffè Lena",
-			"date": "12/20/24",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "The Grand Kyiv Ballet Presents: The Nutcracker",
-			"venue": "The Egg",
-			"date": "12/20/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://tickets.theegg.org/TheatreManager/98/login&performance=117906"
-		},
-		{
-			"artist": "Neon Avenue",
-			"venue": "Unihog",
-			"date": "12/21/24",
-			"time": "8:00 PM",
-			"town": "Hoosick Falls",
-			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
-		},
-		{
-			"artist": "Nefesh Mountain: The Love & Light Tour",
-			"venue": "Caffè Lena",
-			"date": "12/21/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "“Christmas Spectacular” featuring Tim Wechgelaer, Chris Carey ‘n Drank the Gold",
-			"venue": "The Cock 'n Bull",
-			"date": "12/22/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/christmas-spectacular-featuring-tim-wechgelaer-chris-carey-n-drank-the-gold/"
-		},
-		{
-			"artist": "A Joyful Noise!\" Gospel Dinner led by soulist Garland Nelson",
-			"venue": "Caffè Lena",
-			"date": "12/22/24",
-			"time": "5:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Keith Pray Trio",
-			"venue": "The Cock 'n Bull",
-			"date": "12/27/24",
-			"time": "6:00 PM",
-			"town": "Galway",
-			"link": "https://thecocknbull.com/events/keith-pray-trio-2024-12-27/"
-		},
-		{
-			"artist": "Stephen Kellogg",
-			"venue": "Caffè Lena",
-			"date": "12/27/24",
-			"time": "5:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
-		},
-		{
-			"artist": "Stephen Kellogg",
-			"venue": "Caffè Lena",
-			"date": "12/27/24",
-			"time": "8:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
 		},
 		{
 			"artist": "A Live Conversation With Chevy Chase",
@@ -2635,28 +603,44 @@ export const musicData =
 			"link": "https://www.ticketmaster.com/event/000060E2D2EA83AD"
 		},
 		{
-			"artist": "The Trojan Horns",
-			"venue": "Wolf Hollow Brewing Company",
-			"date": "12/28/24",
-			"time": "6:00 PM",
-			"town": "Schenectady",
-			"link": "https://www.wolfhollowbrewing.com/events/the-trojan-horns"
+			"artist": "Joe Gatto: Let's Get Into It",
+			"venue": "The Palace",
+			"date": "12/29/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/000060CDBE254778"
 		},
 		{
-			"artist": "New American Cuisine",
-			"venue": "Caffè Lena",
-			"date": "12/28/24",
-			"time": "4:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
+			"artist": "The Lox | 30th Anniversary Tour",
+			"venue": "The Palace Theater",
+			"date": "11/1/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/000060B5F0FC9232"
 		},
 		{
-			"artist": "New American Cuisine",
-			"venue": "Caffè Lena",
-			"date": "12/28/24",
-			"time": "19:00",
-			"town": "Saratoga Springs",
-			"link": "https://www.caffelena.org/live-events/"
+			"artist": "Jo Koy | Just Being Koy Tour",
+			"venue": "The Palace Theater",
+			"date": "11/15/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/0000609ACAA47BB0"
+		},
+		{
+			"artist": "The Rock Orchestra by Candlelight | Mega Events Presents",
+			"venue": "The Palace Theater",
+			"date": "12/2/24",
+			"time": "8:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/000060CC8C1B312E"
+		},
+		{
+			"artist": "Nutcracker! Magical Christmas Ballet!",
+			"venue": "The Palace Theater",
+			"date": "12/3/24",
+			"time": "7:00 PM",
+			"town": "Albany",
+			"link": "https://www.ticketmaster.com/event/00006075978822A1"
 		},
 		{
 			"artist": "Joe Gatto: Let's Get Into It Featuring Mark Jigarjian",
@@ -2667,20 +651,164 @@ export const musicData =
 			"link": "https://www.ticketmaster.com/event/000060CDBE254778"
 		},
 		{
-			"artist": "Joe Gatto: Let's Get Into It",
-			"venue": "The Palace",
-			"date": "12/29/24",
-			"time": "7:00 PM",
-			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/000060CDBE254778"
+			"artist": "Caleb Caudle & The Sweet Critters",
+			"venue": "The Park Theatre",
+			"date": "11/8/24",
+			"time": "8:00 PM",
+			"town": "Glens Falls",
+			"link": "https://www.parktheatergf.com/upcoming-events/#/events/106288"
 		},
 		{
-			"artist": "Zakk Sabbath: King of the Monstours",
-			"venue": "Empire Live",
-			"date": "12/30/24",
-			"time": "7:00 PM",
+			"artist": "High Noon: A Tribute to Lynyrd Skynyrd and Southern Rock",
+			"venue": "The Park Theatre",
+			"date": "11/22/24",
+			"time": "8:00 PM",
+			"town": "Glens Falls",
+			"link": "https://www.parktheatergf.com/upcoming-events/#/events/100785"
+		},
+		{
+			"artist": "Opal Essence's New Year's Eve Dragtacular!",
+			"venue": "theREP",
+			"date": "12/31/24",
+			"time": "8:00 PM",
 			"town": "Albany",
-			"link": "https://www.ticketmaster.com/event/300061290C474B03"
+			"link": "https://attherep.org/event/opal-essences-new-years-eve-dragtacular-2/"
+		},
+		{
+			"artist": "Comedy Bang Bang",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "10/17/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117631&qty=0"
+		},
+		{
+			"artist": "Zakir Hussain and Rahul Sharma",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "10/18/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117237&qty=0"
+		},
+		{
+			"artist": "Australian Chamber Orchestra",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "10/22/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116454&qty=0"
+		},
+		{
+			"artist": "Paula Poundstone",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "10/25/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116497&qty=0"
+		},
+		{
+			"artist": "Eddie B",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/2/24",
+			"time": "8:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117433&qty=0"
+		},
+		{
+			"artist": "Orpheus Chamber Orchestra with Maxim Vengerov",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/3/24",
+			"time": "3:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116455&qty=0"
+		},
+		{
+			"artist": "Nick Carter",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/6/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116265&qty=0"
+		},
+		{
+			"artist": "Magic of Motown",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/8/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116584&qty=0"
+		},
+		{
+			"artist": "EMBARGOED Steve Solomon",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/13/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117633&qty=0"
+		},
+		{
+			"artist": "An Acoustic Evening with MATISYAHU",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/21/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117434&qty=0"
+		},
+		{
+			"artist": "Renaissance Quartet",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/23/24",
+			"time": "4:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116456&qty=0"
+		},
+		{
+			"artist": "Rocky Mountain High Experience: A John Denver Christmas",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/24/24",
+			"time": "3:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116934&qty=0"
+		},
+		{
+			"artist": "Gillian Welch & David Rawlings",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "11/27/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117390&qty=0"
+		},
+		{
+			"artist": "Alan Cumming Uncut",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "12/1/24",
+			"time": "7:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116828&qty=0"
+		},
+		{
+			"artist": "Giggly Squad live: Club Giggly",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "12/4/24",
+			"time": "7:30 PM (sold out), 9:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116586&qty=0"
+		},
+		{
+			"artist": "Eileen Ivers",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "12/6/24",
+			"time": "7:30 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117634&qty=0"
+		},
+		{
+			"artist": "Boston Early Music Festival presents Telemann's Don Quichotte",
+			"venue": "Troy Savings Bank Music Hall",
+			"date": "12/7/24",
+			"time": "8:00 PM",
+			"town": "Troy",
+			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116903&qty=0"
 		},
 		{
 			"artist": "Branford Marsalis",
@@ -2699,20 +827,324 @@ export const musicData =
 			"link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116457&qty=0"
 		},
 		{
-			"artist": "Alfredo Rodriguez Trio | Part of McCormack Jazz Series",
-			"venue": "Spa Little Theater",
-			"date": "4/5/25",
-			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/alfredo-rodriguez-trio/book/54801/"
+			"artist": "Big Eyed Fish",
+			"venue": "Unihog",
+			"date": "10/19/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
 		},
 		{
-			"artist": "Veronica Swift",
-			"venue": "Spa Little Theater",
-			"date": "5/1/25",
+			"artist": "Taco Tuesday with Peter Pashoukas",
+			"venue": "Unihog",
+			"date": "10/22/24",
 			"time": "7:00 PM",
-			"town": "Saratoga Springs",
-			"link": "https://spac.org/events/veronica-swift/book/54601/"
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Spacetrash and Tumblestop",
+			"venue": "Unihog",
+			"date": "10/26/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Shannon Roy",
+			"venue": "Unihog",
+			"date": "10/29/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Will Pedicone",
+			"venue": "Unihog",
+			"date": "11/5/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Peter Anello",
+			"venue": "Unihog",
+			"date": "11/12/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "The National Reserve",
+			"venue": "Unihog",
+			"date": "11/16/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Ian Losz",
+			"venue": "Unihog",
+			"date": "11/19/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Tame the Rooster",
+			"venue": "Unihog",
+			"date": "11/22/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Belle Skinner",
+			"venue": "Unihog",
+			"date": "11/26/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Bellas Bartok",
+			"venue": "Unihog",
+			"date": "11/30/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Taco Tuesday with Live Bait",
+			"venue": "Unihog",
+			"date": "12/10/24",
+			"time": "7:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "Neon Avenue",
+			"venue": "Unihog",
+			"date": "12/21/24",
+			"time": "8:00 PM",
+			"town": "Hoosick Falls",
+			"link": "https://www.facebook.com/p/Unihog-100063697897711/"
+		},
+		{
+			"artist": "STARSHIP Featuring Mickey Thomas",
+			"venue": "Universal Preservation Hall",
+			"date": "10/18/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/starship-featuring-mickey-thomas/"
+		},
+		{
+			"artist": "Celebrating Meatloaf",
+			"venue": "Universal Preservation Hall",
+			"date": "10/19/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/celebrating-meat-loaf/"
+		},
+		{
+			"artist": "Drag Me to Brunch",
+			"venue": "Universal Preservation Hall",
+			"date": "10/20/24",
+			"time": "10 AM & 1:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/drag-me-to-brunch/"
+		},
+		{
+			"artist": "The Legend of Sleepy Hollow",
+			"venue": "UPH",
+			"date": "11/2/24",
+			"time": "11:00 AM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/the-legend-of-sleepy-hollow/"
+		},
+		{
+			"artist": "Salsa Night with Alex Torres and His Latin Orchestra",
+			"venue": "UPH",
+			"date": "11/2/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/salsa-night-with-alex-torres-and-his-latin-orchestra/"
+		},
+		{
+			"artist": "Women Aren't Funny - Carolyn Plummer",
+			"venue": "UPH",
+			"date": "11/6/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/women-arent-funny-5/"
+		},
+		{
+			"artist": "The Bengsons",
+			"venue": "UPH",
+			"date": "11/8/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/the-bengsons/"
+		},
+		{
+			"artist": "Saratoga Stomp: Country Line Workshop",
+			"venue": "UPH",
+			"date": "11/9/24",
+			"time": "2:00 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/saratoga-stomp-hosted-by-kevin-richards-dan-kelly-albro-and-conrad-farnham-leavitt/"
+		},
+		{
+			"artist": "LeAnn Rimes",
+			"venue": "UPH",
+			"date": "11/10/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/leann-rimes/"
+		},
+		{
+			"artist": "Some Enchanted Evening ",
+			"venue": "UPH",
+			"date": "11/14/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/some-enchanted-evening/"
+		},
+		{
+			"artist": "Grunge Night with The LedBetters and Superunknown",
+			"venue": "UPH",
+			"date": "11/16/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/grunge-night-with-the-ledbetters-superunknown/"
+		},
+		{
+			"artist": "Women Aren't Funny",
+			"venue": "UPH",
+			"date": "12/4/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/women-arent-funny-6/"
+		},
+		{
+			"artist": "Merry Swift-ness",
+			"venue": "UPH",
+			"date": "12/6/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/merry-swift-mas-taylor-swift-holiday-dance-party/"
+		},
+		{
+			"artist": "It's a Jazzy Christmas",
+			"venue": "UPH",
+			"date": "12/20/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/its-a-jazzy-christmas-3/"
+		},
+		{
+			"artist": "The Gibson Brothers Christmas Show",
+			"venue": "UPH",
+			"date": "12/21/24",
+			"time": "7:30 PM",
+			"town": "Saratoga",
+			"link": "https://atuph.org/event/the-gibson-brothers-christmas-show/"
+		},
+		{
+			"artist": "Tofu and Tease Brunchlesque",
+			"venue": "Wizard Burger",
+			"date": "10/27/24",
+			"time": "11:00 AM",
+			"town": "Albany",
+			"link": "https://www.ticketleap.events/tickets/persephonepommepresents/wizard-brunchlesque"
+		},
+		{
+			"artist": "Head Sound",
+			"venue": "Wolf Hollow Brewing",
+			"date": "11/16/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/"
+		},
+		{
+			"artist": "Flood Road",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "10/19/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/flood-road"
+		},
+		{
+			"artist": "TV Doctors",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "10/25/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/tv-doctors-1"
+		},
+		{
+			"artist": "Narrow North",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "11/2/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/narrow-north-1"
+		},
+		{
+			"artist": "Castro and the Fidelities",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "11/8/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/castro-and-the-fidelities-3"
+		},
+		{
+			"artist": "Sahara 4 (Head Sound)",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "11/16/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/sahara-4"
+		},
+		{
+			"artist": "Midnight Choir",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "11/23/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/midnight-choir"
+		},
+		{
+			"artist": "Steve Oill",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "11/30/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/8b4akglr8kent79gj5h9jfn47as5bm"
+		},
+		{
+			"artist": "Brother Junction",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "12/6/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/brother-junction"
+		},
+		{
+			"artist": "Joann Sifo",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "12/14/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/joann-sifo"
+		},
+		{
+			"artist": "The Trojan Horns",
+			"venue": "Wolf Hollow Brewing Company",
+			"date": "12/28/24",
+			"time": "6:00 PM",
+			"town": "Schenectady",
+			"link": "https://www.wolfhollowbrewing.com/events/the-trojan-horns"
 		}
 	];
 
