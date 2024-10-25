@@ -411,11 +411,13 @@ export default function DesktopCalendar() {
   width: 24px;
   height: 24px;
 }
+
 	.events-calendar .calendar-container {
           height: 100vh;
           background-color: #2a2727;
           padding: 20px;
           display: flex;
+          overflow: hidden;
             box-sizing: border-box;
         }
 	.events-calendar .left-column {
@@ -445,8 +447,8 @@ export default function DesktopCalendar() {
           flex: 1;
           display: flex;
           flex-direction: column;
+          overflow: hidden;
           background-color: #2a2727;
-		width: 90vw;
         }
 	.events-calendar .custom-toolbar {
           display: flex;
@@ -565,6 +567,9 @@ export default function DesktopCalendar() {
 	.events-calendar .weekly {
            margin: 0;
         }
+
+	.events-calendar .rbc-calendar { overflow: auto; }
+
 	.events-calendar .weekly-artist {
         color: #faff00;
         }
@@ -612,7 +617,7 @@ border: 1px solid #faff00;
         background-color: transparent !important;
         }
 	.events-calendar .weekly {
-           overflow: hidden;
+            overflow: hidden;
             text-overflow: ellipsis;
         }
 	.events-calendar .rbc-show-more-hover {
