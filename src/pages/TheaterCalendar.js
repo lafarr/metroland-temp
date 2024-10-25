@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, Search } from 'lucide-react';
 import moment from 'moment';
-import './styles.css';
+import './theater-styles.css';
 
 const localizer = momentLocalizer(moment);
 
 
 const CustomEvent = ({ event }) => (
-	<div onClick={() => window.open(event.link, '_blank')} style={{ width: '100%', color: 'black' }} className="custom-event">
+	<div onClick={() => window.open(event.link, '_blank')} style={{ width: '100%', color: 'black' }} className="custom-event cursor-pointer">
 		{<p className="weekly w-full overflow-hidden text-ellipsis" style={window.screen.width < 780 ? { display: 'none' } : {}}><span className="italic">{event.title.split("@")[0].toLowerCase()}</span> @ {event.title.split("@")[1].substring(1)}</p>}
 	</div>
 );
@@ -366,30 +366,32 @@ export default function TheaterCalendar() {
 	}, [])
 
 	return (
-		<div className="calendar-container">
-			<div className="left-column">
-				<button
-					className="arrow-button"
-					aria-label="Previous month"
-					onClick={handleNextMonth}
-				>
-					<ChevronUp />
-				</button>
-				<div className="month-container">
-					<div className="top-left-month">
-						{moment(currentDate).format('MMMM').toLowerCase()}
+		<div className="theater">
+			<div className="calendar-container">
+				<div className="left-column">
+					<button
+						className="arrow-button"
+						aria-label="Previous month"
+						onClick={handleNextMonth}
+					>
+						<ChevronUp />
+					</button>
+					<div className="month-container">
+						<div className="top-left-month">
+							{moment(currentDate).format('MMMM').toLowerCase()}
+						</div>
 					</div>
+					<button
+						className="arrow-button"
+						aria-label="Next month"
+						onClick={handlePrevMonth}
+					>
+						<ChevronDown />
+					</button>
 				</div>
-				<button
-					className="arrow-button"
-					aria-label="Next month"
-					onClick={handlePrevMonth}
-				>
-					<ChevronDown />
-				</button>
-			</div>
-			<div className="w-full">
-				<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
+				<div className="w-full">
+					<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
+				</div>
 			</div>
 		</div>
 	)
