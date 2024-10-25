@@ -3,6 +3,7 @@ import { Calendar, momentLocalizer } from 'react-big-calendar';
 import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, Search } from 'lucide-react';
 import moment from 'moment';
 import './art-styles.css';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 const localizer = momentLocalizer(moment);
 
@@ -16,6 +17,15 @@ const CustomEvent = ({ event }) => (
 
 export default function ArtCalendar() {
 	const [currentDate, setCurrentDate] = useState(new Date());
+	const history = useHistory();
+
+	const CustomMonthDateHeader = ({ date }) => (
+		<div style={{ fontSize: '16px', color: '#faff00', fontWeight: 'bold', cursor: 'pointer', textAlign: 'right' }} className="custom-date-header">
+			<span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}?eventType=art`)} className="month-name">{date.getDate()}</span>
+		</div>
+	);
+
+
 	const events = [
 		{
 			title: "Albany Center Gallery's All Hallow E'en Art Path",
@@ -122,7 +132,7 @@ export default function ArtCalendar() {
 					</button>
 				</div>
 				<div className="w-full">
-					<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
+					<Calendar date={currentDate} components={{ month: { dateHeader: CustomMonthDateHeader }, event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
 				</div>
 			</div>
 		</div>

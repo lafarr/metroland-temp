@@ -18,6 +18,12 @@ const CustomEvent = ({ event }) => (
 export default function TheaterCalendar() {
 	const history = useHistory();
 	const [currentDate, setCurrentDate] = useState(new Date());
+
+	const CustomMonthDateHeader = ({ date }) => (
+		<div style={{ fontSize: '16px', color: '#faff00', fontWeight: 'bold', cursor: 'pointer', textAlign: 'right' }} className="custom-date-header">
+			<span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}?eventType=theater`)} className="month-name">{date.getDate()}</span>
+		</div>
+	);
 	const events = [
 		{
 			start: new Date(2024, 10, 1),
@@ -394,7 +400,7 @@ export default function TheaterCalendar() {
 				<div className="w-full">
 					<Calendar
 						date={currentDate}
-						components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents}
+						components={{ month: { dateHeader: CustomMonthDateHeader }, event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents}
 						onShowMore={(_, x) => {
 							history.push(`/events/${x.toLocaleString().split(',')[0].replaceAll('/', '-')}?eventType=theater`)
 						}}
