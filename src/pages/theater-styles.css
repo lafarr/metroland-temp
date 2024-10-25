@@ -57,7 +57,6 @@
 .theater .rbc-button-link {
 	color: #faff00 !important;
 	font-weight: bold !important;
-	cursor: default !important;
 }
 
 .theater .rbc-off-range-bg {
@@ -130,5 +129,5 @@
 
 .theater .rbc-show-more {
 	background: none !important;
-	cursor: default !important;
+	cursor: pointer !important;
 }

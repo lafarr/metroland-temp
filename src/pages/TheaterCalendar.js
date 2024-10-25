@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, Search } from 'lucide-react';
+import { useHistory } from "react-router-dom";
 import moment from 'moment';
 import './theater-styles.css';
 
@@ -15,6 +16,7 @@ const CustomEvent = ({ event }) => (
 
 
 export default function TheaterCalendar() {
+	const history = useHistory();
 	const [currentDate, setCurrentDate] = useState(new Date());
 	const events = [
 		{
@@ -390,7 +392,16 @@ export default function TheaterCalendar() {
 					</button>
 				</div>
 				<div className="w-full">
-					<Calendar date={currentDate} components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents} />
+					<Calendar
+						date={currentDate}
+						components={{ event: CustomEvent, toolbar: () => null }} views={['month']} defaultDate={new Date()} localizer={localizer} events={realEvents}
+						onShowMore={(_, x) => {
+							history.push(`/events/${x.toLocaleString().split(',')[0].replaceAll('/', '-')}?eventType=theater`)
+						}}
+						formats={{
+							monthHeaderFormat: 'MMMM',
+						}}
+					/>
 				</div>
 			</div>
 		</div>

@@ -5,7 +5,7 @@ import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-import { data } from '../util/utils';
+import { musicData } from '../util/utils';
 
 
 const localizer = momentLocalizer(moment);
@@ -36,8 +36,8 @@ const CustomCalendar = () => {
 	const [view, setView] = useState('month');
 	const [currentDate, setCurrentDate] = useState(new Date());
 	const [filterValue, setFilterValue] = useState('');
-	const [events, setEvents] = useState(data);
-	const [filteredEvents, setFilteredEvents] = useState(data);
+	const [events, setEvents] = useState(musicData);
+	const [filteredEvents, setFilteredEvents] = useState(musicData);
 	const handleFilter = useCallback((e) => {
 		const val = e.target.value;
 		console.log('Val: ' + val);
@@ -82,7 +82,7 @@ const CustomCalendar = () => {
 	useEffect(() => {
 		// axios.get('http://localhost:5140/api/events')
 		//     .then(res => {
-		const dbEvents = data;
+		const dbEvents = musicData;
 		const calendarEvents = [];
 		for (let i = 0; i < dbEvents.length; ++i) {
 			console.log(dbEvents[i]);
@@ -112,9 +112,9 @@ const CustomCalendar = () => {
 
 	const CustomToolbar = ({ date, onNavigate }) => (
 		<div className="custom-toolbar">
-			<div className="input-container">
+		<div className="input-container">
 				<Search className="search-icon" />
-				<input type="text" ref={inputRef} className="search-input" value={filterValue} onChange={handleFilter} key={1} />
+		<input type="text" ref={inputRef} className="search-input focus:outline-none" value={filterValue} onChange={handleFilter} key={1} />
 			</div>
 			{window.screen.width > 780 && <div className="calendar-type">
 				<button style={{ fontSize: '20px', color: '#faff00' }} onClick={() => { setShowingMonthly(true); setShowingWeekly(false); setView('month'); }} className={`view-button ${view === 'month' ? 'active' : ''}`}>monthly</button>
@@ -130,7 +130,7 @@ const CustomCalendar = () => {
 
 	const CustomMonthDateHeader = ({ date }) => (
 		<div style={{ fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', textAlign: 'right' }} className="custom-date-header">
-			<span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}`)} className="month-name">{date.getDate()}</span>
+			<span onClick={() => history.push(`/events/${moment(currentDate).format('MM').length === 2 && moment(currentDate).format('MM').startsWith('0') ? moment(currentDate).format('MM').charAt(1) : moment(currentDate).format('MM')}-${date.getDate()}-${moment(currentDate).format('YYYY')}?eventType=music`)} className="month-name">{date.getDate()}</span>
 		</div>
 	);
 
@@ -185,7 +185,7 @@ const CustomCalendar = () => {
 						onView={setView}
 						date={currentDate}
 						onNavigate={handleNavigate}
-						onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}`); }}
+						onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}?eventType=music`); }}
 						components={{
 							toolbar: () => null,
 							timeGutterHeader: CustomTimeGutterHeader,
