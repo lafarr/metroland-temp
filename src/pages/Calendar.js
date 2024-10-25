@@ -446,6 +446,7 @@ export default function DesktopCalendar() {
           flex: 1;
           display: flex;
           flex-direction: column;
+          overflow: hidden;
           background-color: #2a2727;
         }
 	.events-calendar .custom-toolbar {
