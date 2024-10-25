@@ -170,7 +170,7 @@ const MobileCalendar = () => {
 			<div className="p-4 text-center">
 				{displayedEvents?.map((event) => (
 					<div key={event.id} className="mb-2 p-2">
-						<p className="font-semibold text-[#faff00] hover:opacity-80">{event.title.toLowerCase()}</p>
+						<p className="font-semibold text-[#faff00]">{event.title.toLowerCase()}</p>
 						<p className="text-sm text-gray-200">organized by {event.organizer.toLowerCase()}</p>
 					</div>
 				))}
