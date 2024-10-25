@@ -1,10 +1,9 @@
 .month-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 .rbc-calendar {
@@ -12,46 +11,46 @@
 }
 
 .calendar-container {
-    height: 100vh;
-    background-color: #2a2727;
-    padding: 20px;
-    display: flex;
-    overflow-x: hidden;
-    /* overflow-y: auto; */
-    box-sizing: border-box;
+	height: 100vh;
+	background-color: #2a2727;
+	padding: 20px;
+	display: flex;
+	overflow-x: hidden;
+	/* overflow-y: auto; */
+	box-sizing: border-box;
 }
 
 
 .custom-toolbar {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 10px 0;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 10px 0;
 }
 
 .input-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    margin-right: 10vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	margin-right: 10vw;
 }
 
 .search-icon {
-    position: absolute;
-    left: 10px;
-    color: lightgray;
-    pointer-events: none;
-    /* Prevent the icon from blocking input interaction */
+	position: absolute;
+	left: 10px;
+	color: lightgray;
+	pointer-events: none;
+	/* Prevent the icon from blocking input interaction */
 }
 
 .search-input {
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    font-size: 16px;
-    padding: 5px 55px;
-    background-color: inherit;
-    color: lightgray;
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 5px 55px;
+	background-color: inherit;
+	color: lightgray;
 	outline: none;
 }
 
@@ -73,7 +72,7 @@
 	border: 1px solid #faff00;
 }
 
-.rbc-header > span[role="columnheader"] {
+.rbc-header>span[role="columnheader"] {
 	color: #faff00 !important;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -84,44 +83,44 @@
 }
 
 .left-column {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 22px;
-    border-radius: 15px;
-    height: 40%;
-    /* Adjust as needed */
-    width: 80px;
-    /* Set a fixed width */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 22px;
+	border-radius: 15px;
+	height: 40%;
+	/* Adjust as needed */
+	width: 80px;
+	/* Set a fixed width */
 	margin: auto;
 }
 
 .arrow-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    color: #faff00;
-    background-color: #333;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	color: #faff00;
+	background-color: #333;
 }
 
 .top-left-month {
-    color: #faff00;
-    font-size: 36px;
-    font-weight: bold;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    height: 200px;
-    letter-spacing: 0px;
-    margin: 15px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	color: #faff00;
+	font-size: 36px;
+	font-weight: bold;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	height: 200px;
+	letter-spacing: 0px;
+	margin: 15px 0;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .rbc-event {
