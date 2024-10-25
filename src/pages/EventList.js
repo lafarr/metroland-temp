@@ -26,7 +26,7 @@ const EventList = () => {
 		} else if (isArt) {
 			history.push("/art-calendar");
 		} else if (isTheater) {
-			history.push("theater-calendar");
+			history.push("/theater-calendar");
 		}
 	};
 
