@@ -310,7 +310,9 @@ export default function ArtCalendar() {
 				</div>
 			</div>
 		</div>
-		<MobileCalendar className="md:hidden"/>
+		<div className="md:hidden">
+			<MobileCalendar />
+		</div>
 		</>
 	)
 }
