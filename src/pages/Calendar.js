@@ -16,8 +16,6 @@ const MobileCalendar = (props) => {
 	const [filteredEvents, setFilteredEvents] = useState(null);
 	const [displayedEvents, setDisplayedEvents] = useState(null);
 
-	console.log("Mobile calendar events:", props.events);
-
 	const events = props.events;
 
 	useEffect(() => {
@@ -35,20 +33,14 @@ const MobileCalendar = (props) => {
 		// 			stateEvents.push({ id: i++, ...eventCopy });
 		// 		}
 		setEvents(events);
-		// console.log(stateEvents);
-		console.log("Selected: " + selectedDate);
 		let fEvents = events.filter((event) => {
 			const [month, day, year] = event.date.split("/");
-			// console.log(new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day)));
 			const tmp = new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day));
 			return tmp.getMonth() === selectedDate.getMonth() && tmp.getDate() === selectedDate.getDate() && tmp.getFullYear() === selectedDate.getFullYear();
 		});
-		console.log("fEvents = ", fEvents);
 		sortEvents(fEvents);
 		setFilteredEvents(fEvents);
 		setDisplayedEvents(showAllEvents ? fEvents : fEvents.slice(0, 4));
-		// })
-		// .catch(err => console.log(err));
 	}, [selectedDate, showAllEvents]);
 
 	useEffect(() => {
@@ -85,9 +77,10 @@ const MobileCalendar = (props) => {
 
 	function sortEvents(events) {
 		events.sort((a, b) => {
+			const pattern = /(\d\d?)[;:](\d\d)[ ]?(\w\w)/;
 			let aMilitaryTime = a.time;
-			let [aHours, aMins] = aMilitaryTime.split(" ")[0].split(":");
-			let aTimeOfDay = aMilitaryTime.split(" ")[1].toLowerCase();
+			let [,aHours, aMins, aTimeOfDay] = aMilitaryTime.match(pattern);
+			aTimeOfDay = aTimeOfDay.toLowerCase();
 			if (aTimeOfDay === 'pm' && aHours === '12') {
 				aHours = 12;
 			} else {
@@ -96,8 +89,10 @@ const MobileCalendar = (props) => {
 			aMilitaryTime = (aHours * 100) + aMins;
 
 			let bMilitaryTime = b.time;
-			let [bHours, bMins] = bMilitaryTime.split(" ")[0].split(":");
-			let bTimeOfDay = bMilitaryTime.split(" ")[1].toLowerCase();
+			let [,bHours,bMins,bTimeOfDay] = bMilitaryTime.match(pattern);
+			bTimeOfDay = bTimeOfDay.toLowerCase();
+			//let [bHours, bMins] = bMilitaryTime.split(" ")[0].split(":");
+			//let bTimeOfDay = bMilitaryTime.split(" ")[1].toLowerCase();
 			if (bTimeOfDay === 'pm' && bHours === '12') {
 				bHours = 12;
 			} else {
@@ -251,9 +246,6 @@ export default function DesktopCalendar() {
 		}
 		setEvents(calendarEvents);
 		setFilteredEvents(calendarEvents);
-		// console.log(JSON.stringify(res.data));
-		// })
-		// .catch(err => console.log(err));
 	}, []);
 
 	const CustomToolbar = ({ date, onNavigate }) => (
@@ -332,7 +324,7 @@ export default function DesktopCalendar() {
 							onView={setView}
 							date={currentDate}
 							onNavigate={handleNavigate}
-							onShowMore={(blah) => { console.log(blah); history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}?eventType=music`); }}
+							onShowMore={(blah) => { history.push(`/events/${blah[0].start.getMonth() + 1}-${blah[0].start.getDate()}-${blah[0].start.getFullYear().toString()}?eventType=music`); }}
 							components={{
 								toolbar: () => null,
 								timeGutterHeader: CustomTimeGutterHeader,
