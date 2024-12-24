@@ -87,6 +87,7 @@ const EventList = () => {
 		}
 
 		setEvents(filteredEvents);
+		for (const e of filteredEvents) console.log(e.link);
 		console.log("FILTERED EVENTS", filteredEvents);
 	}, [id])
 

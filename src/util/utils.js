@@ -13,7 +13,7 @@ export const musicData = [
     "artist": "Dan Devita, Shannon Tehya, and Northern Borne",
     "venue": "Argyle Brewing Company",
     "date": "12/21/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Cambridge",
     "link": "https://www.argylebrewing.com/event-details/shannon-tehya-and-northern-borne"
   },
@@ -21,7 +21,7 @@ export const musicData = [
     "artist": "Brunch with Bob with Special Guests",
     "venue": "Argyle Brewing Company",
     "date": "12/22/24",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Cambridge",
     "link": "https://www.argylebrewing.com/event-details/brunch-with-bob-with-special-guests"
   },
@@ -29,7 +29,15 @@ export const musicData = [
     "artist": "Nefesh Mountain: The Love & Light Tour",
     "venue": "Caffè Lena",
     "date": "12/21/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
+    "town": "Saratoga Springs",
+    "link": "https://www.caffelena.org/live-events/"
+  },
+  {
+    "artist": "A Joyful Noise! Gospel Dinner led by soulist Garland Nelson",
+    "venue": "Caffè Lena",
+    "date": "12/22/24",
+    "time": "5:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/live-events/"
   },
@@ -37,7 +45,7 @@ export const musicData = [
     "artist": "Open Mic Night",
     "venue": "Caffè Lena",
     "date": "12/23/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/open-mic/"
   },
@@ -45,7 +53,7 @@ export const musicData = [
     "artist": "Racquette River Rounders Annual Boxing Day Reunion Show",
     "venue": "Caffè Lena",
     "date": "12/26/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/racquette-river-rounders-annual-boxing-day-reunion-show-tickets-1071208897649"
   },
@@ -53,7 +61,7 @@ export const musicData = [
     "artist": "Stephen Kellogg",
     "venue": "Caffè Lena",
     "date": "12/27/24",
-    "time": "5:00 PM",
+    "time": "5:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/live-events/"
   },
@@ -61,7 +69,7 @@ export const musicData = [
     "artist": "Stephen Kellogg",
     "venue": "Caffè Lena",
     "date": "12/27/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/live-events/"
   },
@@ -69,7 +77,7 @@ export const musicData = [
     "artist": "New American Cuisine",
     "venue": "Caffè Lena",
     "date": "12/28/24",
-    "time": "4:00 PM",
+    "time": "4:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/live-events/"
   },
@@ -77,7 +85,7 @@ export const musicData = [
     "artist": "New American Cuisine",
     "venue": "Caffè Lena",
     "date": "12/28/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/live-events/"
   },
@@ -85,7 +93,7 @@ export const musicData = [
     "artist": "Lost Leaders",
     "venue": "Caffè Lena",
     "date": "12/29/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/lost-leaders-tickets-1045350079227"
   },
@@ -93,7 +101,7 @@ export const musicData = [
     "artist": "Open Mic Night",
     "venue": "Caffè Lena",
     "date": "12/30/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/open-mic/"
   },
@@ -101,7 +109,7 @@ export const musicData = [
     "artist": "Los Sugar Kings: Free with Saratoga New Year Badge: Hot Sounds of the Caribbean",
     "venue": "Caffè Lena",
     "date": "12/31/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://atuph.org/event/saratoga-new-years-eve/"
   },
@@ -109,7 +117,7 @@ export const musicData = [
     "artist": "Los Sugar Kings: Free with Saratoga New Year Badge: Hot Sounds of the Caribbean",
     "venue": "Caffè Lena",
     "date": "12/31/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://atuph.org/event/saratoga-new-years-eve/"
   },
@@ -117,7 +125,7 @@ export const musicData = [
     "artist": "The Nields ",
     "venue": "Caffè Lena",
     "date": "1/3/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/the-nields-tickets-1060395484439"
   },
@@ -125,7 +133,7 @@ export const musicData = [
     "artist": "Little Folks: The Nields",
     "venue": "Caffè Lena",
     "date": "1/4/25",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/little-folks-the-nields-tickets-1016552625267"
   },
@@ -133,7 +141,7 @@ export const musicData = [
     "artist": "Five Decades at Caffè Lena: The Joe Deuel Photo Collection",
     "venue": "Caffè Lena",
     "date": "1/4/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/five-decades-at-caffe-lena-the-joe-deuel-photo-collection-tickets-1113899586649"
   },
@@ -141,7 +149,7 @@ export const musicData = [
     "artist": "Super 400",
     "venue": "Caffè Lena",
     "date": "1/5/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/super-400-tickets-1099419827299"
   },
@@ -149,15 +157,15 @@ export const musicData = [
     "artist": "Storytelling Open Mic Featuring Claire Nolan",
     "venue": "Caffè Lena",
     "date": "1/7/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/storytelling-open-mic/"
   },
   {
-    "artist": "Folk Club Kids! New time For 25 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
+    "artist": "Folk Club Kids! New Time For 2025 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
     "venue": "Caffè Lena",
     "date": "1/8/25",
-    "time": "10:30 AM",
+    "time": "10:30:00 AM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/folk-club-kids/"
   },
@@ -165,7 +173,7 @@ export const musicData = [
     "artist": "Poetry Open Mic Featuring Susan Oringel",
     "venue": "Caffè Lena",
     "date": "1/8/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/poetry-night/"
   },
@@ -173,7 +181,7 @@ export const musicData = [
     "artist": "Weekly Slow Jam - Folk, Bluegrass, Blues, and More!",
     "venue": "Caffè Lena",
     "date": "1/9/25",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/bluegrass-jam/"
   },
@@ -181,7 +189,7 @@ export const musicData = [
     "artist": "Gareth Pearson",
     "venue": "Caffè Lena",
     "date": "1/9/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/gareth-pearson-tickets-1099353368519"
   },
@@ -189,7 +197,7 @@ export const musicData = [
     "artist": "Allison Lupton, Shane Cook, and Kyle Waymouth",
     "venue": "Caffè Lena",
     "date": "1/10/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/allison-lupton-shane-cook-and-kyle-waymouth-tickets-1046478614707"
   },
@@ -197,7 +205,7 @@ export const musicData = [
     "artist": "Transformative Songcraft Workshop With CB Smith",
     "venue": "Caffè Lena",
     "date": "1/11/25",
-    "time": "10:00 AM",
+    "time": "10:00:00 AM",
     "town": "Saratoga Springs",
     "link": "https://campscui.active.com/orgs/CaffeLenaSchoolofMusic#/selectSessions/3568234/filter/session=64662846"
   },
@@ -205,7 +213,7 @@ export const musicData = [
     "artist": "Peak Jazz Series: Old Firends Beckoned, New Sounds Reckoned",
     "venue": "Caffè Lena",
     "date": "1/11/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/peak-jazz-series-old-friends-beckonednew-sounds-reckoned-tickets-1014556845837"
   },
@@ -213,7 +221,7 @@ export const musicData = [
     "artist": "Ellis Paul",
     "venue": "Caffè Lena",
     "date": "1/12/25",
-    "time": "4:00 PM",
+    "time": "4:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/65th-anniversary-folk-heritage-series-ellis-paul-tickets-1024411942697"
   },
@@ -221,7 +229,7 @@ export const musicData = [
     "artist": "Singing with Judy Wlye ~ 10 Weeks ~ In Person!",
     "venue": "Caffè Lena",
     "date": "1/13/25",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://campscui.active.com/orgs/CaffeLenaSchoolofMusic#/selectSessions/3568234/filter/session=64549234"
   },
@@ -229,23 +237,23 @@ export const musicData = [
     "artist": "Jazz at Caffè Lena: The Chuck Lamb Duo With Special Guest Joe Locke",
     "venue": "Caffè Lena",
     "date": "1/14/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/jazz-at-caffe-lena-the-chuck-lamb-duo-with-special-guest-joe-locke-tickets-1115893630889"
   },
   {
-    "artist": "Folk Club Kids! New time For 25 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
+    "artist": "Folk Club Kids! New Time For 2025 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
     "venue": "Caffè Lena",
     "date": "1/15/25",
-    "time": "10:30 AM",
+    "time": "10:30:00 AM",
     "town": "Saratoga Springs",
-    "link": "https://www.caffelena.org/event/folk-club-kids-new-time-for-25-dance-tunes-sing-alongs-stories-free-infants-pre-k/"
+    "link": "https://www.caffelena.org/event/folk-club-kids-new-time-for-2025-dance-tunes-sing-alongs-stories-free-infants-pre-k/"
   },
   {
     "artist": "Weekly Slow Jam - Folk, Bluegrass, Blues, and More!",
     "venue": "Caffè Lena",
     "date": "1/16/25",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/bluegrass-jam/"
   },
@@ -253,7 +261,7 @@ export const musicData = [
     "artist": "Blake Christiana ",
     "venue": "Caffè Lena",
     "date": "1/16/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/blake-christiana-tickets-1046620298487"
   },
@@ -261,7 +269,7 @@ export const musicData = [
     "artist": "Nordlys Global Voices: Fränder",
     "venue": "Caffè Lena",
     "date": "1/17/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/event/nordlys-global-voices-frander/"
   },
@@ -269,7 +277,7 @@ export const musicData = [
     "artist": "Bright Series: Jenna Nicholls",
     "venue": "Caffè Lena",
     "date": "1/18/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/bright-series-jenna-nicholls-tickets-1020329441827"
   },
@@ -277,7 +285,7 @@ export const musicData = [
     "artist": "Misty Blues: MLK Weekend Live Tribute to Odetta",
     "venue": "Caffè Lena",
     "date": "1/19/25",
-    "time": "4:00 PM",
+    "time": "4:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/misty-blues-mlk-weekend-live-tribute-to-odetta-tickets-1099447760849"
   },
@@ -285,23 +293,23 @@ export const musicData = [
     "artist": "Rochmon Record Club Listening Party: Pink Floyd's Wish You Were Here",
     "venue": "Caffè Lena",
     "date": "1/21/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/rochmon-record-club-listening-party-pink-floyds-wish-you-were-here-tickets-1114256955549"
   },
   {
-    "artist": "Folk Club Kids! New time For 25 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
+    "artist": "Folk Club Kids! New Time For 2025 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
     "venue": "Caffè Lena",
     "date": "1/22/25",
-    "time": "10:30 AM",
+    "time": "10:30:00 AM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/folk-club-kids/"
   },
   {
-    "artist": "NY Focus Presents Journalism In Challenging times",
+    "artist": "NY Focus Presents Journalism In Challenging Times",
     "venue": "Caffè Lena",
     "date": "1/22/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/ny-focus-presents-journalism-in-challenging-times-tickets-1089120882879"
   },
@@ -309,7 +317,7 @@ export const musicData = [
     "artist": "Weekly Slow Jam - Folk, Bluegrass, Blues, and More!",
     "venue": "Caffè Lena",
     "date": "1/23/25",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/bluegrass-jam/"
   },
@@ -317,7 +325,7 @@ export const musicData = [
     "artist": "Nate Sabat & Rakish ",
     "venue": "Caffè Lena",
     "date": "1/24/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/nate-sabat-rakish-tickets-1033120971637"
   },
@@ -325,7 +333,7 @@ export const musicData = [
     "artist": "Eastbound Jesus - Benefit For Comfort Food Community",
     "venue": "Caffè Lena",
     "date": "1/25/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/eastbound-jesus-benefit-for-comfort-food-community-tickets-1046493418987"
   },
@@ -333,15 +341,15 @@ export const musicData = [
     "artist": "The Michael Mills Magic Show",
     "venue": "Caffè Lena",
     "date": "1/28/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/the-michael-mills-magic-show-tickets-1099479766579"
   },
   {
-    "artist": "Folk Club Kids! New time For 25 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
+    "artist": "Folk Club Kids! New Time For 2025 Dance Tunes, Sing Alongs, & Stories! Free / Infants - Pre K",
     "venue": "Caffè Lena",
     "date": "1/29/25",
-    "time": "10:30 AM",
+    "time": "10:30:00 AM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/folk-club-kids/"
   },
@@ -349,7 +357,7 @@ export const musicData = [
     "artist": "Lena Go Round - Songwriter Showcase with Erin Harkes",
     "venue": "Caffè Lena",
     "date": "1/29/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/lena-go-round-songwriter-showcase-with-erin-harkes-tickets-1096787323409"
   },
@@ -357,7 +365,7 @@ export const musicData = [
     "artist": "Weekly Slow Jam - Folk, Bluegrass, Blues, and More!",
     "venue": "Caffè Lena",
     "date": "1/30/25",
-    "time": "8:00 AM",
+    "time": "8:00:00 AM",
     "town": "Saratoga Springs",
     "link": "https://www.caffelena.org/bluegrass-jam/"
   },
@@ -365,7 +373,7 @@ export const musicData = [
     "artist": "Lee Dewyze ",
     "venue": "Caffè Lena",
     "date": "1/30/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/lee-dewyze-tickets-1045346779357"
   },
@@ -373,7 +381,7 @@ export const musicData = [
     "artist": "Momentum Series: The Suitcase Junket",
     "venue": "Caffè Lena",
     "date": "1/31/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://www.eventbrite.com/e/momentum-series-the-suitcase-junket-tickets-1015294532277"
   },
@@ -381,7 +389,7 @@ export const musicData = [
     "artist": "A 'Classic' Christmas with Lee & Friends",
     "venue": "Charles Wood Theater",
     "date": "12/22/24",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1206534?performanceId=11500070"
   },
@@ -389,7 +397,7 @@ export const musicData = [
     "artist": "Wood Theater Workshops: Acting [Jan '25]",
     "venue": "Charles Wood Theater",
     "date": "1/9/25",
-    "time": "6:30 PM",
+    "time": "6:30:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1216657?performanceId=11537999"
   },
@@ -397,7 +405,7 @@ export const musicData = [
     "artist": "Big Gay Drag Show",
     "venue": "Charles Wood Theater",
     "date": "1/11/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1217518?performanceId=11542309"
   },
@@ -405,7 +413,7 @@ export const musicData = [
     "artist": "Moochie The Dumpster Cat",
     "venue": "Charles Wood Theater",
     "date": "1/12/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1219382?performanceId=11551591"
   },
@@ -413,7 +421,7 @@ export const musicData = [
     "artist": "COLORWORLD LIVE!",
     "venue": "Charles Wood Theater",
     "date": "1/25/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1219586?performanceId=11554654"
   },
@@ -421,7 +429,7 @@ export const musicData = [
     "artist": "COLORWORLD LIVE!",
     "venue": "Charles Wood Theater",
     "date": "1/25/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1219586?performanceId=11554654"
   },
@@ -429,7 +437,7 @@ export const musicData = [
     "artist": "COLORWORLD LIVE!",
     "venue": "Charles Wood Theater",
     "date": "1/26/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Glens Falls",
     "link": "https://ci.ovationtix.com/35085/production/1219586?performanceId=11554654"
   },
@@ -437,63 +445,63 @@ export const musicData = [
     "artist": "Start Making Sense: A Tribute To Talking Heads",
     "venue": "Cohoes Music Hall",
     "date": "12/29/24",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/24/start-making-sense-a-tribute-to-talking-heads"
+    "link": "https://www.thecohoesmusichall.org/events/2024/start-making-sense-a-tribute-to-talking-heads"
   },
   {
     "artist": "Lez Zepplin Performs Physical Graffiti & More",
     "venue": "Cohoes Music Hall",
     "date": "1/10/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/lez-zep"
+    "link": "https://www.thecohoesmusichall.org/events/2025/lez-zep"
   },
   {
     "artist": "Crystal Ship: A Tribute To The Doors",
     "venue": "Cohoes Music Hall",
     "date": "1/11/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/crystal-ship"
+    "link": "https://www.thecohoesmusichall.org/events/2025/crystal-ship"
   },
   {
     "artist": "The The Band Band",
     "venue": "Cohoes Music Hall",
     "date": "1/17/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/ttbb"
+    "link": "https://www.thecohoesmusichall.org/events/2025/ttbb"
   },
   {
     "artist": "Run Rabbit Run: Celebrating 50 Years Of Wish You Were Here",
     "venue": "Cohoes Music Hall",
     "date": "1/18/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/run-rabbit-run"
+    "link": "https://www.thecohoesmusichall.org/events/2025/run-rabbit-run"
   },
   {
     "artist": "512: The Selena Experience",
     "venue": "Cohoes Music Hall",
     "date": "1/24/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/selena-experience"
+    "link": "https://www.thecohoesmusichall.org/events/2025/selena-experience"
   },
   {
     "artist": "A Few Good Men Presented By Creative License ",
     "venue": "Cohoes Music Hall",
     "date": "1/31/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Cohoes",
-    "link": "https://www.thecohoesmusichall.org/events/25/few-good-men"
+    "link": "https://www.thecohoesmusichall.org/events/2025/few-good-men"
   },
   {
     "artist": "Alan Goldberg",
     "venue": "Emack & Bolio's",
     "date": "12/27/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -501,7 +509,7 @@ export const musicData = [
     "artist": "Pearl",
     "venue": "Emack & Bolio's",
     "date": "12/28/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -509,7 +517,7 @@ export const musicData = [
     "artist": "Dan Bernstein",
     "venue": "Emack & Bolio's",
     "date": "1/4/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -517,7 +525,7 @@ export const musicData = [
     "artist": "Slingshot",
     "venue": "Emack & Bolio's",
     "date": "1/11/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -525,7 +533,7 @@ export const musicData = [
     "artist": "Duck n Du",
     "venue": "Emack & Bolio's",
     "date": "1/17/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -533,7 +541,7 @@ export const musicData = [
     "artist": "Alan Goldberg",
     "venue": "Emack & Bolio's",
     "date": "1/18/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -541,7 +549,7 @@ export const musicData = [
     "artist": "Pearl",
     "venue": "Emack & Bolio's",
     "date": "1/25/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ebalbany.com/music"
   },
@@ -549,7 +557,7 @@ export const musicData = [
     "artist": "Hark the Glad Sound, Presented by the Emmanuel Singers; Michael Clement, director and pianist",
     "venue": "Emmanuel Baptist Church",
     "date": "12/22/24",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Albany",
     "link": "https://www.emmanuelalbany.net/"
   },
@@ -557,7 +565,7 @@ export const musicData = [
     "artist": "Zakk Sabbath: King of the Monstours",
     "venue": "Empire Live",
     "date": "12/30/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ticketmaster.com/event/300061290C474B03"
   },
@@ -565,7 +573,7 @@ export const musicData = [
     "artist": "Empire State Youth Orchestra: Percussion Ensembles Holiday Concert",
     "venue": "GE Theatre at Proctors",
     "date": "12/22/24",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Schenectady",
     "link": "https://esyo.org/news-concerts/910-percussion-ensembles-holiday-concert-2042"
   },
@@ -573,7 +581,7 @@ export const musicData = [
     "artist": "Rotating Live Music",
     "venue": "Henry's Irish Tavern",
     "date": "12/21/24",
-    "time": "5:00 PM",
+    "time": "5:00:00 PM",
     "town": "Ballston Spa",
     "link": "https://henrysirishtavern.com/events/rotating-live-music/"
   },
@@ -581,7 +589,7 @@ export const musicData = [
     "artist": "Live Music with Jeff Brisbin",
     "venue": "Henry's Irish Tavern",
     "date": "12/27/24",
-    "time": "5:00 PM",
+    "time": "5:00:00 PM",
     "town": "Ballston Spa",
     "link": "https://henrysirishtavern.com/events/live-music-with-jeff-brisbin/"
   },
@@ -589,7 +597,7 @@ export const musicData = [
     "artist": "Rotating Live Music",
     "venue": "Henry's Irish Tavern",
     "date": "12/28/24",
-    "time": "5:00 PM",
+    "time": "5:00:00 PM",
     "town": "Ballston Spa",
     "link": "https://henrysirishtavern.com/events/rotating-live-music/"
   },
@@ -597,7 +605,7 @@ export const musicData = [
     "artist": "Big Sky Country",
     "venue": "Lake George Beach Club",
     "date": "12/21/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -605,7 +613,7 @@ export const musicData = [
     "artist": "Ill Funk Ensemble",
     "venue": "Lake George Beach Club",
     "date": "12/28/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -613,7 +621,7 @@ export const musicData = [
     "artist": "Hark",
     "venue": "Lake George Beach Club",
     "date": "12/31/24",
-    "time": "10:00 PM",
+    "time": "10:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -621,7 +629,7 @@ export const musicData = [
     "artist": "Hark",
     "venue": "Lake George Beach Club",
     "date": "1/1/25",
-    "time": "12:00 PM",
+    "time": "12:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -629,7 +637,7 @@ export const musicData = [
     "artist": "Lucid Street",
     "venue": "Lake George Beach Club",
     "date": "1/30/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -637,7 +645,7 @@ export const musicData = [
     "artist": "Skeeter Creek",
     "venue": "Lake George Beach Club",
     "date": "1/31/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -645,7 +653,7 @@ export const musicData = [
     "artist": "Skeeter Creek",
     "venue": "Lake George Beach Club",
     "date": "2/1/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -653,7 +661,7 @@ export const musicData = [
     "artist": "Ill Funk Ensemble",
     "venue": "Lake George Beach Club",
     "date": "2/2/25",
-    "time": "1 PM",
+    "time": "1:00 PM",
     "town": "Lake George",
     "link": "https://www.lakegeorgebeachclub.com/"
   },
@@ -661,7 +669,7 @@ export const musicData = [
     "artist": "Lark Hall presents Steely Dead",
     "venue": "Lark Hall",
     "date": "12/27/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/lark-hall-presents-steely-dead-tickets-1054130275029?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=organizer-profile&utm-share-source=organizer-profile"
   },
@@ -669,7 +677,7 @@ export const musicData = [
     "artist": "The Eleven Presents Happy Hour with 10:01 (FREE SHOW)",
     "venue": "Lark Hall",
     "date": "1/10/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/the-eleven-presents-happy-hour-with-1001-free-show-tickets-1100026070589?aff=ebdsoporgprofile"
   },
@@ -677,7 +685,7 @@ export const musicData = [
     "artist": "The Wheel performs Pembroke Pines 5/22/77",
     "venue": "Lark Hall",
     "date": "1/10/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/the-wheel-performs-pembroke-pines-52277-tickets-1095197698799?aff=ebdsoporgprofile"
   },
@@ -685,7 +693,7 @@ export const musicData = [
     "artist": "The Pine Boys at The Eleven at Lark Hall (FREE SHOW)",
     "venue": "Lark Hall",
     "date": "1/11/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/the-pine-boys-at-the-eleven-at-lark-hall-free-show-tickets-1109606596199?aff=ebdsoporgprofile"
   },
@@ -693,7 +701,7 @@ export const musicData = [
     "artist": "Old TP's Birthday Bash feat. The Deadbeats, Raisinhead and Vinnie Amico",
     "venue": "Lark Hall",
     "date": "1/11/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/old-tps-birthday-bash-feat-the-deadbeats-raisinhead-and-vinnie-amico-tickets-1088692321039?aff=ebdsoporgprofile"
   },
@@ -701,7 +709,7 @@ export const musicData = [
     "artist": "The Frank White Experience with special guests The EBlock",
     "venue": "Lark Hall",
     "date": "1/17/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/the-frank-white-experience-with-special-guests-the-eblock-tickets-1096184891519?aff=ebdsoporgprofile"
   },
@@ -709,7 +717,7 @@ export const musicData = [
     "artist": "Dave Geoghegan's 60th Birthday Bash feat. Moon Boot Lover",
     "venue": "Lark Hall",
     "date": "1/19/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/dave-geoghegans-60th-birthday-bash-feat-moon-boot-lover-tickets-1111712856079?aff=ebdsoporgprofile"
   },
@@ -717,7 +725,7 @@ export const musicData = [
     "artist": "Caity Gallagher Residency",
     "venue": "Lark Hall",
     "date": "2/5/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Albany",
     "link": "https://larkhallalbany.com/"
   },
@@ -725,7 +733,7 @@ export const musicData = [
     "artist": "Femininomenon - Live Sing-a-Long",
     "venue": "Lost & Found",
     "date": "12/27/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Albany",
     "link": "FREE"
   },
@@ -733,7 +741,7 @@ export const musicData = [
     "artist": "Pony in the Pancake Holiday Show w/ Los Espejos / Haley Moley / Electric Turtle / Cooper's Hawk / Rabid Children / The A.M.'s / Huntress Wizard / Nathan Meltz",
     "venue": "No Fun",
     "date": "12/21/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Troy",
     "link": "https://www.nofuntroy.com/events/pony-in-the-pancake-holiday-show-3"
   },
@@ -741,7 +749,7 @@ export const musicData = [
     "artist": "Everybody That Loves You / Happy Birthday James / G.O.L.E.M. / No Coincidence",
     "venue": "No Fun",
     "date": "12/28/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Troy",
     "link": "https://www.nofuntroy.com/events/everybody-that-loves-you-happy-birthday-james-golem-no-coincidence"
   },
@@ -749,7 +757,7 @@ export const musicData = [
     "artist": "Caity Gallagher",
     "venue": "Northway Brewing",
     "date": "12/29/24",
-    "time": "1:00 PM",
+    "time": "1:00:00 PM",
     "town": "Queensbury",
     "link": "https://northwaybrewingco.com/events/"
   },
@@ -757,7 +765,7 @@ export const musicData = [
     "artist": "Hayley Jane Band",
     "venue": "Ophelia's",
     "date": "12/21/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.eventbrite.com/e/hayley-jane-band-tickets-1032910712747?aff=efbevent&fbclid=IwY2xjawFzvYJleHRuA2FlbQIxMAABHXfeAx0U64QGddV3hJiCiO4YbKuBZdCY_jwYUyYsUOEN0mXWD4zKc5E0Hw_aem_XYpWIbV0SNA__E1zXZBxZg"
   },
@@ -765,7 +773,7 @@ export const musicData = [
     "artist": "Travis Rockenstire",
     "venue": "Peddlers Bar and Bistro",
     "date": "12/26/24",
-    "time": "6:30 PM",
+    "time": "6:30:00 PM",
     "town": "Clifton Park",
     "link": "https://peddlersbarandbistro.com/events/"
   },
@@ -773,7 +781,7 @@ export const musicData = [
     "artist": "Coverups Duo",
     "venue": "Peddlers Bar and Bistro",
     "date": "12/27/24",
-    "time": "6:30 PM",
+    "time": "6:30:00 PM",
     "town": "Clifton Park",
     "link": "https://peddlersbarandbistro.com/events/"
   },
@@ -781,7 +789,7 @@ export const musicData = [
     "artist": "Matt Evans",
     "venue": "Power's Inn & Pub",
     "date": "12/21/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Clifton Park",
     "link": "https://www.powersinnandpub.com/"
   },
@@ -789,7 +797,7 @@ export const musicData = [
     "artist": "Doc Orloff",
     "venue": "Power's Inn & Pub",
     "date": "12/27/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Clifton Park",
     "link": "https://www.powersinnandpub.com/"
   },
@@ -797,7 +805,7 @@ export const musicData = [
     "artist": "Chuck Kelsey",
     "venue": "Power's Inn & Pub",
     "date": "12/28/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Clifton Park",
     "link": "https://www.powersinnandpub.com/"
   },
@@ -805,7 +813,7 @@ export const musicData = [
     "artist": "Lewis and Clark",
     "venue": "Power's Inn & Pub",
     "date": "12/31/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Clifton Park",
     "link": "https://www.powersinnandpub.com/"
   },
@@ -813,39 +821,39 @@ export const musicData = [
     "artist": "Pat Decker",
     "venue": "Prime At Saratoga National",
     "date": "12/21/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
-    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec24-2-scaled.jpg"
+    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec2024-2-scaled.jpg"
   },
   {
     "artist": "Rich Ortiz",
     "venue": "Prime At Saratoga National",
     "date": "12/26/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
-    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec24-2-scaled.jpg"
+    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec2024-2-scaled.jpg"
   },
   {
     "artist": "Maggie Doherty Duo",
     "venue": "Prime At Saratoga National",
     "date": "12/27/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
-    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec24-2-scaled.jpg"
+    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec2024-2-scaled.jpg"
   },
   {
     "artist": "Rafa Picon",
     "venue": "Prime At Saratoga National",
     "date": "12/28/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
-    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec24-2-scaled.jpg"
+    "link": "https://primeatsaratoganational.com/wp-content/uploads/2021/09/LiveMusic_Oct_Dec2024-2-scaled.jpg"
   },
   {
     "artist": "“It’s a Jazzy Christmas!”",
     "venue": "Proctors GE Theater",
     "date": "12/21/24",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Schenectady",
     "link": "https://www.atproctors.org/event/its-a-jazzy-christmas-4/"
   },
@@ -853,7 +861,7 @@ export const musicData = [
     "artist": "Family Tree",
     "venue": "Putnam Place",
     "date": "12/23/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga",
     "link": "https://putnamplace.com/events/family-tree-12-23-24/"
   },
@@ -861,7 +869,7 @@ export const musicData = [
     "artist": "Dogs in a Pile w/ Annie in the Water",
     "venue": "Putnam Place",
     "date": "12/28/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Saratoga",
     "link": "https://putnamplace.com/events/dogs-in-a-pile-12-28-24/"
   },
@@ -869,7 +877,7 @@ export const musicData = [
     "artist": "Dogs in a Pile w/ Consider the Source",
     "venue": "Putnam Place",
     "date": "12/29/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://putnamplace.com/events/dogs-in-a-pile-12-29-24/"
   },
@@ -877,7 +885,7 @@ export const musicData = [
     "artist": "Dogs in a Pile w/ Hilltop",
     "venue": "Putnam Place",
     "date": "12/30/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://putnamplace.com/events/dogs-in-a-pile-12-30-24/"
   },
@@ -885,7 +893,7 @@ export const musicData = [
     "artist": "Dogs in a Pile NYE Celebration",
     "venue": "Putnam Place",
     "date": "12/31/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Saratoga",
     "link": "https://putnamplace.com/events/dogs-in-a-pile-12-31-24/"
   },
@@ -893,7 +901,7 @@ export const musicData = [
     "artist": "Matty Deez NutsCracker Spectacular",
     "venue": "Rustic Barn Pub",
     "date": "12/21/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Troy",
     "link": "https://www.facebook.com/rusticbarnpub/"
   },
@@ -901,7 +909,7 @@ export const musicData = [
     "artist": "Christmas Eve w/ Rockin' Rob",
     "venue": "Rustic Barn Pub",
     "date": "12/24/24",
-    "time": "4:00 PM",
+    "time": "4:00:00 PM",
     "town": "Troy",
     "link": "https://www.facebook.com/rusticbarnpub/"
   },
@@ -909,7 +917,7 @@ export const musicData = [
     "artist": "The Underdawgs",
     "venue": "Rustic Barn Pub",
     "date": "12/27/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Troy",
     "link": "https://www.facebook.com/rusticbarnpub/"
   },
@@ -917,7 +925,7 @@ export const musicData = [
     "artist": "Wreckless Duo",
     "venue": "Saratoga Winery",
     "date": "12/27/24",
-    "time": "5:30 PM",
+    "time": "5:30:00 PM",
     "town": "Saratoga",
     "link": "https://www.thesaratogawinery.com/events/rk26rzx5jlf6w3k-6jwdf-542wl-9pent-56yxe"
   },
@@ -925,7 +933,7 @@ export const musicData = [
     "artist": "Stephen Thriolle Trio",
     "venue": "Saratoga Winery",
     "date": "1/3/25",
-    "time": "5:30 PM",
+    "time": "5:30:00 PM",
     "town": "Saratoga",
     "link": ""
   },
@@ -933,7 +941,7 @@ export const musicData = [
     "artist": "David Wong",
     "venue": "Saratoga Winery",
     "date": "1/10/25",
-    "time": "5:30 PM",
+    "time": "5:30:00 PM",
     "town": "Saratoga",
     "link": ""
   },
@@ -941,7 +949,7 @@ export const musicData = [
     "artist": "Harmonic Duo",
     "venue": "Saratoga Winery",
     "date": "1/17/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
     "link": ""
   },
@@ -949,7 +957,7 @@ export const musicData = [
     "artist": "Deadbeats",
     "venue": "Saratoga Winery",
     "date": "1/24/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Saratoga",
     "link": ""
   },
@@ -957,7 +965,7 @@ export const musicData = [
     "artist": "Steve Candlen",
     "venue": "Saratoga Winery",
     "date": "1/31/25",
-    "time": "5:00 PM",
+    "time": "5:00:00 PM",
     "town": "Saratoga",
     "link": ""
   },
@@ -965,7 +973,7 @@ export const musicData = [
     "artist": "Alfredo Rodriguez Trio | Part of McCormack Jazz Series",
     "venue": "Spa Little Theater",
     "date": "4/5/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "Book Tickets | Saratoga Performing Arts Center"
   },
@@ -973,7 +981,7 @@ export const musicData = [
     "artist": "Veronica Swift",
     "venue": "Spa Little Theater",
     "date": "5/1/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Saratoga Springs",
     "link": "https://spac.org/events/veronica-swift/book/54601/"
   },
@@ -981,7 +989,7 @@ export const musicData = [
     "artist": "Chad McLoughlin Trio",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "12/21/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "Free Admission"
   },
@@ -989,7 +997,7 @@ export const musicData = [
     "artist": "Jenny Marie",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "12/28/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "Free Admission"
   },
@@ -997,7 +1005,7 @@ export const musicData = [
     "artist": "Bohdan Kinal Quartet",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "1/4/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "Free Admission"
   },
@@ -1005,7 +1013,7 @@ export const musicData = [
     "artist": "Sonny & Perley Trio",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "1/11/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "Free Admission"
   },
@@ -1013,7 +1021,7 @@ export const musicData = [
     "artist": "Michael Benedict's Jazz Vibes Trio",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "1/18/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.stellapastabar.com/calendar"
   },
@@ -1021,7 +1029,7 @@ export const musicData = [
     "artist": "The Arch Stanton Trio",
     "venue": "Stella Pasta Bar & Bistro",
     "date": "1/25/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.stellapastabar.com/calendar"
   },
@@ -1029,7 +1037,7 @@ export const musicData = [
     "artist": "“Christmas Spectacular” featuring Tim Wechgelaer, Chris Carey ‘n Drank the Gold",
     "venue": "The Cock 'n Bull",
     "date": "12/22/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Galway",
     "link": "https://thecocknbull.com/events/christmas-spectacular-featuring-tim-wechgelaer-chris-carey-n-drank-the-gold/"
   },
@@ -1037,15 +1045,15 @@ export const musicData = [
     "artist": "Keith Pray Trio",
     "venue": "The Cock 'n Bull",
     "date": "12/27/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Galway",
-    "link": "https://thecocknbull.com/events/keith-pray-trio-24-12-27/"
+    "link": "https://thecocknbull.com/events/keith-pray-trio-2024-12-27/"
   },
   {
     "artist": "Matt Flinner 'n Joe K. Walsh",
     "venue": "The Cock 'n Bull",
     "date": "1/9/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Galway",
     "link": "https://thecocknbull.com/events/matt-flinner-n-joe-k-walsh/"
   },
@@ -1053,7 +1061,7 @@ export const musicData = [
     "artist": "George Boone Blues Band",
     "venue": "The Glove Theatre",
     "date": "12/21/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-george-boone-blues-band"
   },
@@ -1061,7 +1069,7 @@ export const musicData = [
     "artist": "Orange Velour",
     "venue": "The Glove Theatre",
     "date": "12/27/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-orange-velour"
   },
@@ -1069,7 +1077,7 @@ export const musicData = [
     "artist": "Dead-Zep",
     "venue": "The Glove Theatre",
     "date": "12/28/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/deadzep-a-tribute-to-the-grateful-dead-and-led-zepplin"
   },
@@ -1077,7 +1085,7 @@ export const musicData = [
     "artist": "Strange Magic NY: The ELO Experience",
     "venue": "The Glove Theatre",
     "date": "1/4/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/strange-magic-ny-the-elo-experiencve"
   },
@@ -1085,7 +1093,7 @@ export const musicData = [
     "artist": "The 518 Concert Series Presents: Luke Pavlus",
     "venue": "The Glove Theatre",
     "date": "1/10/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-luke-pavlus"
   },
@@ -1093,7 +1101,7 @@ export const musicData = [
     "artist": "The 518 Concert Series Presents: A Tribute to Taylor Swift",
     "venue": "The Glove Theatre",
     "date": "1/11/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-13-a-tribute-to-taylor-swift"
   },
@@ -1101,7 +1109,7 @@ export const musicData = [
     "artist": "The 518 Concert Series Presents: Big Sky Country",
     "venue": "The Glove Theatre",
     "date": "1/18/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-big-sky-country-1"
   },
@@ -1109,7 +1117,7 @@ export const musicData = [
     "artist": "The 518 Concert Series Presents: The TS Ensemble",
     "venue": "The Glove Theatre",
     "date": "1/25/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-the-ts-ensemble"
   },
@@ -1117,7 +1125,7 @@ export const musicData = [
     "artist": "The 518 Concert Series Presents: Get Zep!",
     "venue": "The Glove Theatre",
     "date": "1/31/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Gloversville",
     "link": "https://www.theglovetheatre.com/upcoming-events/the-518-concert-series-presents-get-zep"
   },
@@ -1125,7 +1133,7 @@ export const musicData = [
     "artist": "Josh Clevenstine",
     "venue": "The Grateful Den",
     "date": "12/21/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Glens Falls",
     "link": "https://www.facebook.com/thegratefulden/"
   },
@@ -1133,7 +1141,7 @@ export const musicData = [
     "artist": "New Year's Bash with Seize Atlantis",
     "venue": "The Grateful Den",
     "date": "12/31/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Glens Falls",
     "link": "https://www.facebook.com/thegratefulden/"
   },
@@ -1141,7 +1149,7 @@ export const musicData = [
     "artist": "David Bennett Cohen",
     "venue": "The Linda",
     "date": "12/21/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.thelinda.org/event/david-bennett-cohen-2/"
   },
@@ -1149,7 +1157,7 @@ export const musicData = [
     "artist": "Sound+Vision:Music at the Movies",
     "venue": "The Linda",
     "date": "1/7/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.thelinda.org/event/soundvisionmusic-at-the-movies/"
   },
@@ -1157,23 +1165,23 @@ export const musicData = [
     "artist": "Rochmon Record Club Listening Party - The Cars The Cars",
     "venue": "The Linda",
     "date": "1/16/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.thelinda.org/event/rochmon-record-club-listening-party-the-cars-the-cars/"
   },
   {
-    "artist": "Django Reinhardt Birthday Show 25!",
+    "artist": "Django Reinhardt Birthday Show 2025!",
     "venue": "The Linda",
     "date": "1/23/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
-    "link": "https://www.thelinda.org/event/django-reinhardt-birthday-show-25/"
+    "link": "https://www.thelinda.org/event/django-reinhardt-birthday-show-2025/"
   },
   {
     "artist": "Harvest & Rust",
     "venue": "The Linda",
     "date": "1/25/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.thelinda.org/event/harvest-rust-unplugged/"
   },
@@ -1181,7 +1189,7 @@ export const musicData = [
     "artist": "A Live Conversation With Chevy Chase",
     "venue": "The Palace",
     "date": "12/27/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://www.ticketmaster.com/event/000060E2D2EA83AD"
   },
@@ -1189,7 +1197,7 @@ export const musicData = [
     "artist": "Joe Gatto: Let's Get Into It",
     "venue": "The Palace",
     "date": "12/29/24",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Albany",
     "link": "https://www.ticketmaster.com/event/000060CDBE254778"
   },
@@ -1197,7 +1205,7 @@ export const musicData = [
     "artist": "New Year's Eve Dinner & Comedy Show ft. Sean Donnelly",
     "venue": "The Park Theater",
     "date": "12/31/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Glens Falls, NY",
     "link": "https://www.venuepilot.co/events/nye-dinner-comedy-show-650a93/orders/new"
   },
@@ -1205,7 +1213,7 @@ export const musicData = [
     "artist": "Ariel Posen - The Solo Tour II",
     "venue": "The Park Theater",
     "date": "1/10/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Glens Falls, NY",
     "link": "https://www.parktheatergf.com/upcoming-events/#/events/117287"
   },
@@ -1213,7 +1221,7 @@ export const musicData = [
     "artist": "Tyler Giroux ft. Matt Niedbalski, Rob Lindquist & Dylan Perrillo",
     "venue": "The Park Theater",
     "date": "1/16/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Glens Falls, NY",
     "link": "https://www.parktheatergf.com/upcoming-events/#/events/124402"
   },
@@ -1221,119 +1229,119 @@ export const musicData = [
     "artist": "Adam Mamawala",
     "venue": "The Park Theater",
     "date": "1/31/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Glens Falls, NY",
     "link": "https://www.parktheatergf.com/upcoming-events/#/events/122574"
   },
   {
-    "artist": "Rock This town Orchestra",
+    "artist": "Rock This Town Orchestra",
     "venue": "The Strand Theatre",
     "date": "12/21/24",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/24/12/21/rock-this-town-orchestra"
+    "link": "https://www.mystrandtheater.org/events/2024/12/21/rock-this-town-orchestra"
   },
   {
     "artist": "A Tribute to Kris Kristofferson",
     "venue": "The Strand Theatre",
     "date": "1/3/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/3/a-tribute-to-kris-kristofferson"
+    "link": "https://www.mystrandtheater.org/events/2025/1/3/a-tribute-to-kris-kristofferson"
   },
   {
     "artist": "Rush Tribute with Run For Cover wsg Better Off Led",
     "venue": "The Strand Theatre",
     "date": "1/4/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/24/4/6/rush-tribute-with-run-for-cover"
+    "link": "https://www.mystrandtheater.org/events/2024/4/6/rush-tribute-with-run-for-cover"
   },
   {
     "artist": "The Newells",
     "venue": "The Strand Theatre",
     "date": "1/5/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/5/the-newells"
+    "link": "https://www.mystrandtheater.org/events/2025/1/5/the-newells"
   },
   {
     "artist": "Lobby Concert: Art-n-Shawna Trio",
     "venue": "The Strand Theatre",
     "date": "1/6/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/24/12/9/lobby-concert-art-shawna-trio"
+    "link": "https://www.mystrandtheater.org/events/2024/12/9/lobby-concert-art-shawna-trio"
   },
   {
     "artist": "Broken Clovers wsg Faith Anne",
     "venue": "The Strand Theatre",
     "date": "1/10/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/10/broken-clovers-wsg-faith-anne"
+    "link": "https://www.mystrandtheater.org/events/2025/1/10/broken-clovers-wsg-faith-anne"
   },
   {
     "artist": "Back in Black -  AC/DC Tribute!",
     "venue": "The Strand Theatre",
     "date": "1/11/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/11/back-in-black-acdc-tribute"
+    "link": "https://www.mystrandtheater.org/events/2025/1/11/back-in-black-acdc-tribute"
   },
   {
     "artist": "Uncle Samm - the music of Metallica, Megadeth, Slayer, Anthrax",
     "venue": "The Strand Theatre",
     "date": "1/18/25",
-    "time": "7:00 PM",
+    "time": "7:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/18/uncle-samm-the-music-of-metallica-megadeath-slayer-anthrax"
+    "link": "https://www.mystrandtheater.org/events/2025/1/18/uncle-samm-the-music-of-metallica-megadeath-slayer-anthrax"
   },
   {
     "artist": "Albert Lee",
     "venue": "The Strand Theatre",
     "date": "1/19/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/19/albert-lee"
+    "link": "https://www.mystrandtheater.org/events/2025/1/19/albert-lee"
   },
   {
     "artist": "Lucid Street wsg Lounge Act",
     "venue": "The Strand Theatre",
     "date": "1/24/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/24/lucid-street-wsg-lounge-act"
+    "link": "https://www.mystrandtheater.org/events/2025/1/24/lucid-street-wsg-lounge-act"
   },
   {
     "artist": "Forever Seger",
     "venue": "The Strand Theatre",
     "date": "1/25/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/25/forever-seeger"
+    "link": "https://www.mystrandtheater.org/events/2025/1/25/forever-seeger"
   },
   {
     "artist": "Shannon Tehya and The Troupe wsg Studio Chrome",
     "venue": "The Strand Theatre",
     "date": "1/26/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/26/the-troupe"
+    "link": "https://www.mystrandtheater.org/events/2025/1/26/the-troupe"
   },
   {
     "artist": "The Proudest Monkeys Band - Dave Matthews  Band Tribute",
     "venue": "The Strand Theatre",
     "date": "1/31/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hudson Falls",
-    "link": "https://www.mystrandtheater.org/events/25/1/31/the-proudest-monkeys-band-dave-matthews-band-tribute"
+    "link": "https://www.mystrandtheater.org/events/2025/1/31/the-proudest-monkeys-band-dave-matthews-band-tribute"
   },
   {
     "artist": "Opal Essence's New Year's Eve Dragtacular!",
     "venue": "theREP",
     "date": "12/31/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Albany",
     "link": "https://attherep.org/event/opal-essences-new-years-eve-dragtacular-2/"
   },
@@ -1341,7 +1349,7 @@ export const musicData = [
     "artist": "Bach at New Year's: The Six 'Brandenburg Concertos'",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/1/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2831/bach-at-new-year-s-the-six-brandenburg-concertos-/"
   },
@@ -1349,7 +1357,7 @@ export const musicData = [
     "artist": "Lift Series: Doom Dogs",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/8/25",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2855/doom-dogs/"
   },
@@ -1357,7 +1365,7 @@ export const musicData = [
     "artist": "Daniel Roumain + Beethoven's Pastoral",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/11/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2909/daniel-roumain-beethoven-s-pastoral/"
   },
@@ -1365,7 +1373,7 @@ export const musicData = [
     "artist": "Daneil Roumain + Beethoven;s Pastoral | Matinee",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/12/25",
-    "time": "3:00 PM",
+    "time": "3:00:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2910/daniel-roumain-beethoven-s-pastoral-matinee/"
   },
@@ -1373,7 +1381,7 @@ export const musicData = [
     "artist": "Michael Century",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/14/25",
-    "time": "12:00 PM",
+    "time": "12:00:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2914/michael-century/"
   },
@@ -1381,7 +1389,7 @@ export const musicData = [
     "artist": "Branford Marsalis",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/16/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Troy",
     "link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=117608&qty=0"
   },
@@ -1389,7 +1397,7 @@ export const musicData = [
     "artist": "Almost Queen: A Tribute To QUEEN",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/18/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2919/almost-queen/"
   },
@@ -1397,7 +1405,7 @@ export const musicData = [
     "artist": "Vince Herman & Sam Grisman Duo",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/23/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2921/vince-herman-sam-grisman-duo/"
   },
@@ -1405,7 +1413,7 @@ export const musicData = [
     "artist": "Lights Out: A Tribute to Frankie Valli and The Four Seasons",
     "venue": "Troy Savings Bank Music Hall",
     "date": "1/25/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Troy",
     "link": "https://www.troymusichall.org/events/2878/a-tribute-to-frankie-valli-and-the-four-seasons/"
   },
@@ -1413,7 +1421,7 @@ export const musicData = [
     "artist": "Steven Isserlis",
     "venue": "Troy Savings Bank Music Hall",
     "date": "2/4/25",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Troy",
     "link": "https://tickets.troymusichall.org/TheatreManager/99/online?bestavail=116457&qty=0"
   },
@@ -1421,7 +1429,7 @@ export const musicData = [
     "artist": "Neon Avenue",
     "venue": "Unihog",
     "date": "12/21/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Hoosick Falls",
     "link": "https://www.facebook.com/p/Unihog-100063697897711/"
   },
@@ -1429,7 +1437,7 @@ export const musicData = [
     "artist": "The Gibson Brothers Christmas Show",
     "venue": "UPH",
     "date": "12/21/24",
-    "time": "7:30 PM",
+    "time": "7:30:00 PM",
     "town": "Saratoga",
     "link": "https://atuph.org/event/the-gibson-brothers-christmas-show/"
   },
@@ -1437,7 +1445,7 @@ export const musicData = [
     "artist": "Code Groove",
     "venue": "Van Slycks at Rivers",
     "date": "12/21/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/code-groove-6-14"
   },
@@ -1445,7 +1453,7 @@ export const musicData = [
     "artist": "Carla Page ",
     "venue": "Van Slycks at Rivers",
     "date": "12/25/24",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-carla-page"
   },
@@ -1453,7 +1461,7 @@ export const musicData = [
     "artist": "Jukebox Rebellion",
     "venue": "Van Slycks at Rivers",
     "date": "12/27/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/jukebox-rebellion-10-13"
   },
@@ -1461,7 +1469,7 @@ export const musicData = [
     "artist": "Ten Most Wanted",
     "venue": "Van Slycks at Rivers",
     "date": "12/28/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-ten-most-wanted"
   },
@@ -1469,23 +1477,23 @@ export const musicData = [
     "artist": "Grand Central Station",
     "venue": "Van Slycks at Rivers",
     "date": "12/31/24",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/grand-central-station-24"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/grand-central-station-2024"
   },
   {
     "artist": "The Rogues",
     "venue": "Van Slycks at Rivers",
     "date": "1/1/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-the-rogues25"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-the-rogues2025"
   },
   {
     "artist": "Country Weekends With The Gary Frost Band",
     "venue": "Van Slycks at Rivers",
     "date": "1/3/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/country-weekends-with-gary-frost-band"
   },
@@ -1493,7 +1501,7 @@ export const musicData = [
     "artist": "Country Weekends With Big Sky Country",
     "venue": "Van Slycks at Rivers",
     "date": "1/4/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/country-weekends-with-big-sky-country"
   },
@@ -1501,15 +1509,15 @@ export const musicData = [
     "artist": "Carla Page ",
     "venue": "Van Slycks at Rivers",
     "date": "1/8/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-carla-page25"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-carla-page2025"
   },
   {
     "artist": "Hijacked",
     "venue": "Van Slycks at Rivers",
     "date": "1/10/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/hijacked"
   },
@@ -1517,7 +1525,7 @@ export const musicData = [
     "artist": "Cryin' Out Loud",
     "venue": "Van Slycks at Rivers",
     "date": "1/11/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/cryin-out-loud"
   },
@@ -1525,15 +1533,15 @@ export const musicData = [
     "artist": "Joe's Boys",
     "venue": "Van Slycks at Rivers",
     "date": "1/15/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/Joesboys25"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/Joesboys2025"
   },
   {
     "artist": "TS Ensemble",
     "venue": "Van Slycks at Rivers",
     "date": "1/17/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/TSEEnsemble"
   },
@@ -1541,7 +1549,7 @@ export const musicData = [
     "artist": "Ten Most Wanted",
     "venue": "Van Slycks at Rivers",
     "date": "1/18/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/live-music-ten-most-wanted"
   },
@@ -1549,15 +1557,15 @@ export const musicData = [
     "artist": "Roxy And The Rollers",
     "venue": "Van Slycks at Rivers",
     "date": "1/22/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/roxy-and-the-rollers25"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/roxy-and-the-rollers2025"
   },
   {
     "artist": "Hit N Run",
     "venue": "Van Slycks at Rivers",
     "date": "1/24/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/hit-n-run"
   },
@@ -1565,7 +1573,7 @@ export const musicData = [
     "artist": "Scars N' Stripes",
     "venue": "Van Slycks at Rivers",
     "date": "1/25/25",
-    "time": "9:00 PM",
+    "time": "9:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/scars-n-stripes"
   },
@@ -1573,15 +1581,15 @@ export const musicData = [
     "artist": "Roadhouse 60s",
     "venue": "Van Slycks at Rivers",
     "date": "1/29/25",
-    "time": "2:00 PM",
+    "time": "2:00:00 PM",
     "town": "Schenectady",
-    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/roadhouse-60s25"
+    "link": "https://www.riverscasino.com/schenectady/entertainment/van-slycks/roadhouse-60s2025"
   },
   {
     "artist": "Ten Most Wanted",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "12/21/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/ten-most-wanted-3/"
   },
@@ -1589,7 +1597,7 @@ export const musicData = [
     "artist": "The Refrigerators",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "12/27/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/the-refrigerators/"
   },
@@ -1597,7 +1605,7 @@ export const musicData = [
     "artist": "80s & 90s Party with DJ NPG",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "12/28/24",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/80s-90s-dance-party-with-dj-npg-2/"
   },
@@ -1605,7 +1613,7 @@ export const musicData = [
     "artist": "New Year's Celebrations with The Accents & Big Sky Country",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "12/31/24",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/new-years-eve-celebration/"
   },
@@ -1613,7 +1621,7 @@ export const musicData = [
     "artist": "80s & 90s Party With DJ NPG",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/4/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/80s-90s-dance-party-with-npg/"
   },
@@ -1621,7 +1629,7 @@ export const musicData = [
     "artist": "The Refrigerators",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/10/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/the-refrigerators-3/"
   },
@@ -1629,7 +1637,7 @@ export const musicData = [
     "artist": "Skeeter Creek",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/11/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/skeeter-creek-2/"
   },
@@ -1637,7 +1645,7 @@ export const musicData = [
     "artist": "That 80s Band",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/17/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/that-80s-band/"
   },
@@ -1645,7 +1653,7 @@ export const musicData = [
     "artist": "Totally 2000s With DJ NPG",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/18/25",
-    "time": "8:00 PM",
+    "time": "8:00:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/totally-2000s-with-dj-npg/"
   },
@@ -1653,7 +1661,7 @@ export const musicData = [
     "artist": "Big Sky Country",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/24/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/big-sky-country-2/"
   },
@@ -1661,7 +1669,7 @@ export const musicData = [
     "artist": "Aquanett",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/25/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/tommy-v-live/"
   },
@@ -1669,7 +1677,7 @@ export const musicData = [
     "artist": "Electric Rodeo",
     "venue": "Vapor Nightclub at Saratoga Casino",
     "date": "1/31/25",
-    "time": "8:30 PM",
+    "time": "8:30:00 PM",
     "town": "Saratoga",
     "link": "https://saratogacasino.com/event/electric-rodeo/"
   },
@@ -1677,7 +1685,7 @@ export const musicData = [
     "artist": "The Trojan Horns",
     "venue": "Wolf Hollow Brewing Company",
     "date": "12/28/24",
-    "time": "6:00 PM",
+    "time": "6:00:00 PM",
     "town": "Schenectady",
     "link": "https://www.wolfhollowbrewing.com/events/the-trojan-horns"
   }
