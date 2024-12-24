@@ -34,6 +34,7 @@ const MobileCalendar = (props) => {
 		// 		}
 		setEvents(events);
 		let fEvents = events.filter((event) => {
+			if (!event.date) console.log(event);
 			const [month, day, year] = event.date.split("/");
 			const tmp = new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day));
 			return tmp.getMonth() === selectedDate.getMonth() && tmp.getDate() === selectedDate.getDate() && tmp.getFullYear() === selectedDate.getFullYear();
