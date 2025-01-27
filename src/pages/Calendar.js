@@ -287,7 +287,7 @@ export default function DesktopCalendar() {
 
 	return (
 		<>
-			<div className="hidden md:block events-calendar">
+			<div className="events-calendar">
 				<div className="calendar-container">
 					<div className="left-column">
 						<button
@@ -674,7 +674,7 @@ border: 1px solid #faff00;
       `}</style>
 				</div>
 			</div>
-			{filteredEvents && <div className="md:hidden"><MobileCalendar events={filteredEvents} /></div>}
+			{false && <div className="md:hidden"><MobileCalendar events={filteredEvents} /></div>}
 		</>
 	);
 };
