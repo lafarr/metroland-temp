@@ -1429,7 +1429,7 @@ export const musicData = [
     artist: "Hell in Marie w/s/g Jonny Falls",
     venue: "The Berlin",
     date: "1/30/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1437,7 +1437,7 @@ export const musicData = [
     artist: "Matt Durfee",
     venue: "The Berlin",
     date: "2/6/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1445,7 +1445,7 @@ export const musicData = [
     artist: "B.D. Lenz Trio",
     venue: "The Berlin",
     date: "2/7/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1461,7 +1461,7 @@ export const musicData = [
     artist: "Serg & Venture",
     venue: "The Berlin",
     date: "2/13/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1469,7 +1469,7 @@ export const musicData = [
     artist: "Joanna Feuer & Brian Halliday",
     venue: "The Berlin",
     date: "2/20/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1477,7 +1477,7 @@ export const musicData = [
     artist: "The August DuClos Trio",
     venue: "The Berlin",
     date: "2/27/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1485,7 +1485,7 @@ export const musicData = [
     artist: "Matt Durfee",
     venue: "The Berlin",
     date: "3/6/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Troy",
     link: "https://emerysgarden.com/events/"
   },
@@ -1493,7 +1493,7 @@ export const musicData = [
     artist: "Keith Pray Trio",
     venue: "The Cock N' Bull",
     date: "1/31/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Galway",
     link: "https://thecocknbull.com/events/keith-pray-trio-2-25-01-31/"
   },
@@ -1557,7 +1557,7 @@ export const musicData = [
     artist: "Keith Pray Trio",
     venue: "The Cock N' Bull",
     date: "2/28/25",
-    time: "6 PM",
+    time: "6:00 PM",
     town: "Galway",
     link: "https://thecocknbull.com/events/keith-pray-trio-2-25-02-28/"
   },
@@ -2682,7 +2682,7 @@ export const artData = [
 		end: new Date(24, 9, 25),
 		details: "Ort Project is the collaborative union of artists Anna Noelle Rockwell and Oona Nelson, whose lush installations, photographs and interactive gestures explore and critique aspects of consumption, abundance, and decay. Their point of reference is the table, a site of dining and display, which they use as a staging platform for painterly nature morte tableaux in which the artists create ephemeral installations and photographs of edible and inedible subjects. Their work takes on the implications of food beyond that of nourishment, instead ORT marinates the more insidious, but visually rich implications—poisonous, gluttonous or hedonistic—to offer intoxicating critiques of social attitudes with collective perils. Within their work Ort blends the influence of art history, the contemporary cult of convenience and abundance, along with the corresponding environmental threats and distorted value systems, into uncommon balances of the grotesque and the beautiful.",
 		cost: "free",
-		time: "6 PM"
+		time: "6:00 PM"
 	},
 	{
 		title: "Prove your humanity by notpaulsimon",

@@ -12,9 +12,9 @@ const MobileCalendar = (props) => {
 	const [selectedDate, setSelectedDate] = useState(new Date(tmpDate.getFullYear(), tmpDate.getMonth(), tmpDate.getDate()));
 	const [weekDates, setWeekDates] = useState([]);
 	const [showAllEvents, setShowAllEvents] = useState(false);
-	const [bevents, setEvents] = useState(null);
-	const [filteredEvents, setFilteredEvents] = useState(null);
-	const [displayedEvents, setDisplayedEvents] = useState(null);
+	const [bevents, setEvents] = useState([]);
+	const [filteredEvents, setFilteredEvents] = useState([]);
+	const [displayedEvents, setDisplayedEvents] = useState([]);
 
 	const events = props.events;
 
@@ -39,7 +39,7 @@ const MobileCalendar = (props) => {
 			const tmp = new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day));
 			return tmp.getMonth() === selectedDate.getMonth() && tmp.getDate() === selectedDate.getDate() && tmp.getFullYear() === selectedDate.getFullYear();
 		});
-		sortEvents(fEvents);
+		sortEvents(fEvents || []);
 		setFilteredEvents(fEvents);
 		setDisplayedEvents(showAllEvents ? fEvents : fEvents.slice(0, 4));
 	}, [selectedDate, showAllEvents]);
@@ -77,6 +77,8 @@ const MobileCalendar = (props) => {
 	};
 
 	function sortEvents(events) {
+		console.log('events')
+		console.log(events)
 		events.sort((a, b) => {
 			const pattern = /(\d\d?)[;:](\d\d)[ ]?(\w\w)/;
 			let aMilitaryTime = a.time;
@@ -287,7 +289,7 @@ export default function DesktopCalendar() {
 
 	return (
 		<>
-			<div className="events-calendar">
+			<div className="hidden md:block events-calendar">
 				<div className="calendar-container">
 					<div className="left-column">
 						<button
@@ -674,7 +676,7 @@ border: 1px solid #faff00;
       `}</style>
 				</div>
 			</div>
-			{false && <div className="md:hidden"><MobileCalendar events={filteredEvents} /></div>}
+			{filteredEvents && <div className="md:hidden"><MobileCalendar events={filteredEvents} /></div>}
 		</>
 	);
 };
