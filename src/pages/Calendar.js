@@ -39,7 +39,7 @@ const MobileCalendar = (props) => {
 			const tmp = new Date(parseInt('20' + year), parseInt(month) - 1, parseInt(day));
 			return tmp.getMonth() === selectedDate.getMonth() && tmp.getDate() === selectedDate.getDate() && tmp.getFullYear() === selectedDate.getFullYear();
 		});
-		sortEvents(fEvents || []);
+		sortEvents(fEvents);
 		setFilteredEvents(fEvents);
 		setDisplayedEvents(showAllEvents ? fEvents : fEvents.slice(0, 4));
 	}, [selectedDate, showAllEvents]);
@@ -77,12 +77,10 @@ const MobileCalendar = (props) => {
 	};
 
 	function sortEvents(events) {
-		console.log('events')
-		console.log(events)
 		events.sort((a, b) => {
 			const pattern = /(\d\d?)[;:](\d\d)[ ]?(\w\w)/;
 			let aMilitaryTime = a.time;
-			let [,aHours, aMins, aTimeOfDay] = aMilitaryTime.match(pattern);
+			let [, aHours, aMins, aTimeOfDay] = aMilitaryTime.match(pattern);
 			aTimeOfDay = aTimeOfDay.toLowerCase();
 			if (aTimeOfDay === 'pm' && aHours === '12') {
 				aHours = 12;
@@ -92,7 +90,7 @@ const MobileCalendar = (props) => {
 			aMilitaryTime = (aHours * 100) + aMins;
 
 			let bMilitaryTime = b.time;
-			let [,bHours,bMins,bTimeOfDay] = bMilitaryTime.match(pattern);
+			let [, bHours, bMins, bTimeOfDay] = bMilitaryTime.match(pattern);
 			bTimeOfDay = bTimeOfDay.toLowerCase();
 			//let [bHours, bMins] = bMilitaryTime.split(" ")[0].split(":");
 			//let bTimeOfDay = bMilitaryTime.split(" ")[1].toLowerCase();
@@ -228,6 +226,8 @@ export default function DesktopCalendar() {
 		// axios.get('http://localhost:5140/api/events')
 		//     .then(res => {
 		const dbEvents = musicData;
+		console.log('db events');
+		console.log(dbEvents.length);
 		const calendarEvents = [];
 		for (let i = 0; i < dbEvents.length; ++i) {
 			let [month, day, year] = dbEvents[i].date.split('/');
@@ -249,6 +249,7 @@ export default function DesktopCalendar() {
 		}
 		setEvents(calendarEvents);
 		setFilteredEvents(calendarEvents);
+			console.log(calendarEvents);
 	}, []);
 
 	const CustomToolbar = ({ date, onNavigate }) => (
